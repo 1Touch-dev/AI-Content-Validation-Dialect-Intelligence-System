@@ -43,7 +43,7 @@ st.markdown("""
 # --- Model Caching ---
 @st.cache_resource(show_spinner=False)
 def load_dialect_model():
-    base_dir = "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System"
+    base_dir = os.environ.get("BASE_DIR", "/app" if os.path.exists("/app/models") else "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System")
     model_path = os.path.join(base_dir, "models", "honduras_dialect_binary_classifier")
     device = 0 if torch.backends.mps.is_available() else -1
     return pipeline("text-classification", model=model_path, tokenizer=model_path, device=device)
@@ -67,7 +67,7 @@ def load_ocr_model():
 @st.cache_resource(show_spinner=False)
 def load_video_validator():
     import sys
-    base_dir = "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System"
+    base_dir = os.environ.get("BASE_DIR", "/app" if os.path.exists("/app/models") else "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System")
     if base_dir not in sys.path:
         sys.path.append(base_dir)
     return VideoValidator(device="cpu")
