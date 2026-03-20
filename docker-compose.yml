@@ -18,9 +18,9 @@ services:
     command: uvicorn services.api_server:app --host 0.0.0.0 --port 8000
     restart: unless-stopped
 
-  monitoring_dashboard:
+  main_frontend:
     build: .
-    container_name: video-validation-dashboard
+    container_name: video-validation-frontend
     ports:
       - "8501:8501"
     volumes:
@@ -30,6 +30,22 @@ services:
       - ./reports:/app/reports
     environment:
       - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+    command: streamlit run app.py
+    restart: unless-stopped
+
+  monitoring_dashboard:
+    build: .
+    container_name: video-validation-dashboard
+    ports:
+      - "8502:8502"
+    volumes:
+      - ./models:/app/models
+      - ./videos:/app/videos
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+    environment:
+      - STREAMLIT_SERVER_PORT=8502
       - STREAMLIT_SERVER_ADDRESS=0.0.0.0
     command: streamlit run monitoring/system_dashboard.py
     restart: unless-stopped
