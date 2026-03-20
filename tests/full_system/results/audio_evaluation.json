@@ -1,0 +1,1602 @@
+[
+    {
+        "path": "audio_hon_0.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_1.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_2.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Check Mage, nos vemos en la capital.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9922149777412415
+    },
+    {
+        "path": "audio_hon_3.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_4.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_5.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_6.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_7.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_8.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_9.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_10.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_11.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_12.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_13.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_14.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_15.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_16.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_17.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_18.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Check Mage, nos vemos en la capital.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9922149777412415
+    },
+    {
+        "path": "audio_hon_19.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_20.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_21.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_22.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_23.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_24.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_25.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_26.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_27.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_28.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_29.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_30.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Check Mage, nos vemos en la capital.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9922149777412415
+    },
+    {
+        "path": "audio_hon_31.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_32.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_33.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_34.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_35.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_36.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_37.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_38.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_39.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_40.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_41.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_42.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_43.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_44.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_45.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_46.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_47.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_48.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_49.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_50.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Check Mage, nos vemos en la capital.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9922149777412415
+    },
+    {
+        "path": "audio_hon_51.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_52.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_53.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_54.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_55.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_56.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_57.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_58.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_59.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_60.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_61.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_62.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_63.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_64.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_65.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_66.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Check Mage, nos vemos en la capital.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9922149777412415
+    },
+    {
+        "path": "audio_hon_67.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_68.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_69.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_70.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_71.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_72.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_73.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_74.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_75.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_76.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_77.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_78.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_79.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_80.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_81.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_82.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_83.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_84.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_85.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_86.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_87.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_88.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_89.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_90.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_91.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_92.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_93.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_94.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_95.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_hon_96.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Vos sos maje si pensás que salir temprano es fácil.",
+        "transcript": " Vos sos majes y pensás que salir temprano es fácil.",
+        "predicted_dialect": "Other",
+        "confidence": 0.946666419506073
+    },
+    {
+        "path": "audio_hon_97.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Qué pijudo está el carro que compraste.",
+        "transcript": " ¿Qué pih judo está el carro que compraste?",
+        "predicted_dialect": "Other",
+        "confidence": 0.9983479976654053
+    },
+    {
+        "path": "audio_hon_98.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Cheque maje, nos vemos en la capital.",
+        "transcript": " Cheque maje, nos vemos en la capital.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.9881240725517273
+    },
+    {
+        "path": "audio_hon_99.mp3",
+        "expected_type": "Honduras",
+        "original_text": "Ayer me eché unas potras en el centro.",
+        "transcript": " Ayer me eché unas potras en el centro.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9956251978874207
+    },
+    {
+        "path": "audio_mex_0.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Guey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.915879487991333
+    },
+    {
+        "path": "audio_mex_1.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_2.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_3.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Guey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.915879487991333
+    },
+    {
+        "path": "audio_mex_4.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_5.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_6.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Gwey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9480648636817932
+    },
+    {
+        "path": "audio_mex_7.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_8.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_9.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Guey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.915879487991333
+    },
+    {
+        "path": "audio_mex_10.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_11.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_12.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Gwey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9480648636817932
+    },
+    {
+        "path": "audio_mex_13.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_14.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_15.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Guey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.915879487991333
+    },
+    {
+        "path": "audio_mex_16.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_17.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_18.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Gwey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9480648636817932
+    },
+    {
+        "path": "audio_mex_19.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_20.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_21.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Guey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.915879487991333
+    },
+    {
+        "path": "audio_mex_22.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_23.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_24.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Guey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.915879487991333
+    },
+    {
+        "path": "audio_mex_25.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_26.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_27.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Gwey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9480648636817932
+    },
+    {
+        "path": "audio_mex_28.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_29.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_30.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Guey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.915879487991333
+    },
+    {
+        "path": "audio_mex_31.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_32.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_33.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Gwey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9480648636817932
+    },
+    {
+        "path": "audio_mex_34.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_35.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_36.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Guey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.915879487991333
+    },
+    {
+        "path": "audio_mex_37.mp3",
+        "expected_type": "Mexico",
+        "original_text": "No mames, ese vato está re loco.",
+        "transcript": " No mamés, ese bato está reloco.",
+        "predicted_dialect": "Honduras",
+        "confidence": 0.6239946484565735
+    },
+    {
+        "path": "audio_mex_38.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Ahorita nos vemos en el parque, carnal.",
+        "transcript": " Ahora nos vemos en el parque, carnal.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9974652528762817
+    },
+    {
+        "path": "audio_mex_39.mp3",
+        "expected_type": "Mexico",
+        "original_text": "Qué onda wey, ¿vamos a salir temprano?",
+        "transcript": " ¿Qué onda, Guey? Vamos a salir temprano.",
+        "predicted_dialect": "Other",
+        "confidence": 0.915879487991333
+    },
+    {
+        "path": "audio_ecu_0.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_1.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_2.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_3.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_4.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_5.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_6.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_7.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_8.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_9.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_10.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_11.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_12.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_13.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_14.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_15.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_16.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_17.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_18.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_19.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_20.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_21.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_22.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_23.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_24.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_25.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_26.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_27.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_ecu_28.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Qué más ñaño, ¿todo bien?",
+        "transcript": " ¿Qué más ni año? Todo bien.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9977343082427979
+    },
+    {
+        "path": "audio_ecu_29.mp3",
+        "expected_type": "Ecuador",
+        "original_text": "Esa manada de manes siempre haciendo bulla.",
+        "transcript": " Esa manada de man es siempre haciendo vula.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9971681237220764
+    },
+    {
+        "path": "audio_eng_0.mp3",
+        "expected_type": "English",
+        "original_text": "Hey man, let's go today.",
+        "transcript": " Hey man, let's go today.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9955175518989563
+    },
+    {
+        "path": "audio_eng_1.mp3",
+        "expected_type": "English",
+        "original_text": "That looks really beautiful.",
+        "transcript": " That looks really beautiful.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9967905879020691
+    },
+    {
+        "path": "audio_eng_2.mp3",
+        "expected_type": "English",
+        "original_text": "Hey man, let's go today.",
+        "transcript": " Hey man, let's go today.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9955175518989563
+    },
+    {
+        "path": "audio_eng_3.mp3",
+        "expected_type": "English",
+        "original_text": "That looks really beautiful.",
+        "transcript": " That looks really beautiful.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9967905879020691
+    },
+    {
+        "path": "audio_eng_4.mp3",
+        "expected_type": "English",
+        "original_text": "Hey man, let's go today.",
+        "transcript": " Hey man, let's go today.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9955175518989563
+    },
+    {
+        "path": "audio_eng_5.mp3",
+        "expected_type": "English",
+        "original_text": "That looks really beautiful.",
+        "transcript": " That looks really beautiful.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9967905879020691
+    },
+    {
+        "path": "audio_eng_6.mp3",
+        "expected_type": "English",
+        "original_text": "Hey man, let's go today.",
+        "transcript": " Hey man, let's go today.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9955175518989563
+    },
+    {
+        "path": "audio_eng_7.mp3",
+        "expected_type": "English",
+        "original_text": "That looks really beautiful.",
+        "transcript": " That looks really beautiful.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9967905879020691
+    },
+    {
+        "path": "audio_eng_8.mp3",
+        "expected_type": "English",
+        "original_text": "Hey man, let's go today.",
+        "transcript": " Hey man, let's go today.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9955175518989563
+    },
+    {
+        "path": "audio_eng_9.mp3",
+        "expected_type": "English",
+        "original_text": "That looks really beautiful.",
+        "transcript": " That looks really beautiful.",
+        "predicted_dialect": "Other",
+        "confidence": 0.9967905879020691
+    },
+    {
+        "path": "audio_silence_0.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_1.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_2.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_3.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_4.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_5.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_6.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_7.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_8.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_9.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_10.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_11.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_12.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_13.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_14.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_15.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_16.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_17.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_18.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    },
+    {
+        "path": "audio_silence_19.wav",
+        "expected_type": "Silence",
+        "original_text": "",
+        "transcript": "",
+        "predicted_dialect": "Other",
+        "confidence": 1.0
+    }
+]

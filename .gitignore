@@ -1,0 +1,35 @@
+# Environments
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+# MacOS & External Storage
+.DS_Store
+._*
+.AppleDouble
+.Trashes
+.Spotlight-V100
+
+# Heavy Models, Media & Massive Data (800MB Timeout Prevention)
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.pt
+*.bin
+*.safetensors
+models/
+videos/
+raw_videos/
+Test data/
+Testing data/
+storage/
+datasets/ruhani_test/media/
+
+# Logs & Framework caches
+logs/
+.streamlit/
+__MACOSX/

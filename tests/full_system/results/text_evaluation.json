@@ -1,0 +1,3502 @@
+[
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "zxnczxc mncmxn sdkfjs sdfjsdf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9942663311958313
+    },
+    {
+        "text": "Está bien chido el juego que compraste.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9975717663764954
+    },
+    {
+        "text": "Ese cipote siempre anda de fuerte.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9875001311302185
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Ahorita nos vemos en la calle, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9949330687522888
+    },
+    {
+        "text": "zxnczxc mncmxn sdkfjs sdfjsdf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9942663311958313
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Las baleadas de el parque son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.987754762172699
+    },
+    {
+        "text": "Hola, me gustaría salir temprano mañana.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9976080656051636
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "El perro cuesta cincuenta dólares.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9980257749557495
+    },
+    {
+        "text": "Las baleadas de la calle son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9854400753974915
+    },
+    {
+        "text": "kghjlk fsfs fsfsfs dfsdfsf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.995928943157196
+    },
+    {
+        "text": "kghjlk fsfs fsfsfs dfsdfsf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.995928943157196
+    },
+    {
+        "text": "Qué pijudo está libro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9952195286750793
+    },
+    {
+        "text": "Pucha, qué loco está el clima hoy.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7448334693908691
+    },
+    {
+        "text": "Chale, ya la cagaste con el coraje.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 1,
+        "confidence": 0.5108249187469482
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a salir temprano?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9972358345985413
+    },
+    {
+        "text": "Vos sos maje si pensás que hacer eso.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.6044304370880127
+    },
+    {
+        "text": "Esa chava está bien raro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9375210404396057
+    },
+    {
+        "text": "El libro es muy perezoso.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9985080361366272
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9922429919242859
+    },
+    {
+        "text": "De ley que voy mijo, espérame en la calle.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9915364980697632
+    },
+    {
+        "text": "Está bien chido el perro que compraste.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9976897239685059
+    },
+    {
+        "text": "Qué macizo le quedó el teléfono a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9449033141136169
+    },
+    {
+        "text": "Chuta, qué frío hace en la capital.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7883413434028625
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9922429919242859
+    },
+    {
+        "text": "Qué pijudo está juego.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.995818555355072
+    },
+    {
+        "text": "asdflkj hglkajsd fgjklsf 123",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9926875829696655
+    },
+    {
+        "text": "Esa chava está bien bonito.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.8938932418823242
+    },
+    {
+        "text": "Qué macizo le quedó el zapato a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9612244963645935
+    },
+    {
+        "text": "Chale, ya la cagaste con el alegría.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7233726382255554
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9922429919242859
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Ese cipote siempre anda de rápido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9874803423881531
+    },
+    {
+        "text": "De ley que voy mijo, espérame en la capital.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.910466730594635
+    },
+    {
+        "text": "Cheque maje, nos vemos en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9881240725517273
+    },
+    {
+        "text": "Ahorita nos vemos en el parque, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9933271408081055
+    },
+    {
+        "text": "Qué pijudo está zapato.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9950425624847412
+    },
+    {
+        "text": "Chale, ya la cagaste con el coraje.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 1,
+        "confidence": 0.5108249187469482
+    },
+    {
+        "text": "Vos sos maje si pensás que salir temprano.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6975680589675903
+    },
+    {
+        "text": "No mames, ese vato está re bonito.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7717322111129761
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a hacer eso?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9969357252120972
+    },
+    {
+        "text": "Ese cipote siempre anda de rápido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9874803423881531
+    },
+    {
+        "text": "Vos sos maje si pensás que salir temprano.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6975680589675903
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "¿Podrías ayudarme a jugar partido por favor?",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9983273148536682
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en el parque.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.997478187084198
+    },
+    {
+        "text": "Ando hule hoy, prestame diez lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9905063509941101
+    },
+    {
+        "text": "Ando hule hoy, prestame cien lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9882036447525024
+    },
+    {
+        "text": "Esa chava está bien loco.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6760699152946472
+    },
+    {
+        "text": "That libro looks really bonito.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9969273209571838
+    },
+    {
+        "text": "Me dio un chingo de hambre ver eso.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.8701783418655396
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Ando hule hoy, prestame cincuenta lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9900317192077637
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Qué macizo le quedó el zapato a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9612244963645935
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Qué macizo le quedó el libro a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9409441351890564
+    },
+    {
+        "text": "Chuta, qué frío hace en el parque.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.988526463508606
+    },
+    {
+        "text": "Vos sos maje si pensás que comer.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.5392290353775024
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9922429919242859
+    },
+    {
+        "text": "No mames, ese vato está re raro.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.8623867034912109
+    },
+    {
+        "text": "Qué pijudo está zapato.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9950425624847412
+    },
+    {
+        "text": "No mames, ese vato está re fuerte.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.8132098913192749
+    },
+    {
+        "text": "Qué pijudo está libro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9952195286750793
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "That zapato looks really perezoso.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9972540736198425
+    },
+    {
+        "text": "asdflkj hglkajsd fgjklsf 123",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9926875829696655
+    },
+    {
+        "text": "No mames, ese vato está re fuerte.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.8132098913192749
+    },
+    {
+        "text": "Ando hule hoy, prestame cien lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9882036447525024
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a hacer eso?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9969357252120972
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "Esa chava está bien loco.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6760699152946472
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en la tienda.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9973514080047607
+    },
+    {
+        "text": "De ley que voy mijo, espérame en la tienda.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9880409240722656
+    },
+    {
+        "text": "Está bien chido el juego que compraste.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9975717663764954
+    },
+    {
+        "text": "Está bien chido el juego que compraste.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9975717663764954
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "Chuta, qué frío hace en la capital.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7883413434028625
+    },
+    {
+        "text": "Vos sos maje si pensás que trabajar duro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.5281831622123718
+    },
+    {
+        "text": "Vos sos maje si pensás que jugar partido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.5832961201667786
+    },
+    {
+        "text": "¡Qué bestia! No me la creo.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9962561130523682
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Hola, me gustaría jugar partido mañana.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9975952506065369
+    },
+    {
+        "text": "Cheque maje, nos vemos en la calle.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.8948686718940735
+    },
+    {
+        "text": "Qué macizo le quedó el perro a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9717024564743042
+    },
+    {
+        "text": "Cheque maje, nos vemos en el centro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9011679291725159
+    },
+    {
+        "text": "Qué pijudo está libro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9952195286750793
+    },
+    {
+        "text": "Ando hule hoy, prestame veinte lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9893296360969543
+    },
+    {
+        "text": "Esa chava está bien loco.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6760699152946472
+    },
+    {
+        "text": "Vos sos maje si pensás que trabajar duro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.5281831622123718
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Nos encontramos en la capital a las cinco.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9906651973724365
+    },
+    {
+        "text": "El perro cuesta veinte dólares.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9978055357933044
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Las baleadas de la tienda son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9905158281326294
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a salir temprano?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9972358345985413
+    },
+    {
+        "text": "Vos sos maje si pensás que comer.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.5392290353775024
+    },
+    {
+        "text": "Ahorita nos vemos en la calle, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9949330687522888
+    },
+    {
+        "text": "Qué más ñaño, ¿todo bien?",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9970575571060181
+    },
+    {
+        "text": "Está bien chido el libro que compraste.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9972266554832458
+    },
+    {
+        "text": "Ayer me eché unas potras en la tienda.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9943627119064331
+    },
+    {
+        "text": "Pucha, qué raro está el clima hoy.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6485408544540405
+    },
+    {
+        "text": "Qué pijudo está zapato.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9950425624847412
+    },
+    {
+        "text": "Chuta, qué frío hace en el parque.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.988526463508606
+    },
+    {
+        "text": "Nos encontramos en la calle a las cinco.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.996150016784668
+    },
+    {
+        "text": "Ahorita nos vemos en el centro, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9947032332420349
+    },
+    {
+        "text": "Chale, ya la cagaste con el dolor.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9387970566749573
+    },
+    {
+        "text": "Ando hule hoy, prestame diez lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9905063509941101
+    },
+    {
+        "text": "Qué más ñaño, ¿todo bien?",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9970575571060181
+    },
+    {
+        "text": "De ley que voy mijo, espérame en la capital.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.910466730594635
+    },
+    {
+        "text": "El teléfono es muy fuerte.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9987691044807434
+    },
+    {
+        "text": "Cheque maje, nos vemos en el parque.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9504492282867432
+    },
+    {
+        "text": "Qué más ñaño, ¿todo bien?",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9970575571060181
+    },
+    {
+        "text": "Nos encontramos en la calle a las cinco.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.996150016784668
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "Ando hule hoy, prestame mil lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9889589548110962
+    },
+    {
+        "text": "Ahorita nos vemos en el centro, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9947032332420349
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en el parque.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.997478187084198
+    },
+    {
+        "text": "Ahorita nos vemos en la calle, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9949330687522888
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Qué macizo le quedó el zapato a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9612244963645935
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en el centro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9971569776535034
+    },
+    {
+        "text": "Ese cipote siempre anda de raro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9866175055503845
+    },
+    {
+        "text": "Vos sos maje si pensás que jugar partido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.5832961201667786
+    },
+    {
+        "text": "Qué pijudo está libro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9952195286750793
+    },
+    {
+        "text": "Pucha, qué perezoso está el clima hoy.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.6735002398490906
+    },
+    {
+        "text": "Qué pijudo está teléfono.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9953881502151489
+    },
+    {
+        "text": "kghjlk fsfs fsfsfs dfsdfsf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.995928943157196
+    },
+    {
+        "text": "I'm feeling a lot of miedo right now.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9976981282234192
+    },
+    {
+        "text": "Me dio un chingo de alegría ver eso.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7492470741271973
+    },
+    {
+        "text": "Ayer me eché unas potras en el centro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9956251978874207
+    },
+    {
+        "text": "Las baleadas de el parque son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.987754762172699
+    },
+    {
+        "text": "Ese cipote siempre anda de raro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9866175055503845
+    },
+    {
+        "text": "Las baleadas de la capital son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9909709692001343
+    },
+    {
+        "text": "kghjlk fsfs fsfsfs dfsdfsf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.995928943157196
+    },
+    {
+        "text": "Ahorita nos vemos en la calle, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9949330687522888
+    },
+    {
+        "text": "Vos sos maje si pensás que comer.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.5392290353775024
+    },
+    {
+        "text": "Pucha, qué raro está el clima hoy.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6485408544540405
+    },
+    {
+        "text": "Qué pijudo está juego.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.995818555355072
+    },
+    {
+        "text": "Está bien chido el carro que compraste.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9973803162574768
+    },
+    {
+        "text": "Vos sos maje si pensás que salir temprano.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6975680589675903
+    },
+    {
+        "text": "¡Qué bestia! No me la creo.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9962561130523682
+    },
+    {
+        "text": "Cheque maje, nos vemos en la calle.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.8948686718940735
+    },
+    {
+        "text": "No mames, ese vato está re bonito.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7717322111129761
+    },
+    {
+        "text": "Ando hule hoy, prestame doscientos lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9895346760749817
+    },
+    {
+        "text": "¿Podrías ayudarme a comer por favor?",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979625940322876
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Ahorita nos vemos en el centro, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9947032332420349
+    },
+    {
+        "text": "Esa chava está bien rápido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9334256052970886
+    },
+    {
+        "text": "Qué pijudo está carro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9933449029922485
+    },
+    {
+        "text": "Cheque maje, nos vemos en la tienda.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9536008238792419
+    },
+    {
+        "text": "Tengo mucho dolor por este proyecto.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9981310963630676
+    },
+    {
+        "text": "Ese cipote siempre anda de fuerte.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9875001311302185
+    },
+    {
+        "text": "Hola, me gustaría comer mañana.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979642629623413
+    },
+    {
+        "text": "Ese cipote siempre anda de raro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9866175055503845
+    },
+    {
+        "text": "qwerty uiop lkjhg fdsa zxcv bnm",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9894262552261353
+    },
+    {
+        "text": "Ahorita nos vemos en el parque, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9933271408081055
+    },
+    {
+        "text": "Esa chava está bien perezoso.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.8680126667022705
+    },
+    {
+        "text": "Ayer me eché unas potras en el parque.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.995429515838623
+    },
+    {
+        "text": "qwerty uiop lkjhg fdsa zxcv bnm",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9894262552261353
+    },
+    {
+        "text": "¡Qué bestia! No me la creo.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9962561130523682
+    },
+    {
+        "text": "Chuta, qué frío hace en la capital.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7883413434028625
+    },
+    {
+        "text": "Chuta, qué frío hace en la calle.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9862692952156067
+    },
+    {
+        "text": "Vos sos maje si pensás que salir temprano.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6975680589675903
+    },
+    {
+        "text": "Hola, me gustaría jugar partido mañana.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9975952506065369
+    },
+    {
+        "text": "Ese cipote siempre anda de fuerte.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9875001311302185
+    },
+    {
+        "text": "El zapato cuesta doscientos dólares.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9977788329124451
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a trabajar duro?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9966985583305359
+    },
+    {
+        "text": "That libro looks really fuerte.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9968067407608032
+    },
+    {
+        "text": "I'm feeling a lot of coraje right now.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9966492056846619
+    },
+    {
+        "text": "¿Podrías ayudarme a comer por favor?",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979625940322876
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "No sea gil, ponte pilas con el libro.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9973795413970947
+    },
+    {
+        "text": "Vos sos maje si pensás que comer.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.5392290353775024
+    },
+    {
+        "text": "Qué macizo le quedó el juego a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9755862951278687
+    },
+    {
+        "text": "Ahorita nos vemos en la calle, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9949330687522888
+    },
+    {
+        "text": "Tengo mucho alegría por este proyecto.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9977649450302124
+    },
+    {
+        "text": "Qué pijudo está juego.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.995818555355072
+    },
+    {
+        "text": "Qué macizo le quedó el juego a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9755862951278687
+    },
+    {
+        "text": "Ando hule hoy, prestame doscientos lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9895346760749817
+    },
+    {
+        "text": "Qué pijudo está teléfono.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9953881502151489
+    },
+    {
+        "text": "Qué pijudo está carro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9933449029922485
+    },
+    {
+        "text": "Vos sos maje si pensás que comer.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.5392290353775024
+    },
+    {
+        "text": "Esa manada de manes siempre haciendo sueño.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9961114525794983
+    },
+    {
+        "text": "El carro cuesta cien dólares.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9982174038887024
+    },
+    {
+        "text": "No mames, ese vato está re perezoso.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 1,
+        "confidence": 0.6066768169403076
+    },
+    {
+        "text": "Qué pijudo está libro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9952195286750793
+    },
+    {
+        "text": "Las baleadas de la tienda son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9905158281326294
+    },
+    {
+        "text": "Esa manada de manes siempre haciendo dolor.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9966637492179871
+    },
+    {
+        "text": "I'm feeling a lot of hambre right now.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9969642758369446
+    },
+    {
+        "text": "Me dio un chingo de miedo ver eso.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.929955005645752
+    },
+    {
+        "text": "Vos sos maje si pensás que trabajar duro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.5281831622123718
+    },
+    {
+        "text": "Cheque maje, nos vemos en la calle.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.8948686718940735
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Está bien chido el perro que compraste.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9976897239685059
+    },
+    {
+        "text": "Chuta, qué frío hace en la calle.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9862692952156067
+    },
+    {
+        "text": "De ley que voy mijo, espérame en la tienda.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9880409240722656
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "kghjlk fsfs fsfsfs dfsdfsf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.995928943157196
+    },
+    {
+        "text": "Ahorita nos vemos en la calle, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9949330687522888
+    },
+    {
+        "text": "Hey man, let's go trabajar duro today.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9959384202957153
+    },
+    {
+        "text": "I'm feeling a lot of alegría right now.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9966647028923035
+    },
+    {
+        "text": "Qué pijudo está teléfono.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9953881502151489
+    },
+    {
+        "text": "Hey man, let's go salir temprano today.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9952914714813232
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a salir temprano?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9972358345985413
+    },
+    {
+        "text": "Ayer me eché unas potras en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9843273758888245
+    },
+    {
+        "text": "El perro es muy raro.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.998705267906189
+    },
+    {
+        "text": "No sea gil, ponte pilas con el libro.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9973795413970947
+    },
+    {
+        "text": "Ayer me eché unas potras en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9843273758888245
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Ando hule hoy, prestame mil lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9889589548110962
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Cheque maje, nos vemos en la calle.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.8948686718940735
+    },
+    {
+        "text": "Ahorita nos vemos en la capital, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9897769689559937
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "Vos sos maje si pensás que jugar partido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.5832961201667786
+    },
+    {
+        "text": "El teléfono es muy raro.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9986090064048767
+    },
+    {
+        "text": "kghjlk fsfs fsfsfs dfsdfsf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.995928943157196
+    },
+    {
+        "text": "Chale, ya la cagaste con el sueño.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.853327751159668
+    },
+    {
+        "text": "El teléfono cuesta diez dólares.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979069232940674
+    },
+    {
+        "text": "Qué macizo le quedó el carro a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7893509864807129
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "Qué pijudo está perro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9962257146835327
+    },
+    {
+        "text": "Cheque maje, nos vemos en el parque.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9504492282867432
+    },
+    {
+        "text": "Qué más ñaño, ¿todo bien?",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9970575571060181
+    },
+    {
+        "text": "Tengo mucho alegría por este proyecto.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9977649450302124
+    },
+    {
+        "text": "That juego looks really fuerte.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979496598243713
+    },
+    {
+        "text": "Qué pijudo está carro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9933449029922485
+    },
+    {
+        "text": "Esa manada de manes siempre haciendo sueño.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9961114525794983
+    },
+    {
+        "text": "kghjlk fsfs fsfsfs dfsdfsf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.995928943157196
+    },
+    {
+        "text": "Tengo mucho miedo por este proyecto.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9981203675270081
+    },
+    {
+        "text": "kghjlk fsfs fsfsfs dfsdfsf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.995928943157196
+    },
+    {
+        "text": "Qué pijudo está teléfono.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9953881502151489
+    },
+    {
+        "text": "Hey man, let's go trabajar duro today.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9959384202957153
+    },
+    {
+        "text": "Qué macizo le quedó el teléfono a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9449033141136169
+    },
+    {
+        "text": "Hola, me gustaría jugar partido mañana.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9975952506065369
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "kghjlk fsfs fsfsfs dfsdfsf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.995928943157196
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "Chuta, qué frío hace en la calle.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9862692952156067
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Ese cipote siempre anda de perezoso.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9898785352706909
+    },
+    {
+        "text": "Las baleadas de la capital son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9909709692001343
+    },
+    {
+        "text": "Me dio un chingo de dolor ver eso.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9118189215660095
+    },
+    {
+        "text": "Hey man, let's go salir temprano today.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9952914714813232
+    },
+    {
+        "text": "¿Podrías ayudarme a jugar partido por favor?",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9983273148536682
+    },
+    {
+        "text": "That zapato looks really perezoso.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9972540736198425
+    },
+    {
+        "text": "El juego es muy rápido.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9985387325286865
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "zxnczxc mncmxn sdkfjs sdfjsdf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9942663311958313
+    },
+    {
+        "text": "Ando hule hoy, prestame diez lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9905063509941101
+    },
+    {
+        "text": "Esa chava está bien bonito.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.8938932418823242
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "Qué pijudo está carro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9933449029922485
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a hacer eso?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9969357252120972
+    },
+    {
+        "text": "Cheque maje, nos vemos en el centro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9011679291725159
+    },
+    {
+        "text": "Está bien chido el zapato que compraste.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9975357055664062
+    },
+    {
+        "text": "Chale, ya la cagaste con el dolor.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9387970566749573
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Ando hule hoy, prestame cincuenta lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9900317192077637
+    },
+    {
+        "text": "Ese cipote siempre anda de bonito.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9830663204193115
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Esa chava está bien bonito.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.8938932418823242
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Ese cipote siempre anda de perezoso.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9898785352706909
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Pucha, qué raro está el clima hoy.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6485408544540405
+    },
+    {
+        "text": "Las baleadas de la calle son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9854400753974915
+    },
+    {
+        "text": "123 456 789 012 345 678",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9887584447860718
+    },
+    {
+        "text": "Hola, me gustaría hacer eso mañana.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9970274567604065
+    },
+    {
+        "text": "123 456 789 012 345 678",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9887584447860718
+    },
+    {
+        "text": "Qué macizo le quedó el zapato a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9612244963645935
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Meet me at la tienda tonight.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979561567306519
+    },
+    {
+        "text": "I'm feeling a lot of hambre right now.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9969642758369446
+    },
+    {
+        "text": "Pucha, qué perezoso está el clima hoy.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.6735002398490906
+    },
+    {
+        "text": "Hey man, let's go salir temprano today.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9952914714813232
+    },
+    {
+        "text": "Las baleadas de la capital son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9909709692001343
+    },
+    {
+        "text": "Qué pijudo está perro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9962257146835327
+    },
+    {
+        "text": "Ayer me eché unas potras en la calle.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9953076243400574
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a trabajar duro?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9966985583305359
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en la calle.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9973847270011902
+    },
+    {
+        "text": "Vos sos maje si pensás que jugar partido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.5832961201667786
+    },
+    {
+        "text": "Esa chava está bien raro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9375210404396057
+    },
+    {
+        "text": "Pucha, qué rápido está el clima hoy.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7384166717529297
+    },
+    {
+        "text": "Esa chava está bien loco.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6760699152946472
+    },
+    {
+        "text": "No mames, ese vato está re bonito.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7717322111129761
+    },
+    {
+        "text": "Ahorita nos vemos en el parque, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9933271408081055
+    },
+    {
+        "text": "¿Podrías ayudarme a comer por favor?",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979625940322876
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Esa manada de manes siempre haciendo dolor.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9966637492179871
+    },
+    {
+        "text": "Qué macizo le quedó el teléfono a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9449033141136169
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Pucha, qué bonito está el clima hoy.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7531812191009521
+    },
+    {
+        "text": "Ahorita nos vemos en el centro, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9947032332420349
+    },
+    {
+        "text": "123 456 789 012 345 678",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9887584447860718
+    },
+    {
+        "text": "Nos encontramos en la capital a las cinco.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9906651973724365
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Qué pijudo está carro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9933449029922485
+    },
+    {
+        "text": "Está bien chido el libro que compraste.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9972266554832458
+    },
+    {
+        "text": "Cheque maje, nos vemos en la tienda.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9536008238792419
+    },
+    {
+        "text": "Ahorita nos vemos en la tienda, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9952113032341003
+    },
+    {
+        "text": "Ando hule hoy, prestame diez lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9905063509941101
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "No mames, ese vato está re raro.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.8623867034912109
+    },
+    {
+        "text": "Vos sos maje si pensás que jugar partido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.5832961201667786
+    },
+    {
+        "text": "Esa manada de manes siempre haciendo dolor.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9966637492179871
+    },
+    {
+        "text": "Chuta, qué frío hace en la tienda.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9860051274299622
+    },
+    {
+        "text": "El zapato cuesta diez dólares.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9977132081985474
+    },
+    {
+        "text": "Meet me at la tienda tonight.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979561567306519
+    },
+    {
+        "text": "Esa chava está bien fuerte.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.8373985290527344
+    },
+    {
+        "text": "Chuta, qué frío hace en la tienda.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9860051274299622
+    },
+    {
+        "text": "Ando hule hoy, prestame cincuenta lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9900317192077637
+    },
+    {
+        "text": "Vos sos maje si pensás que salir temprano.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6975680589675903
+    },
+    {
+        "text": "Nos encontramos en la calle a las cinco.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.996150016784668
+    },
+    {
+        "text": "Ayer me eché unas potras en la calle.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9953076243400574
+    },
+    {
+        "text": "Vos sos maje si pensás que trabajar duro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.5281831622123718
+    },
+    {
+        "text": "Qué pijudo está zapato.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9950425624847412
+    },
+    {
+        "text": "¿Podrías ayudarme a comer por favor?",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979625940322876
+    },
+    {
+        "text": "Ese cipote siempre anda de loco.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9888022541999817
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Ese cipote siempre anda de fuerte.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9875001311302185
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "¡Qué bestia! No me la creo.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9962561130523682
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Qué pijudo está zapato.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9950425624847412
+    },
+    {
+        "text": "Qué macizo le quedó el juego a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9755862951278687
+    },
+    {
+        "text": "Vos sos maje si pensás que salir temprano.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6975680589675903
+    },
+    {
+        "text": "Ese cipote siempre anda de fuerte.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9875001311302185
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en el centro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9971569776535034
+    },
+    {
+        "text": "Hey man, let's go jugar partido today.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9966907501220703
+    },
+    {
+        "text": "Cheque maje, nos vemos en el centro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9011679291725159
+    },
+    {
+        "text": "Qué pijudo está carro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9933449029922485
+    },
+    {
+        "text": "Ando hule hoy, prestame mil lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9889589548110962
+    },
+    {
+        "text": "Las baleadas de la capital son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9909709692001343
+    },
+    {
+        "text": "Las baleadas de la calle son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9854400753974915
+    },
+    {
+        "text": "¡Qué bestia! No me la creo.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9962561130523682
+    },
+    {
+        "text": "El juego cuesta doscientos dólares.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9969923496246338
+    },
+    {
+        "text": "zxnczxc mncmxn sdkfjs sdfjsdf",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9942663311958313
+    },
+    {
+        "text": "¿Podrías ayudarme a jugar partido por favor?",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9983273148536682
+    },
+    {
+        "text": "Vos sos maje si pensás que salir temprano.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6975680589675903
+    },
+    {
+        "text": "123 456 789 012 345 678",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9887584447860718
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Cheque maje, nos vemos en el parque.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9504492282867432
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Qué más ñaño, ¿todo bien?",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9970575571060181
+    },
+    {
+        "text": "El teléfono es muy loco.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9987249970436096
+    },
+    {
+        "text": "El teléfono cuesta veinte dólares.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979664087295532
+    },
+    {
+        "text": "Me dio un chingo de alegría ver eso.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7492470741271973
+    },
+    {
+        "text": "That libro looks really loco.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9967432618141174
+    },
+    {
+        "text": "Chuta, qué frío hace en el parque.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.988526463508606
+    },
+    {
+        "text": "Hola, me gustaría jugar partido mañana.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9975952506065369
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en la tienda.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9973514080047607
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Qué macizo le quedó el libro a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9409441351890564
+    },
+    {
+        "text": "El carro cuesta diez dólares.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979762434959412
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9922429919242859
+    },
+    {
+        "text": "Hey man, let's go trabajar duro today.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9959384202957153
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Tengo mucho coraje por este proyecto.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9981094598770142
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a hacer eso?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9969357252120972
+    },
+    {
+        "text": "Las baleadas de la capital son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9909709692001343
+    },
+    {
+        "text": "Las baleadas de la capital son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9909709692001343
+    },
+    {
+        "text": "Chuta, qué frío hace en la calle.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9862692952156067
+    },
+    {
+        "text": "Chuta, qué frío hace en la capital.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7883413434028625
+    },
+    {
+        "text": "Las baleadas de la calle son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9854400753974915
+    },
+    {
+        "text": "Chale, ya la cagaste con el miedo.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7554730176925659
+    },
+    {
+        "text": "Hola, me gustaría salir temprano mañana.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9976080656051636
+    },
+    {
+        "text": "Ese cipote siempre anda de rápido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9874803423881531
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en la calle.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9973847270011902
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "Está bien chido el teléfono que compraste.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9976843595504761
+    },
+    {
+        "text": "Tengo mucho sueño por este proyecto.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.997923731803894
+    },
+    {
+        "text": "Vos sos maje si pensás que comer.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.5392290353775024
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "Ayer me eché unas potras en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9843273758888245
+    },
+    {
+        "text": "El perro es muy raro.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.998705267906189
+    },
+    {
+        "text": "Me dio un chingo de miedo ver eso.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.929955005645752
+    },
+    {
+        "text": "Esa chava está bien rápido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9334256052970886
+    },
+    {
+        "text": "No mames, ese vato está re perezoso.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 1,
+        "confidence": 0.6066768169403076
+    },
+    {
+        "text": "Las baleadas de la calle son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9854400753974915
+    },
+    {
+        "text": "asdflkj hglkajsd fgjklsf 123",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9926875829696655
+    },
+    {
+        "text": "Esa manada de manes siempre haciendo sueño.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9961114525794983
+    },
+    {
+        "text": "123 456 789 012 345 678",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9887584447860718
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "qwerty uiop lkjhg fdsa zxcv bnm",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9894262552261353
+    },
+    {
+        "text": "Meet me at la tienda tonight.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979561567306519
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a comer?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9969125986099243
+    },
+    {
+        "text": "Vos sos maje si pensás que jugar partido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.5832961201667786
+    },
+    {
+        "text": "Chale, ya la cagaste con el miedo.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7554730176925659
+    },
+    {
+        "text": "Pucha, qué raro está el clima hoy.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6485408544540405
+    },
+    {
+        "text": "Hola, me gustaría hacer eso mañana.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9970274567604065
+    },
+    {
+        "text": "Ayer me eché unas potras en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9843273758888245
+    },
+    {
+        "text": "Ahorita nos vemos en el parque, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9933271408081055
+    },
+    {
+        "text": "Man, no te vayas por ese lado que asaltan.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9972260594367981
+    },
+    {
+        "text": "Ayer me eché unas potras en la tienda.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9943627119064331
+    },
+    {
+        "text": "Qué más ñaño, ¿todo bien?",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9970575571060181
+    },
+    {
+        "text": "Cheque maje, nos vemos en la tienda.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9536008238792419
+    },
+    {
+        "text": "Qué macizo le quedó el juego a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9755862951278687
+    },
+    {
+        "text": "De ley que voy mijo, espérame en la tienda.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9880409240722656
+    },
+    {
+        "text": "Las baleadas de la capital son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9909709692001343
+    },
+    {
+        "text": "Pucha, qué fuerte está el clima hoy.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6488388776779175
+    },
+    {
+        "text": "Está bien chido el zapato que compraste.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9975357055664062
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en el centro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9971569776535034
+    },
+    {
+        "text": "Qué macizo le quedó el teléfono a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9449033141136169
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "Ese cipote siempre anda de rápido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9874803423881531
+    },
+    {
+        "text": "Qué más ñaño, ¿todo bien?",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9970575571060181
+    },
+    {
+        "text": "Las baleadas de la tienda son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9905158281326294
+    },
+    {
+        "text": "Qué más ñaño, ¿todo bien?",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9970575571060181
+    },
+    {
+        "text": "Ese cipote siempre anda de raro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9866175055503845
+    },
+    {
+        "text": "Pucha, qué loco está el clima hoy.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7448334693908691
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "No sea gil, ponte pilas con el perro.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9977676868438721
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a salir temprano?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9972358345985413
+    },
+    {
+        "text": "That zapato looks really bonito.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974225759506226
+    },
+    {
+        "text": "Esa manada de manes siempre haciendo sueño.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9961114525794983
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a jugar partido?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9966751337051392
+    },
+    {
+        "text": "¿Podrías ayudarme a salir temprano por favor?",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9981153011322021
+    },
+    {
+        "text": "Esa chava está bien bonito.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.8938932418823242
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Cheque maje, nos vemos en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9881240725517273
+    },
+    {
+        "text": "Qué macizo le quedó el teléfono a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9449033141136169
+    },
+    {
+        "text": "Ese cipote siempre anda de bonito.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9830663204193115
+    },
+    {
+        "text": "qwerty uiop lkjhg fdsa zxcv bnm",
+        "dialect": "Gibberish",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9894262552261353
+    },
+    {
+        "text": "Qué macizo le quedó el zapato a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9612244963645935
+    },
+    {
+        "text": "Ahorita nos vemos en el centro, carnal.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9947032332420349
+    },
+    {
+        "text": "¡Qué bestia! No me la creo.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9962561130523682
+    },
+    {
+        "text": "Qué pijudo está juego.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.995818555355072
+    },
+    {
+        "text": "Hey man, let's go trabajar duro today.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9959384202957153
+    },
+    {
+        "text": "Esa chava está bien rápido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9334256052970886
+    },
+    {
+        "text": "Chuta, qué frío hace en el centro.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9872325658798218
+    },
+    {
+        "text": "Hola, me gustaría jugar partido mañana.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9975952506065369
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9974321722984314
+    },
+    {
+        "text": "No mames, ese vato está re bonito.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.7717322111129761
+    },
+    {
+        "text": "Cheque maje, nos vemos en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9881240725517273
+    },
+    {
+        "text": "Ando hule hoy, prestame cincuenta lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9900317192077637
+    },
+    {
+        "text": "¿Podrías ayudarme a comer por favor?",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979625940322876
+    },
+    {
+        "text": "Cheque maje, nos vemos en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9881240725517273
+    },
+    {
+        "text": "Tengo mucho dolor por este proyecto.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9981310963630676
+    },
+    {
+        "text": "Me dio un chingo de coraje ver eso.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.8554763793945312
+    },
+    {
+        "text": "No mames, ese vato está re fuerte.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.8132098913192749
+    },
+    {
+        "text": "Qué macizo le quedó el zapato a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9612244963645935
+    },
+    {
+        "text": "Chuta, qué frío hace en la tienda.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9860051274299622
+    },
+    {
+        "text": "Meet me at la tienda tonight.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9979561567306519
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9922429919242859
+    },
+    {
+        "text": "Las baleadas de la tienda son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9905158281326294
+    },
+    {
+        "text": "Chale, ya la cagaste con el sueño.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.853327751159668
+    },
+    {
+        "text": "El teléfono es muy raro.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9986090064048767
+    },
+    {
+        "text": "De ley que voy mijo, espérame en el centro.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9924628734588623
+    },
+    {
+        "text": "Ando hule hoy, prestame veinte lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9893296360969543
+    },
+    {
+        "text": "Vos sos maje si pensás que jugar partido.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.5832961201667786
+    },
+    {
+        "text": "Vos sos maje si pensás que trabajar duro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.5281831622123718
+    },
+    {
+        "text": "Ayer me eché unas potras en el parque.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.995429515838623
+    },
+    {
+        "text": "Ayer me eché unas potras en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9843273758888245
+    },
+    {
+        "text": "Las baleadas de la calle son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9854400753974915
+    },
+    {
+        "text": "Ando hule hoy, prestame veinte lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9893296360969543
+    },
+    {
+        "text": "Me dio un chingo de dolor ver eso.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9118189215660095
+    },
+    {
+        "text": "Qué más ñaño, ¿todo bien?",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9970575571060181
+    },
+    {
+        "text": "Vos sos maje si pensás que salir temprano.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.6975680589675903
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a trabajar duro?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9966985583305359
+    },
+    {
+        "text": "Nos encontramos en el centro a las cinco.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9965219497680664
+    },
+    {
+        "text": "De ley que voy mijo, espérame en la capital.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.910466730594635
+    },
+    {
+        "text": "Está bien chido el juego que compraste.",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9975717663764954
+    },
+    {
+        "text": "Ando hule hoy, prestame mil lempiras.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9889589548110962
+    },
+    {
+        "text": "Qué pijin nos metimos ayer en el parque.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.997478187084198
+    },
+    {
+        "text": "Ese cipote siempre anda de perezoso.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9898785352706909
+    },
+    {
+        "text": "Qué macizo le quedó el teléfono a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9449033141136169
+    },
+    {
+        "text": "Este gobierno ya me tiene harto, puras pajas casacas.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.7533484697341919
+    },
+    {
+        "text": "Ayer me eché unas potras en la calle.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9953076243400574
+    },
+    {
+        "text": "Hey man, let's go jugar partido today.",
+        "dialect": "English",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9966907501220703
+    },
+    {
+        "text": "Qué más ñaño, ¿todo bien?",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9970575571060181
+    },
+    {
+        "text": "Cheque maje, nos vemos en la capital.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9881240725517273
+    },
+    {
+        "text": "Qué macizo le quedó el zapato a ese maitro.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 0,
+        "confidence": 0.9612244963645935
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9957007765769958
+    },
+    {
+        "text": "Nos encontramos en la capital a las cinco.",
+        "dialect": "Neutral",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9906651973724365
+    },
+    {
+        "text": "Las baleadas de la capital son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9909709692001343
+    },
+    {
+        "text": "Las baleadas de la calle son las mejores, te lo juro maje.",
+        "dialect": "Honduras",
+        "expected_label": 1,
+        "predicted_label": 1,
+        "confidence": 0.9854400753974915
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a comer?",
+        "dialect": "Mexico",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9969125986099243
+    },
+    {
+        "text": "No sea gil, ponte pilas con el teléfono.",
+        "dialect": "Ecuador",
+        "expected_label": 0,
+        "predicted_label": 0,
+        "confidence": 0.9977691173553467
+    }
+]

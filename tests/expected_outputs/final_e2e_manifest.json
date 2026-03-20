@@ -1,0 +1,502 @@
+[
+    {
+        "text": "Vos siempre de paja, nunca dejas de salir temprano.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_000_Honduras.mp3",
+        "video_filename": "test_video_000_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_000_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Cheque maje, nos vemos en el centro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_001_Honduras.mp3",
+        "video_filename": "test_video_001_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_001_Honduras.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Vos siempre de paja, nunca dejas de jugar partido.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_002_Honduras.mp3",
+        "video_filename": "test_video_002_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_002_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Cheque maje, nos vemos en la calle.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_003_Honduras.mp3",
+        "video_filename": "test_video_003_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_003_Honduras.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Vos sos maje si pensás que comer baleadas.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_004_Honduras.mp3",
+        "video_filename": "test_video_004_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_004_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Cheque maje, nos vemos en la tienda.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_005_Honduras.mp3",
+        "video_filename": "test_video_005_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_005_Honduras.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Ando hule hoy, prestame cincuenta lempiras.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_006_Honduras.mp3",
+        "video_filename": "test_video_006_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_006_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Qué pijudo está zapato.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_007_Honduras.mp3",
+        "video_filename": "test_video_007_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_007_Honduras.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Ando hule hoy, prestame veinte lempiras.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_008_Honduras.mp3",
+        "video_filename": "test_video_008_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_008_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Qué pijudo está libro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_009_Honduras.mp3",
+        "video_filename": "test_video_009_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_009_Honduras.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Qué pijudo está zapato.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_010_Honduras.mp3",
+        "video_filename": "test_video_010_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_010_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Cheque maje, nos vemos en el centro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_011_Honduras.mp3",
+        "video_filename": "test_video_011_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_011_Honduras.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Esa chava está bien rápido.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_012_Honduras.mp3",
+        "video_filename": "test_video_012_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_012_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Pucha, qué bonito está el clima hoy.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_013_Honduras.mp3",
+        "video_filename": "test_video_013_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_013_Honduras.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Vos sos maje si pensás que salir temprano.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_014_Honduras.mp3",
+        "video_filename": "test_video_014_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_014_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Vos sos maje si pensás que trabajar duro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_015_Honduras.mp3",
+        "video_filename": "test_video_015_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_015_Honduras.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Ese cipote siempre anda de loco.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_016_Honduras.mp3",
+        "video_filename": "test_video_016_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_016_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Vos siempre de paja, nunca dejas de jugar partido.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_017_Honduras.mp3",
+        "video_filename": "test_video_017_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_017_Honduras.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Cheque maje, nos vemos en el parque.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_018_Honduras.mp3",
+        "video_filename": "test_video_018_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_018_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Ese cipote siempre anda de perezoso.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_019_Honduras.mp3",
+        "video_filename": "test_video_019_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_019_Honduras.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Esa chava está bien loco.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_020_Honduras.mp3",
+        "video_filename": "test_video_020_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_020_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Ayer me eché unas potras en el centro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_021_Honduras.mp3",
+        "video_filename": "test_video_021_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_021_Honduras.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Pucha, qué rápido está el clima hoy.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_022_Honduras.mp3",
+        "video_filename": "test_video_022_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_022_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Ese cipote siempre anda de rápido.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_023_Honduras.mp3",
+        "video_filename": "test_video_023_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_023_Honduras.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Cheque maje, nos vemos en el parque.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_024_Honduras.mp3",
+        "video_filename": "test_video_024_Honduras.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_024_Honduras.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a salir temprano?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_025_Mexico.mp3",
+        "video_filename": "test_video_025_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_025_Mexico.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "El clima está bastante agradable hoy.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_026_Neutral.mp3",
+        "video_filename": "test_video_026_Neutral.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_026_Neutral.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Ahorita nos vemos en la tienda, carnal.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_027_Mexico.mp3",
+        "video_filename": "test_video_027_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_027_Mexico.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_028_Mexico.mp3",
+        "video_filename": "test_video_028_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_028_Mexico.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Hola, me gustaría comer baleadas mañana.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_029_Neutral.mp3",
+        "video_filename": "test_video_029_Neutral.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_029_Neutral.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "¿Podrías ayudarme a trabajar duro por favor?",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_030_Neutral.mp3",
+        "video_filename": "test_video_030_Neutral.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_030_Neutral.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Ahorita nos vemos en Tegucigalpa, carnal.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_031_Mexico.mp3",
+        "video_filename": "test_video_031_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_031_Mexico.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Ese señor fue muy amable con nosotros.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_032_Neutral.mp3",
+        "video_filename": "test_video_032_Neutral.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_032_Neutral.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_033_Mexico.mp3",
+        "video_filename": "test_video_033_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_033_Mexico.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Hola, me gustaría comer baleadas mañana.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_034_Neutral.mp3",
+        "video_filename": "test_video_034_Neutral.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_034_Neutral.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "El clima está bastante agradable hoy.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_035_Neutral.mp3",
+        "video_filename": "test_video_035_Neutral.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_035_Neutral.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Tengo mucho coraje por este proyecto.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_036_Neutral.mp3",
+        "video_filename": "test_video_036_Neutral.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_036_Neutral.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a hacer eso?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_037_Mexico.mp3",
+        "video_filename": "test_video_037_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_037_Mexico.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a comer baleadas?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_038_Mexico.mp3",
+        "video_filename": "test_video_038_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_038_Mexico.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "¿Podrías ayudarme a jugar partido por favor?",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_039_Neutral.mp3",
+        "video_filename": "test_video_039_Neutral.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_039_Neutral.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "El zapato cuesta veinte dólares.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_040_Neutral.mp3",
+        "video_filename": "test_video_040_Neutral.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_040_Neutral.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_041_Mexico.mp3",
+        "video_filename": "test_video_041_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_041_Mexico.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Qué pedo con el perro de allá.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_042_Mexico.mp3",
+        "video_filename": "test_video_042_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_042_Mexico.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Me dio un chingo de coraje ver eso.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_043_Mexico.mp3",
+        "video_filename": "test_video_043_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_043_Mexico.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Qué pedo con el teléfono de allá.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_044_Mexico.mp3",
+        "video_filename": "test_video_044_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_044_Mexico.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "Nos encontramos en Tegucigalpa a las cinco.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_045_Neutral.mp3",
+        "video_filename": "test_video_045_Neutral.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_045_Neutral.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_046_Mexico.mp3",
+        "video_filename": "test_video_046_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_046_Mexico.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "No manches, está cañón hacer eso.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_047_Mexico.mp3",
+        "video_filename": "test_video_047_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_047_Mexico.mp4",
+        "expected_visual_pass": false
+    },
+    {
+        "text": "El teléfono es muy loco.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_048_Neutral.mp3",
+        "video_filename": "test_video_048_Neutral.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_048_Neutral.mp4",
+        "expected_visual_pass": true
+    },
+    {
+        "text": "No mames, ese vato está re perezoso.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other",
+        "audio_file": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/audio/audio_049_Mexico.mp3",
+        "video_filename": "test_video_049_Mexico.mp4",
+        "video_path": "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/tests/videos/test_video_049_Mexico.mp4",
+        "expected_visual_pass": false
+    }
+]

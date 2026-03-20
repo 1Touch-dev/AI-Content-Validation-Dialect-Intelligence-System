@@ -1,0 +1,1202 @@
+[
+    {
+        "path": "image_pos_0.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.37959080934524536
+    },
+    {
+        "path": "image_pos_1.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.1959499567747116
+    },
+    {
+        "path": "image_pos_2.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.23115085065364838
+    },
+    {
+        "path": "image_pos_3.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.1890074461698532
+    },
+    {
+        "path": "image_pos_4.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.19552867114543915
+    },
+    {
+        "path": "image_pos_5.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.1901841014623642
+    },
+    {
+        "path": "image_pos_6.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.04725246503949165
+    },
+    {
+        "path": "image_pos_7.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.0672505721449852
+    },
+    {
+        "path": "image_pos_8.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.06079915910959244
+    },
+    {
+        "path": "image_pos_9.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.04016868770122528
+    },
+    {
+        "path": "image_pos_10.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.15891583263874054
+    },
+    {
+        "path": "image_pos_11.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.06792525202035904
+    },
+    {
+        "path": "image_pos_12.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.1198074147105217
+    },
+    {
+        "path": "image_pos_13.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.07834535092115402
+    },
+    {
+        "path": "image_pos_14.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.09798184037208557
+    },
+    {
+        "path": "image_pos_15.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.36063680052757263
+    },
+    {
+        "path": "image_pos_16.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.057012204080820084
+    },
+    {
+        "path": "image_pos_17.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.3448638916015625
+    },
+    {
+        "path": "image_pos_18.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.2952882647514343
+    },
+    {
+        "path": "image_pos_19.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.09403552860021591
+    },
+    {
+        "path": "image_pos_20.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.2542344033718109
+    },
+    {
+        "path": "image_pos_21.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.2571626901626587
+    },
+    {
+        "path": "image_pos_22.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.18330448865890503
+    },
+    {
+        "path": "image_pos_23.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.08318392932415009
+    },
+    {
+        "path": "image_pos_24.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.22105102241039276
+    },
+    {
+        "path": "image_pos_25.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.0525914803147316
+    },
+    {
+        "path": "image_pos_26.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.4794803261756897
+    },
+    {
+        "path": "image_pos_27.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.06399307399988174
+    },
+    {
+        "path": "image_pos_28.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.10370997339487076
+    },
+    {
+        "path": "image_pos_29.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.18883122503757477
+    },
+    {
+        "path": "image_pos_30.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.17054955661296844
+    },
+    {
+        "path": "image_pos_31.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.1672651767730713
+    },
+    {
+        "path": "image_pos_32.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.05823967605829239
+    },
+    {
+        "path": "image_pos_33.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.1968105286359787
+    },
+    {
+        "path": "image_pos_34.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.4471137225627899
+    },
+    {
+        "path": "image_pos_35.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.17224933207035065
+    },
+    {
+        "path": "image_pos_36.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.2101353257894516
+    },
+    {
+        "path": "image_pos_37.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.32254141569137573
+    },
+    {
+        "path": "image_pos_38.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.1925123780965805
+    },
+    {
+        "path": "image_pos_39.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.09353543072938919
+    },
+    {
+        "path": "image_pos_40.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.14361809194087982
+    },
+    {
+        "path": "image_pos_41.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.174056276679039
+    },
+    {
+        "path": "image_pos_42.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.06239438056945801
+    },
+    {
+        "path": "image_pos_43.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.05142618715763092
+    },
+    {
+        "path": "image_pos_44.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.04836362972855568
+    },
+    {
+        "path": "image_pos_45.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.21389466524124146
+    },
+    {
+        "path": "image_pos_46.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.18509985506534576
+    },
+    {
+        "path": "image_pos_47.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.047951918095350266
+    },
+    {
+        "path": "image_pos_48.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.11896783113479614
+    },
+    {
+        "path": "image_pos_49.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.35734015703201294
+    },
+    {
+        "path": "image_pos_50.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.18337102234363556
+    },
+    {
+        "path": "image_pos_51.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.2446403056383133
+    },
+    {
+        "path": "image_pos_52.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.060213353484869
+    },
+    {
+        "path": "image_pos_53.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.12617069482803345
+    },
+    {
+        "path": "image_pos_54.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.07483551651239395
+    },
+    {
+        "path": "image_pos_55.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.044043540954589844
+    },
+    {
+        "path": "image_pos_56.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.17625416815280914
+    },
+    {
+        "path": "image_pos_57.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.05324513465166092
+    },
+    {
+        "path": "image_pos_58.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.16415317356586456
+    },
+    {
+        "path": "image_pos_59.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.05827472731471062
+    },
+    {
+        "path": "image_pos_60.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.16666799783706665
+    },
+    {
+        "path": "image_pos_61.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.39005059003829956
+    },
+    {
+        "path": "image_pos_62.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.3530530035495758
+    },
+    {
+        "path": "image_pos_63.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.17918187379837036
+    },
+    {
+        "path": "image_pos_64.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.0673573687672615
+    },
+    {
+        "path": "image_pos_65.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.18362906575202942
+    },
+    {
+        "path": "image_pos_66.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.30798453092575073
+    },
+    {
+        "path": "image_pos_67.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.18280959129333496
+    },
+    {
+        "path": "image_pos_68.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.11481420695781708
+    },
+    {
+        "path": "image_pos_69.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.12659777700901031
+    },
+    {
+        "path": "image_pos_70.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.049295540899038315
+    },
+    {
+        "path": "image_pos_71.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.21497616171836853
+    },
+    {
+        "path": "image_pos_72.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.21094152331352234
+    },
+    {
+        "path": "image_pos_73.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.3317587971687317
+    },
+    {
+        "path": "image_pos_74.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.3178847134113312
+    },
+    {
+        "path": "image_pos_75.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.232666477560997
+    },
+    {
+        "path": "image_pos_76.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.06690788269042969
+    },
+    {
+        "path": "image_pos_77.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.12040003389120102
+    },
+    {
+        "path": "image_pos_78.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.1634238064289093
+    },
+    {
+        "path": "image_pos_79.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.3070385456085205
+    },
+    {
+        "path": "image_pos_80.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.533348560333252
+    },
+    {
+        "path": "image_pos_81.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.17046673595905304
+    },
+    {
+        "path": "image_pos_82.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.4625910818576813
+    },
+    {
+        "path": "image_pos_83.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.6188141703605652
+    },
+    {
+        "path": "image_pos_84.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.1723850816488266
+    },
+    {
+        "path": "image_pos_85.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.20974206924438477
+    },
+    {
+        "path": "image_pos_86.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.21002325415611267
+    },
+    {
+        "path": "image_pos_87.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.24715285003185272
+    },
+    {
+        "path": "image_pos_88.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.08529051393270493
+    },
+    {
+        "path": "image_pos_89.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.2083299160003662
+    },
+    {
+        "path": "image_pos_90.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.11334284394979477
+    },
+    {
+        "path": "image_pos_91.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.2123430222272873
+    },
+    {
+        "path": "image_pos_92.jpg",
+        "topic": "football players",
+        "is_positive": true,
+        "clip_score": 0.1278555989265442
+    },
+    {
+        "path": "image_pos_93.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.24559566378593445
+    },
+    {
+        "path": "image_pos_94.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.08384876698255539
+    },
+    {
+        "path": "image_pos_95.jpg",
+        "topic": "crowds",
+        "is_positive": true,
+        "clip_score": 0.1601703017950058
+    },
+    {
+        "path": "image_pos_96.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.2043226957321167
+    },
+    {
+        "path": "image_pos_97.jpg",
+        "topic": "people walking",
+        "is_positive": true,
+        "clip_score": 0.05968739837408066
+    },
+    {
+        "path": "image_pos_98.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.3622206747531891
+    },
+    {
+        "path": "image_pos_99.jpg",
+        "topic": "restaurants",
+        "is_positive": true,
+        "clip_score": 0.3156288266181946
+    },
+    {
+        "path": "image_neg_0.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.5959105491638184
+    },
+    {
+        "path": "image_neg_1.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.6467552781105042
+    },
+    {
+        "path": "image_neg_2.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5753904581069946
+    },
+    {
+        "path": "image_neg_3.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.721682608127594
+    },
+    {
+        "path": "image_neg_4.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.8162690997123718
+    },
+    {
+        "path": "image_neg_5.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.464239239692688
+    },
+    {
+        "path": "image_neg_6.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.33464422821998596
+    },
+    {
+        "path": "image_neg_7.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.5192251801490784
+    },
+    {
+        "path": "image_neg_8.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.6677661538124084
+    },
+    {
+        "path": "image_neg_9.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5489554405212402
+    },
+    {
+        "path": "image_neg_10.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.3432548940181732
+    },
+    {
+        "path": "image_neg_11.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6916449666023254
+    },
+    {
+        "path": "image_neg_12.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.4291205108165741
+    },
+    {
+        "path": "image_neg_13.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6121059060096741
+    },
+    {
+        "path": "image_neg_14.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5680681467056274
+    },
+    {
+        "path": "image_neg_15.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.6398921012878418
+    },
+    {
+        "path": "image_neg_16.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.4754069447517395
+    },
+    {
+        "path": "image_neg_17.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5549929141998291
+    },
+    {
+        "path": "image_neg_18.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.5591513514518738
+    },
+    {
+        "path": "image_neg_19.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.795630156993866
+    },
+    {
+        "path": "image_neg_20.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.7126772403717041
+    },
+    {
+        "path": "image_neg_21.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.36356478929519653
+    },
+    {
+        "path": "image_neg_22.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5602611303329468
+    },
+    {
+        "path": "image_neg_23.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.7032083868980408
+    },
+    {
+        "path": "image_neg_24.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.4568517506122589
+    },
+    {
+        "path": "image_neg_25.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.6254475116729736
+    },
+    {
+        "path": "image_neg_26.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5150673389434814
+    },
+    {
+        "path": "image_neg_27.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.5432291626930237
+    },
+    {
+        "path": "image_neg_28.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5194398760795593
+    },
+    {
+        "path": "image_neg_29.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.5819162130355835
+    },
+    {
+        "path": "image_neg_30.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5955802798271179
+    },
+    {
+        "path": "image_neg_31.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.4973812401294708
+    },
+    {
+        "path": "image_neg_32.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.4507389962673187
+    },
+    {
+        "path": "image_neg_33.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.39805448055267334
+    },
+    {
+        "path": "image_neg_34.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.5059058666229248
+    },
+    {
+        "path": "image_neg_35.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5706136226654053
+    },
+    {
+        "path": "image_neg_36.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.44954127073287964
+    },
+    {
+        "path": "image_neg_37.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.9065523147583008
+    },
+    {
+        "path": "image_neg_38.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.7622540593147278
+    },
+    {
+        "path": "image_neg_39.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.4739049971103668
+    },
+    {
+        "path": "image_neg_40.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6037507057189941
+    },
+    {
+        "path": "image_neg_41.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.5684022903442383
+    },
+    {
+        "path": "image_neg_42.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5589213967323303
+    },
+    {
+        "path": "image_neg_43.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.5058581829071045
+    },
+    {
+        "path": "image_neg_44.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.4940602779388428
+    },
+    {
+        "path": "image_neg_45.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.5091885924339294
+    },
+    {
+        "path": "image_neg_46.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6703335046768188
+    },
+    {
+        "path": "image_neg_47.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.4274163246154785
+    },
+    {
+        "path": "image_neg_48.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5381556153297424
+    },
+    {
+        "path": "image_neg_49.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5040010809898376
+    },
+    {
+        "path": "image_neg_50.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.722050666809082
+    },
+    {
+        "path": "image_neg_51.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.6417574286460876
+    },
+    {
+        "path": "image_neg_52.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5305054187774658
+    },
+    {
+        "path": "image_neg_53.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.4055742621421814
+    },
+    {
+        "path": "image_neg_54.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.5644530057907104
+    },
+    {
+        "path": "image_neg_55.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.4307795464992523
+    },
+    {
+        "path": "image_neg_56.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6109395623207092
+    },
+    {
+        "path": "image_neg_57.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.6689714789390564
+    },
+    {
+        "path": "image_neg_58.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.8091720342636108
+    },
+    {
+        "path": "image_neg_59.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.46393516659736633
+    },
+    {
+        "path": "image_neg_60.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.6457056999206543
+    },
+    {
+        "path": "image_neg_61.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.4613291323184967
+    },
+    {
+        "path": "image_neg_62.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6959841847419739
+    },
+    {
+        "path": "image_neg_63.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.4283393919467926
+    },
+    {
+        "path": "image_neg_64.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6365525722503662
+    },
+    {
+        "path": "image_neg_65.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.6908496022224426
+    },
+    {
+        "path": "image_neg_66.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.3997727334499359
+    },
+    {
+        "path": "image_neg_67.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5989317893981934
+    },
+    {
+        "path": "image_neg_68.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.8085409998893738
+    },
+    {
+        "path": "image_neg_69.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6090215444564819
+    },
+    {
+        "path": "image_neg_70.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.49267104268074036
+    },
+    {
+        "path": "image_neg_71.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.42983412742614746
+    },
+    {
+        "path": "image_neg_72.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6051779985427856
+    },
+    {
+        "path": "image_neg_73.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.42562058568000793
+    },
+    {
+        "path": "image_neg_74.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6537030935287476
+    },
+    {
+        "path": "image_neg_75.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6802844405174255
+    },
+    {
+        "path": "image_neg_76.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.7056987285614014
+    },
+    {
+        "path": "image_neg_77.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.48134472966194153
+    },
+    {
+        "path": "image_neg_78.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.6818417906761169
+    },
+    {
+        "path": "image_neg_79.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.627568781375885
+    },
+    {
+        "path": "image_neg_80.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.4558916687965393
+    },
+    {
+        "path": "image_neg_81.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.4353735148906708
+    },
+    {
+        "path": "image_neg_82.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.6437921524047852
+    },
+    {
+        "path": "image_neg_83.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.8077463507652283
+    },
+    {
+        "path": "image_neg_84.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.7590436935424805
+    },
+    {
+        "path": "image_neg_85.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.6980621814727783
+    },
+    {
+        "path": "image_neg_86.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.7516043186187744
+    },
+    {
+        "path": "image_neg_87.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.7210758328437805
+    },
+    {
+        "path": "image_neg_88.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.5049842000007629
+    },
+    {
+        "path": "image_neg_89.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.5215654373168945
+    },
+    {
+        "path": "image_neg_90.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6141571998596191
+    },
+    {
+        "path": "image_neg_91.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.8093595504760742
+    },
+    {
+        "path": "image_neg_92.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.46441903710365295
+    },
+    {
+        "path": "image_neg_93.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.7335383296012878
+    },
+    {
+        "path": "image_neg_94.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.6546817421913147
+    },
+    {
+        "path": "image_neg_95.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.9028942584991455
+    },
+    {
+        "path": "image_neg_96.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.6401144862174988
+    },
+    {
+        "path": "image_neg_97.jpg",
+        "topic": "unrelated topics",
+        "is_positive": false,
+        "clip_score": 0.5115631222724915
+    },
+    {
+        "path": "image_neg_98.jpg",
+        "topic": "random objects",
+        "is_positive": false,
+        "clip_score": 0.449818879365921
+    },
+    {
+        "path": "image_neg_99.jpg",
+        "topic": "empty scenes",
+        "is_positive": false,
+        "clip_score": 0.7680138349533081
+    }
+]

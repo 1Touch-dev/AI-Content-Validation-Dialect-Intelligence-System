@@ -1,0 +1,952 @@
+[
+    {
+        "platform": "twitter",
+        "text": "Autoridades migratorias de Honduras, México, Guatemala, El Salvador y Panamá participaron en la Cumbre de Gestión de Sistemas para el Control Migratorio de Fronteras en Ciudad de México. #Migración #Tecnología #Honduras #Centroamérica #PeriodismoComercial https://t.co/QBR6Y8lGhE",
+        "dialect": "Mexico",
+        "intent": "news",
+        "tone": "formal",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "¡🚨 Cuenta regresiva activada! 🚨 Solo faltan 8 días para vivir una noche inolvidable con Grupo Firme 🎤🔥 Si todavía no tienes tus boletos, aún estás a tiempo de asegurarlos y ser parte de este concierto que promete estar lleno de música, fiesta y momentos épicos. No te quedes viendo las historias de otros… ¡ven a vivirlo en vivo! 🙌 Corre por tus boletos antes de que se agoten. 🎟️",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "@JaimeGarza94 @davidturru De hecho en el 83 tigres abandonó la competencia porque no había como viajar a honduras, no había certeza de seguridad para el viaje.",
+        "dialect": "Mexico",
+        "intent": "debate",
+        "tone": "casual",
+        "topic": "sports",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "Sheinbaum descarta suspensión del Mundial 2026⚽️ y asegura que riesgo de terrorismo en México🇲🇽 es “muy bajo” #VoxPopuliHN #Honduras https://t.co/bY46dUyWSx",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "formal",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "🔴❗️En receso la audiencia inicial del 'caso Sedesol' y se reanudará a las 2:00 pm, posteriormente se procederá con evaluación de testigos admitidos a la defensa. EN VIVO: https://t.co/n2TCSj7NKh https://t.co/8JnraO4f2E",
+        "dialect": "Mexico",
+        "intent": "news",
+        "tone": "formal",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "🔴❗️Locatarios de Perisur solicitan más seguridad, pues son víctimas de constantes asaltos; piden apoyo para solucionar otras problemáticas del mercado. #ATENCIÓN EN VIVO: https://t.co/n2TCSj7NKh https://t.co/TqinpPKXMO",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "formal",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "🚨❗️Locatarios del mercado Perisur, en la capital, denuncian ola de robos y asaltos. #ATENCIÓN https://t.co/gANj7Vtbdl",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "formal",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "@New_tres Relajen la vena cabrones",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "@Ledezmismo Rey de copas dice el bastardo mugroso de gdl jaja chingas a tu madre mediocre tiens 9 años sin ver un título hdtpm jajajajaja son igual de chiquitos que el olimpia de Honduras con sus 2 concacaf jajaja chtpm",
+        "dialect": "Mexico",
+        "intent": "debate",
+        "tone": "sarcastic",
+        "topic": "sports",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "#Concachampions A Tigres UNAL lo dejaron al borde de la eliminación 3-0 con doblete de Kevin Denkey 6', 83' y uno de Tom Barlow 53', Nahuel Guzmán otra vez comprometió a @TigresOficial ¿ Es hora de buscar el reemplazo de Pizarro? https://t.co/BhFjruSxor",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "sports",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "🚨 #AztecaNoticias | Un supuesto guardia fue capturado tras intentar quitarle los celulares a periodistas. Detalles aquí: https://t.co/va957RweST 🔴 EN VIVO: https://t.co/u75kzWvIkL https://t.co/7VxXtXrmqx",
+        "dialect": "Mexico",
+        "intent": "news",
+        "tone": "formal",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "Nature Islands WW.. 🇲🇽 México - Isla Holbox - Isla Mujeres - Cozumel 🇧🇿 Belice - Caye Caulker - Ambergris Caye 🇭🇳 Honduras - Utila - Roatán 🇳🇮 Nicaragua - Little Corn Island - Big Corn Island 🇵🇦 Panamá - Bocas del Toro - Isla Bastimentos - Isla Contadora 🇵🇷 Puerto Rico - Culebra - Vieques 🇹🇭 Tailandia - Koh Lipe - Koh Tao - Koh Phangan 🇮🇩 Indonesia - Gili Trawangan - Gili Air - Gili Meno - Nusa Lembongan - Nusa Penida 🇵🇭 Filipinas - Siargao - Malapascua Island - Boracay 🇲🇻 Maldivas - Maafushi - Dhigurah 🇸🇨 Seychelles - La Digue 🇪🇸 España - Formentera 🇮🇹 Italia - Favignana 🇭🇷 Croacia - Hvar",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "Revelan primeras imágenes📸 del hijo mayor de Luis Miguel y Aracely Arámbula😲 tras 19 años lejos del ojo público #VoxPopuliHN #Honduras https://t.co/g7aPoWdsdG",
+        "dialect": "Mexico",
+        "intent": "news",
+        "tone": "casual",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "reddit",
+        "text": "Compras pequeñas con empresas de envios?",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/Honduras/comments/1rp2ziy/compras_pequeñas_con_empresas_de_envios/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Embajador de Irán pide a México condenar ataques de Donald Trump: \"Siguen Cuba o México",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "formal",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://www.luznoticias.mx/2026-03-12/mexico/embajador-de-iran-pide-a-mexico-condenar-ataques-de-donald-trump-siguen-cuba-o-mexico/281467"
+    },
+    {
+        "platform": "reddit",
+        "text": "Mientras en México se logra mantener la gasolina en Máximo 24 pesos en Estados Unidos está subiendo el precio del litro como la espuma.",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "casual",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://i.redd.it/bbw6bfps3nog1.jpeg"
+    },
+    {
+        "platform": "reddit",
+        "text": "Nayarit | Atacan a balazos a defensor del territorio en San Pancho.El ambientalista también participa en la defensa y conservación de los jaguares en la Sierra de Vallejo.",
+        "dialect": "Mexico",
+        "intent": "news",
+        "tone": "formal",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rsdx1z/nayarit_atacan_a_balazos_a_defensor_del/"
+    },
+    {
+        "platform": "reddit",
+        "text": "El Buró de Crédito deja de ser mexicano: una empresa de EE.UU. ya controla casi todo el negocio",
+        "dialect": "Mexico",
+        "intent": "news",
+        "tone": "formal",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rsevxw/el_buró_de_crédito_deja_de_ser_mexicano_una/"
+    },
+    {
+        "platform": "reddit",
+        "text": "¿Cómo obtengo mi certificado de prepa?",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rsiefq/cómo_obtengo_mi_certificado_de_prepa/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Mi barrio supera la IA lo que se encuentra uno en las calles de hermosillo 😂😂",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "sarcastic",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://i.redd.it/qpsqa2ji7jog1.jpeg"
+    },
+    {
+        "platform": "reddit",
+        "text": "Sobre los mestizos en 1648 que vivían en el Tepeyac",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "formal",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://i.redd.it/wasmqeahrsog1.jpeg"
+    },
+    {
+        "platform": "reddit",
+        "text": "Alfredo Adame todavia hace audios o videos de felicitación?",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rsap4c/alfredo_adame_todavia_hace_audios_o_videos_de/"
+    },
+    {
+        "platform": "reddit",
+        "text": "¿Alguien conoce o tiene el contacto de un puesto de casitas de madera para pájaro en el Jardín del Arte de Sullivan (CDMX)?",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://i.redd.it/qyvsvbj6snog1.jpeg"
+    },
+    {
+        "platform": "reddit",
+        "text": "Estamos lanzando el Archivo del Videojuego Mexicano 🎮🇲🇽",
+        "dialect": "Mexico",
+        "intent": "news",
+        "tone": "casual",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rsako8/estamos_lanzando_el_archivo_del_videojuego/"
+    },
+    {
+        "platform": "reddit",
+        "text": "¿Qué apps o webs usan los chavos en México para seguir tendencias?",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rsf2xb/qué_apps_o_webs_usan_los_chavos_en_méxico_para/"
+    },
+    {
+        "platform": "reddit",
+        "text": "FRITURITAS, lost media de las botanas mexicanas (No son Cazares)",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rseybq/frituritas_lost_media_de_las_botanas_mexicanas_no/"
+    },
+    {
+        "platform": "reddit",
+        "text": "¿Cómo es posible que Farmacias Guadalajara venda al mismo precio que el costo de distribuidores como Nadro o FANASA? 💊🤔",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rseuuc/cómo_es_posible_que_farmacias_guadalajara_venda/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Glamour México y Latinoamérica: El grupo de k-pop KATSEYE revela cómo se llevan sus integrantes | Ejercicios de amistad",
+        "dialect": "Mexico",
+        "intent": "news",
+        "tone": "casual",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://www.youtube.com/watch?v=0n3Volz0WMM"
+    },
+    {
+        "platform": "reddit",
+        "text": "#Millóndeprimaveras es, posiblemente, una de las piezas más sofisticadas y desgarradoras del catálogo tardío de #VicenteFernández. Escrita por el gran #JoanSebastian",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "formal",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://v.redd.it/juddicvt2qog1"
+    },
+    {
+        "platform": "reddit",
+        "text": "Zetas y su origen? (Teorias)",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rsat43/zetas_y_su_origen_teorias/"
+    },
+    {
+        "platform": "reddit",
+        "text": "México y Chile han unido fuerzas para algo bastante extraño: prohibir en todo el mundo las granjas de pulpos",
+        "dialect": "Mexico",
+        "intent": "debate",
+        "tone": "formal",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rqzwly/méxico_y_chile_han_unido_fuerzas_para_algo/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Vacaciones en Tulum, Bacalar, Chetumal recomendacións",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rsan0x/vacaciones_en_tulum_bacalar_chetumal/"
+    },
+    {
+        "platform": "reddit",
+        "text": "La moral y el mexicano",
+        "dialect": "Mexico",
+        "intent": "debate",
+        "tone": "argumentative",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://i.redd.it/8acnpyb9vhog1.jpeg"
+    },
+    {
+        "platform": "reddit",
+        "text": "Busco chamba ,puede ser remoto",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rs9ek0/busco_chamba_puede_ser_remoto/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Senado avala por unanimidad fin de “pensiones doradas”; turnan a San Lázaro | El Universal",
+        "dialect": "Mexico",
+        "intent": "debate",
+        "tone": "formal",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://www.eluniversal.com.mx/nacion/senado-avala-por-unanimidad-fin-de-pensiones-doradas-turnan-a-san-lazaro/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Cuál fue la mentira más gacha que le descubriste a tu pareja ?",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/mexico/comments/1rsbdtt/cuál_fue_la_mentira_más_gacha_que_le_descubriste/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Estudiantes Zapotecas de Oaxaca practican una conversación en ZAPOTECO HABLADO | Lengua Indígena MX",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://youtu.be/wys-EunN71s"
+    },
+    {
+        "platform": "reddit",
+        "text": "Un dia trabajando como jóvenes construyendo el futuro #mexico #claudiasheinbaum",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://youtube.com/shorts/a-LYhg5MBQQ?si=Q_H7pdHFTx54aIEQ"
+    },
+    {
+        "platform": "reddit",
+        "text": "Alguien ha estado en el grupo dopinder de México xd que tal fiable es esta pag de panes",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://www.reddit.com/gallery/1rsbllw"
+    },
+    {
+        "platform": "reddit",
+        "text": "Reforma electoral de Claudia Sheinbaum: advierten censura en redes y riesgo para la democracia en México - Diario de Xalapa | Noticias Locales, Policiacas, sobre México, Veracruz, y el Mundo",
+        "dialect": "Mexico",
+        "intent": "debate",
+        "tone": "argumentative",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://oem.com.mx/diariodexalapa/local/reforma-electoral-de-claudia-sheinbaum-advierten-censura-en-redes-y-riesgo-para-la-democracia-en-mexico-28820022"
+    },
+    {
+        "platform": "reddit",
+        "text": "Solo siete hospitales garantizan acceso al aborto seguro en Veracruz, aunque está despenalizado - Diario de Xalapa | Noticias Locales, Policiacas, sobre México, Veracruz, y el Mundo",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "formal",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://oem.com.mx/diariodexalapa/local/solo-siete-hospitales-garantizan-acceso-al-aborto-seguro-en-veracruz-aunque-esta-despenalizado-28523894"
+    },
+    {
+        "platform": "reddit",
+        "text": "¿Desaparecen los plurinominales? Claves para entender la propuesta de reforma electoral en México - Diario de Xalapa | Noticias Locales, Policiacas, sobre México, Veracruz, y el Mundo",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "formal",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://oem.com.mx/diariodexalapa/local/desaparecen-los-plurinominales-claves-para-entender-la-propuesta-de-reforma-electoral-en-mexico-28661888"
+    },
+    {
+        "platform": "reddit",
+        "text": "Gobierno de Cuitláhuac García deja deuda pública en Veracruz, tiene monto por aclarar de más de mil millones de pesos - Diario de Xalapa | Noticias Locales, Policiacas, sobre México, Veracruz, y el Mundo",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "formal",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://oem.com.mx/diariodexalapa/local/gobierno-de-cuitlahuac-garcia-deja-deuda-publica-en-veracruz-tiene-monto-por-aclarar-de-mas-de-mil-millones-de-pesos-28502220"
+    },
+    {
+        "platform": "reddit",
+        "text": "Quedó con cara de payaso todo este pinche sub",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "sarcastic",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://i.redd.it/2k0kvvjl0nog1.jpeg"
+    },
+    {
+        "platform": "reddit",
+        "text": "Gracias a quien sea que hace está vara al chile",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "sarcastic",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://i.redd.it/890bmot71ang1.jpeg"
+    },
+    {
+        "platform": "reddit",
+        "text": "Que onda conocen tecnasa si han trabajado ahí? Si es buen pegue? Me ofrecieron un puesto estoy aplicando pero quería escuchar opiniones",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/Nicaragua/comments/1rrggvf/que_onda_conocen_tecnasa_si_han_trabajado_ahí_si/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Tráfico del aeropuerto de León a Managua del fin de semana santa",
+        "dialect": "Mexico",
+        "intent": "question",
+        "tone": "formal",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/Nicaragua/comments/1ro7767/tráfico_del_aeropuerto_de_león_a_managua_del_fin/"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Me tocó buen mesero, normal y amable, los demás... si se osabas hablarles por alguna razón, tenían actitud de \"soy summa cum laude de Harvard, are you talking to me?\". El sandwich de huevo semi crudo, muy malo, la comida y el ambiente es muy de la Roma, o sea pretencioso (este en nivel lite, hay mucho peores). Es buen ejercicio visitar restaurantes que sí son de nivel (fuera de la Roma) para no creer que esto es lo que uno merece y que es \"fantástico, the best breakfasts in Mexico\".",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "sarcastic",
+        "topic": "restaurants",
+        "timestamp": "17 hours ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2w5RE9GOUViamxWTm1oMlRGOU1hSFZUYW1kM1VIYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "He comprado varias veces posole y van 2 veces con esta que me pone poco posole a parte que no me ponen los chips y he llamado y he reclamado y no me resuelven nada de deberían de mejorar eso porq en verdad q son pésimos",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a month ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT210cVYySjFaa1JtU0c5TGJscEthV3hJTkVScFlsRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Los mejores tacos d Aventura y áreas cercanas !!",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "4 months ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21SbVgwSnRZVmc0VUhvNU5sbEJNV1JOZUVOb2JIYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Este lugar es realmente asqueroso y decepcionante, tuve un problema con sus tacos duros $1,54 No tiene nada de carne , cuando pedimos hablar con el encargado su presencia lo decía todo un hombre con barba desprolija y sin gorra para proteger la higiene de la comida , si el está así no me quiero imaginar lo sucio que debe ser adentro , no comí sus tacos , son un asco . Fue muy grosero con mí esposo y sentí que nuestro problema no le importaba..no volveremos",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "argumentative",
+        "topic": "restaurants",
+        "timestamp": "Edited a week ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2xwMlkxbEZVV3h5Umkxc2NIbzJOM1U0VEVaV04xRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Voy pasando dos veces comprando tacos ahi siempre me mandan las tortillas eladas",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a month ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21OcFpTMXBjRVU1YlhKMWMxWlVPR3BKTjJScE5HYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Los tacos de birria señores 💪🏻 lo mejor de lo mejor. Los pido a cada rato y cada ves creo que están mejores 😅 an echo q este cubano sea fan de la comida mexicana",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "3 weeks ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2w4M1pVRmxNMTlNWmpWU09HeHZaRzFEWlc5blZFRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Los tacos al pastor deliciosos! Con salsa molcajete",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "3 weeks ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT25oamNqTjBkek5HVUVwc1dEVjNkM2hRUmkwelluYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Sin duda un lugar donde deseo regreser para sentir el verdador sabor chilango. Excelente atención departe de los trabajadores.",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a month ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2tvM1JWUnNXazFFUzNVMVprNUNRbUU0VHpSMFpVRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Los mejores tacos al pastor de Miami.",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a month ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2pBNVdsOXlOV1F4ZVROcGFGVm9XVGN6Um5reFdIYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "My favorite place for tacos",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "2 weeks ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2t4TlRtbzRjME5NZEV0NlN6SlJiakZNVEhRMlIyYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Excelente restaurante autentico mexicano. Yo vivo en homestead y voy solo a este lugar. Cada plato es algo increíble los sabores son magnificos. Lo recomiendo 100% incluyendo su servicio",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "5 days ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT25waFdHdFNkbU56WjNkdGRYTjFaQzE0VDJNelYzYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Recomiendo 100% este restaurante la atención muy buena al igual que los platos que tienen; me atendió Kelly y su servicio fue excepcional ella acertó en todo lo que me recomendó. Recomiendo este lugar 100%. Auténticamente mexicano.",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "6 days ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2s5elQzRnJVa0pvWmpKbU5VSlJUSHBNWTJ0cFVFRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Excelente restaurante mexicano. Muy amable el servico",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a week ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21VM1VYRkhPREYwZG1SUGNsOUxSMk5GTkRNeWEwRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Autentica comida Mexicana y el servicio de Pastor increíble. Gracias por la atención y las recomendaciones!",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "2 days ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2w5NFRqQnFWMnhVVUVaVVRVdFhVR2xzTlhKT1lrRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Auténtica comida mexicana, la salsa, los tacos de lengua, las carnitas, las flautas de pato y los tragos. 100 recomendado. Todo estuvo muy delicioso.",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "4 days ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21wSWJtUkZUV2RMVkhvM1pFbzVka05QWjJ0WlIyYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "El restaurant muy bien, fuimos el 3 de Marzo a comer y todo ok, hasta el momento de facturar, me tomaron los datos para factura y para el 5 aun no me llegaba la factura, tuve que ir hasta el restaurant pues nunca contestaron el telefono y me dieron un numero de \"Yair\" que el factura, le solicite mi factura y me pidió de nuevo mis datos, se los mande junto con el bouchet de pago y hasta el momento no me ha enviado la factura, al decirle que publicaría una opinión negativa, me contesto pero eso fue el Martes y es hora de que aun no me manda la factura. Muy mal con esta persona que Factura. Ya le mande un mensaje de audio para que me diga si no me va a facturar para saber que es lo que debo hacer. Los dueños de Cafe Tacuba deben tener cuidado con sus colaboradores.",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "argumentative",
+        "topic": "restaurants",
+        "timestamp": "8 hours ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21WUVRHOW5jVE5DY0VaU0xYVlJTMWRxWkd0Wk9YYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Un lugar tradicional lleno de historia y con un ambiente que conserva la esencia del México antiguo. Su arquitectura de estilo colonial transporta a otra época, lo que hace de la visita una experiencia muy agradable tanto cultural como gastronómica. Aquí se puede disfrutar de una amplia variedad de platillos típicos mexicanos, preparados con el sabor y la tradición que caracterizan a nuestra cocina. Además, el ambiente se complementa con música en vivo. Los lunes y martes, de 20:00 a 21:00 horas, se presenta el reconocido Trío del Café de Tacuba, interpretando música romántica, boleros, ranchera, alegre e internacional que enriquece la experiencia del lugar. Por otra parte, de martes a domingo por la tarde, la estudiantina ameniza con su repertorio, generando un ambiente cálido y muy representativo de la cultura mexicana. Sin duda, es un sitio recomendable para quienes desean disfrutar de buena comida, historia y música de trio en un mismo espacio.",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "formal",
+        "topic": "restaurants",
+        "timestamp": "Edited 18 hours ago",
+        "source_url": "ChZDSUhNMG9nS0VJQ0FnSUNRbXBtZFVBEAE"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Es un lugar emblemático en la CDMX. Nunca había estado, asi que decidimos ir un domingo por la mañana prontito a desayunar. Como era temprano, encontramos mesa. Los desayunos son básicamente los mismos que ofrecen en todos lados, con el añadido de alguna esoecialidad de la casa. Casi todos elegimos huevos en distintas versiones. Mientras los sirven, para 'abrir boca\" mis acompañanantes degustaron churros y algún bollito. Yo me pedí los huevos rancheros, que fueron los últimos en servir. Quizás porque el maitre, presumiendo de memoria, no tomó la comanda para la cocina. Los huevos estaban sosos, la salsa, de ranchera solo tenía el nombre. Era una salsa de tomate tritarado sin los ingredientes propios, chile, ajo y cebolla. Al final, voy a terminar dando la razón a la gente que opina que hasta los restaurantes en México se están gentricando. Los platos típicos ya no saben a México. El lugar es chulo, un tanto frío, con una decoración mexicana y unos vitrales únicos. Las mesas un tanto amontonadas, si tienes que cruzar al baño es como un eslalom. El servicio algo deficiente, nos sirvieron platos fríos y se les había pasado de pedirlo a cocina el mío. Aunque si es verdad, que a esa hora, la mayoría de los comensales parecían locales. Me llevo la impresión, y por los comentarios hechos por gente local, de que este lugar tiene un nombre que atrae a mucha clientela que viene de turismo con otro paladar, al que han ido ajustando sus platos. Yo prefiero aquéllos sabores de antaño que guardo en mi memoria gustativa. Los precios me han parecido altos con relación a la comida y el servicio. No me ha convencido convencido,y los precio",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "argumentative",
+        "topic": "restaurants",
+        "timestamp": "18 hours ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2tGVWNIUnJPVWQxUVdOeVdEWk5lRmhZT0hkNFltYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "El servicio increíble, la crema de huitlacoche estuvo deliciosa",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "12 hours ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2xBM1pVTmlSV2RHU21KSk9IbHlaV1l5VG1JM2RHYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Una experiencia excepcional. 100% lo recomiendo, la comida deliciosa, el lugar padrisimo y el servicio super amable.",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "2 weeks ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21KelNqWkRlRUp4ZDJSU2FUTnJXWFJrWDNObWRIYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Muy buen sitio de tacos en Miami. Las tortillas están bien hechas y las carnes tienen mucho sabor, especialmente los tacos de carne asada. Buen ambiente, servicio rápido y precios razonables. Sin duda un lugar al que volver si te gustan los tacos auténticos.",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "8 hours ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2xSa01sWjNZVXRoYzBkRVMwMWFkVWRMUjNCa1NYYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Excelente comida mexicana, la Quesa Birria un éxito, junto con la buena música y la amable atención de Carolina. Fue un placer conocerlos",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "2 days ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2tadlpEZFFhSEZ1YzAwd1UwZHRSa1ZFVVROUFRuYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Este cafe es el q está frente al templo mayor. La comida es deliciosa, y el servicio maravilloso. Les recomiendo el mole, los tacos de pulpo y el chile de chicharron prensado. Los postres y el café no pueden faltar. Creo que los precios son bastante justos y cabe mencionar que este restaurante no es de los que cobran vista panorámica ni el servicio. 100% recomendable.",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "5 hours ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT201T2VGZHZXRXhJYUZCU1MzSldjME5PVUVaS09XYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Súper servicio de milagros ,rachel y joseph gracias los tacos de birria excelente",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "8 hours ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21RMlMzRXlPUzFsYkdKUU1VOXhkWEpaUkhGaWFWRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Todo lo que hacen aquí es excelente y si eres fan del mezcal aquí debes ir",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a day ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2tGemIyRjZNMnRsUWt4WVgyRndTalpWZDIxdmRIYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "GRacias Daniel Abrego y José Luis Rodríguez !!!! Padrísimo todo!!!!",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": "3 hours ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2kxWVlXcEJUbTlpVFc5NFJUUkVkWGxYTldkaFpYYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Deliciosos las quesadillas de pastor pero lo que más me gustó y me hizo regrese fue el esquite!! Está delicioso",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a day ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT205UVRXSmxNVGs1V1dWTlgzTkZibkF0TldRd1duYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Es ridículo el concepto en el cual se ha transformado este lugar. Menús degustación poco creativos y caros en exceso. No tienen la variabilidad de opciones que antes manejaban con base en pedidos a la carta por platillo, ahora te presionan para que consumas sus menús degustación. El mesero amable pero super entrenado para dirigir al comensal a consumir a la fuerza ciertos productos. El taco de chocolate de postre con cabello incluído. Dos botellas con agua, taco de chocolate con pelo, un cocktail, dos cafés y un mocktail por 1600 pesos. Una locura. Pd. No había una sola mesa aparte de nosotros. Ocho meseros bromeando y riendo en la entrada puesto que no había trabajo ante la falta de clientes.",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "sarcastic",
+        "topic": "restaurants",
+        "timestamp": "4 days ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2xjNE1WOWhiMHRWV0hSQ01GZGxlVGRsWTBWd1oyYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Estefania gracias por la recomendación de los tacos, tan amable y dulce",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "6 hours ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT25GdGNXSkhTMjR6U0ZadFVUQTNTWGxSVldsTlJFRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Nada que ver con Ojo de Agua en CDMX, precios super elevados, mal servicio, jugo sin sabor, café no muy bien preparado y el desayuno solo bonito decorado, la verdad que no lo recomiendo",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "sarcastic",
+        "topic": "restaurants",
+        "timestamp": "a month ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT25sd1NFcFhRWFZ3TW5kb0xUaElTRjlrWjFVMGNVRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Pedí tacos de lengua el lugar no estaba tan lleno y se tardaron más de lo usual para un plato así que creo yo que siendo comida mexicana deberían tenerlo más rápido",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "6 months ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21WV2FrTk9VRkF6UlZwWldGSkpjMHRtVGs0emFHYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Siempre consistentes con los platillos, hoy toco pasta stroganoff y tacos de rib eye, un secreto !!! Tienen la mejor smash Burger de todo el mundo !!!",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a month ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21kUVNFeHNZekZ2YTJ0MGNXOVFZemg0V1ZaQmNGRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Deliciosos tacos, los recomiendo. A precios accesibles por libra.",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "2 months ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2xWT2EzcHpUMnREVkRKb01ERnFkMXB5ZWxaUVNXYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "La verdad, muy rica comida, mi lugar de tacos favorito, muy buena para ir en familia",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "2 months ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2pGTVQzRkpVRTVQVlRJeVZuRlFTalJwTmtONWRuYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Un lugar ideal para un desayuno mexicano. El chocolate es delicioso, el ambiente es muy ameno. La atención excelente.",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "6 hours ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2s1T2VXdHJha2RtV25nNFRXSnRaMmRFZVhsaGQzYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Un restaurante que ha ido en constante crecimiento y la gente que lo visita lo hace con nuevos invitados. La comida mexicana deliciosa y el pan calientito en el desayuno no tiene comparación",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "3 days ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21Gek9YaHNRV1IxVlMxMllWVk5ZMjFQYjFGSVpFRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Me encantaron... me recordarán a los Tamales de mi madre... masa casera... nada de MASECA... Con un Tamal se llena... precio justo porque es un tamal completo...",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": "2 months ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2t0aFFtaDVVVGw1UWw4dFFsOXlMVnA2V2s5SE1XYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Divinas las yucas mixtas y las carnitas bien suaves y deliciosas. Super recomendado para esos antojos de comida típica 😋",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a year ago",
+        "source_url": "ChZDSUhNMG9nS0VJQ0FnSUNudlplY0dBEAE"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Negocio moribundo. Sólo tenían un platillo disponible. Lugar de tacos que no vende tacos.",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "sarcastic",
+        "topic": "restaurants",
+        "timestamp": "a year ago",
+        "source_url": "ChZDSUhNMG9nS0VJQ0FnSURYbUoyaVRREAE"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Llegué un sábado a las 11:00 PM y la cocina estaba abierta, me atendieron muy bien y rápido aunque el sitio estaba relativamente lleno. Prueben los Cantaritos, son muy buenos.",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "5 months ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2xneVJrMW5OR1IwU2xCWGJFNXlTSE5yVkVkb1RWRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Come for the tacos campechanos. Stay for the quesadillas, salsa bar & pickled piña. La salsa verde es la mejorrrr...woof!",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "4 months ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2tWek9HMVlMVkJsU0hSbFpsOU1kVFJOVkV4VU9WRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Excelente comida lo más sercano aló de nuestro rancho la carne asada con su nopal lo recomiendo %100 ni se diga del servicio las salsas el personal muy amable respetuosos pruben el champurrado de rechupete los burritos todo esta exquisito",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a month ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2paSWNFdEVPVVZEZVcxcFVWZzNaWGd5VmtaR1RFRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Excelente servicio ,el zazon de la comida me recuerda al sabor de mi pueblo lo recomiendo 👌 😋 auténtica comida mexicana .",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a month ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2pCTlJqYzBVRVF6UmpSek5rTXdlVTFpY1dOdGNXYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Excelente la comida esos guaraches estaban muy ricos i la salsa no se diga Excelente servicios el personal muy atento solo fuimos desde salinas a probar esa rica comida Les recomiendo 😉",
+        "dialect": "Mexico",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a month ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2pKdVlrcDZlRFZqZGxOblZ6SnpTMkZXYUZSVWMwRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "El lugar muy bonito, los tacos un 10, solo falta mejorar la atención al cliente y el ambiente 😉",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "2 months ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21oc1lrcGhjbkJmU2xReU1GaENRMVJvUkZaeU1FRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Los mejores camarones a la diabla, y el menudo bien limpio y Rico, la mojarra es otra de sus especialidades",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a month ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21ScmRTMDBPSFpMTFdSemVteFFNbnBTU0VVdFZtYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "El pollo crudo y mal sabor...un asco, el sandwich jalapeño jr sin jalapeño...no tardan en vender pollo sin pollo, puré de papas horrible ...lo único rescatable fueron las papas fritas...falta supervision",
+        "dialect": "Mexico",
+        "intent": "complaint",
+        "tone": "sarcastic",
+        "topic": "restaurants",
+        "timestamp": "Edited 3 months ago",
+        "source_url": "ChZDSUhNMG9nS0VJQ0FnSURtOWJPa1F3EAE"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Muy buena la comida la michelada exquisita",
+        "dialect": "Mexico",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "3 months ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2t0dldsQnZiWGsxZWxCalZYWXhTblJpU204emIyYxAB"
+    }
+]

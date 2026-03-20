@@ -1,0 +1,452 @@
+[
+    {
+        "platform": "twitter",
+        "text": "@CataPaul2 @ojosrojoz Ecuador no deberia estar 10, Ecuador deberia estar abajo de EEUU y HONDURAS ya que 1 cuarto puesto lo logro en 1959 pero participaron 5 equipos y era por tabla, ecuador a nivel historial es el peor pais del torneo.",
+        "dialect": "Ecuador",
+        "intent": "opinion",
+        "tone": "argumentative",
+        "topic": "sports",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "@jorgeramir19774 @1901Radio y lasc opas americas, parece que cada jugador de ecuador se van a europa lo consideran titulo por que su seleccion no tiene, espero que ganen la sigueinte copa america con su generacion dorada por que son un meme, honduras hizo mejor copa america que ustedes en la HISTORIA",
+        "dialect": "Ecuador",
+        "intent": "debate",
+        "tone": "sarcastic",
+        "topic": "sports",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "@XPspatharivs Hay que desterrar a esta traidora a Guayaquil o Tegucigalpa para que disfrute de nuestros hermanos cobrizos espírituales y que deje a los españoles de bien en paz. Nadie quiere que Madrid se convierta en una ciudad tercermundista machetera y peligrosa.",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "argumentative",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "twitter",
+        "text": "El fenómeno climático de La Niña en el Pacífico ecuatorial podría evolucionar a ENSO (El Niño-Oscilación del Sur) neutral a lo largo de abril. https://t.co/5XboBeTNxE",
+        "dialect": "Ecuador",
+        "intent": "news",
+        "tone": "formal",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://twitter.com/i/web/status/None"
+    },
+    {
+        "platform": "reddit",
+        "text": "Periodismo en Ecuador: Andrés Durán (de El Chochologo) y Andrés Burbano (de BNPeriodismo) denuncian hostigamiento judicial y acoso",
+        "dialect": "Ecuador",
+        "intent": "complaint",
+        "tone": "formal",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://x.com/LaDefensaEc/status/2032160657009959208"
+    },
+    {
+        "platform": "reddit",
+        "text": "Que pasa con Noboa y Colombia ?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1rr03y0/que_pasa_con_noboa_y_colombia/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Ecuador raises tariffs on Colombia to 50% as trade dispute intensifies",
+        "dialect": "Ecuador",
+        "intent": "news",
+        "tone": "formal",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://latinamericareports.com/ecuador-raises-tariffs-on-colombia-to-50-as-trade-dispute-intensifies/13688/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Entre a ecuador sin sellar, como puedo salir por avión?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1ro31u6/entre_a_ecuador_sin_sellar_como_puedo_salir_por/"
+    },
+    {
+        "platform": "reddit",
+        "text": "¿Cuáles son los cantones más \"atípicos\" o inusuales de su provincia en Ecuador?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1rlszms/cuáles_son_los_cantones_más_atípicos_o_inusuales/"
+    },
+    {
+        "platform": "reddit",
+        "text": "TREN BINACIONAL EC-PE (mercancías y pasajeros: Babahoyo - Guayaquil (puente al Guasmo y Terminal logístico en los Puertos marítimos GYE y Puerto Bolívar) - El Triúnfo - Machala - Sta. Rosa - Huaquillas Puente Internacional - Máncora - Piura (PE).",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "formal",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://www.reddit.com/r/Guayaquil/comments/1rlufmc/tren_binacional_ecpe_que_piensan_de_una_red/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Ecuador, Bases Extranjeras, y la posible 3ra guerra mundial",
+        "dialect": "Ecuador",
+        "intent": "debate",
+        "tone": "argumentative",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1rjy4bj/ecuador_bases_extranjeras_y_la_posible_3ra_guerra/"
+    },
+    {
+        "platform": "reddit",
+        "text": "adopciones de animales en EC",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1rjxg5a/adopciones_de_animales_en_ec/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Con un voto condicionado de legisladores de la Amazonía, ADN logra aprobar la ley de Fortalecimiento de la Minería y Energía",
+        "dialect": "Ecuador",
+        "intent": "debate",
+        "tone": "formal",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://www.primicias.ec/politica/asamblea-ley-urgente-mineria-electricidad-amazonia-adn-correismo-pachakutik-116825/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Podcasts y YouTube videos de la cultura de Ecuador",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1rdzjoi/podcasts_y_youtube_videos_de_la_cultura_de_ecuador/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Restaurantes con comida saludable en Quito?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1rcqx86/restaurantes_con_comida_saludable_en_quito/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Transporte terrestre de Quito a Guayaquil en buseta",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1rcm0yd/transporte_terrestre_de_quito_a_guayaquil_en/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Safe to travel to ecuador?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1rc46xm/safe_to_travel_to_ecuador/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Lugares más bonitos del Ecuador",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1r7mni6/lugares_más_bonitos_del_ecuador/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Pregunta sobre el futbol de quito",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "sports",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1r7akqm/pregunta_sobre_el_futbol_de_quito/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Que tal la situación en manta hoy?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1r4tjpt/que_tal_la_situación_en_manta_hoy/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Que me recomiendan en este feriado en Quito?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1r35wpd/que_me_recomiendan_en_este_feriado_en_quito/"
+    },
+    {
+        "platform": "reddit",
+        "text": "¿Usarías una app para aprender lenguas indígenas ecuatorianas (shuar, kichwa, waorani)",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1r0s41k/usarías_una_app_para_aprender_lenguas_indígenas/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Ayuda con un recuerdo radial de Quito (Años 90)",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1r0hvxk/ayuda_con_un_recuerdo_radial_de_quito_años_90/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Me voy a Montañita - Ecuador",
+        "dialect": "Ecuador",
+        "intent": "statement",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1r0btha/me_voy_a_montañita_ecuador/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Copa Davis Tenis 2026: Ecuador tuvo una jornada histórica, eliminó a Australia y avanzó en las Qualifiers",
+        "dialect": "Ecuador",
+        "intent": "news",
+        "tone": "formal",
+        "topic": "sports",
+        "timestamp": null,
+        "source_url": "https://www.espn.com.ec/tenis/nota/_/id/16284205/copa-davis-2026-qualifiers-ecuador-australia-primera-ronda-resultado-guillen-meza-hijikata-andrade-duckworth"
+    },
+    {
+        "platform": "reddit",
+        "text": "¿Por qué hay ecuatorianos que parecen AMAR su colegio/secundaria como si fuera lo mejor de su vida? ¿En serio?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "sarcastic",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1qzfouy/por_qué_hay_ecuatorianos_que_parecen_amar_su/"
+    },
+    {
+        "platform": "reddit",
+        "text": "\"Papaya puesta, papaya partida\" es un dicho de Ecuador ¿?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1qzvray/papaya_puesta_papaya_partida_es_un_dicho_de/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Por qué razón el Comino es tan prevalente en la cocina ecuatoriana?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1qyom8t/por_qué_razón_el_comino_es_tan_prevalente_en_la/"
+    },
+    {
+        "platform": "reddit",
+        "text": "¿Qué podemos vender en Ecuador desde Estados Unidos?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1qyuoh8/qué_podemos_vender_en_ecuador_desde_estados_unidos/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Estadio Olímpico Atahualpa: ¿dónde están los mejores asientos para un concierto en vivo? - Atahualpa olympic stadium - where are the best seats for a live concert?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "sports",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1qxykts/estadio_olímpico_atahualpa_dónde_están_los/"
+    },
+    {
+        "platform": "reddit",
+        "text": "¿Por qué Noboa y ADN han salido a la defensa del gangster Mario Godoy?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "argumentative",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1qwjo4w/por_qué_noboa_y_adn_han_salido_a_la_defensa_del/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Me quedaré en Guayaquil por un par de meses mientras lanzo una empresa de atún. ¿Qué debería saber",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "/r/Guayaquil/comments/1qwi3zz/me_quedaré_en_guayaquil_por_un_par_de_meses/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Porque Ecuador dejo de tener moneda propia?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "formal",
+        "topic": "politics",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1qvr7v5/porque_ecuador_dejo_de_tener_moneda_propia/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Transportistas de Ecuador y Colombia rechazan aranceles y bloquean Rumichaca",
+        "dialect": "Ecuador",
+        "intent": "complaint",
+        "tone": "argumentative",
+        "topic": "news",
+        "timestamp": null,
+        "source_url": "https://x.com/BNPeriodismo/status/2018761028222210401"
+    },
+    {
+        "platform": "reddit",
+        "text": "Regalo 14 de febrero quito o santo domingo",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1qv8ci3/regalo_14_de_febrero_quito_o_santo_domingo/"
+    },
+    {
+        "platform": "reddit",
+        "text": "Que se recomienda para ir a Galápagos?",
+        "dialect": "Ecuador",
+        "intent": "question",
+        "tone": "casual",
+        "topic": "daily_life",
+        "timestamp": null,
+        "source_url": "https://old.reddit.com/r/ecuador/comments/1qtuizj/que_se_recomienda_para_ir_a_galápagos/"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "La comida estaba riquísima, con sabores auténticos y muy bien preparados. Se nota el cariño en cada plato. Pero sin duda lo mejor fue la atención: Victoria, la dueña, es súper amable, cercana y atenta, te hace sentir como en casa desde el primer momento. Una experiencia preciosa en Ecuador que repetiría sin dudar. ¡Totalmente recomendable! ⭐️⭐️⭐️⭐️⭐️",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a month ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2xONGRHZHpZblJ6YlV4M05XdzRWa2wxU2sxc2RFRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "El mejor restaurante de Quito y la mejor comida de todo nuestro viaje por Ecuador! El lugar es precioso en una casa histórica en pleno centro del casco antiguo. La comida deliciosa, casera, con productos frescos, super super sabrosa y mucha variedad de platos. Probamos varios platos típicos ecuatorianos, y a cual mejor 🥰 y muchas opciones vegetarianas y veganas. Y los precios super económicos! Y sin duda conocer a Victoria ha sido increíble! Cocina con tanto amor y te hace sentir tan en casa, que la amas desde el minuto uno!!! No te vayas de Quito sin probar su comida!! Gracias Victoria✨Te esperamos en España 🤍",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a month ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2pobFMxOXBhRkJsWjJGVllUVjBNR2c0Y214V2FuYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Agreguen de nuevo empanada de Guatita del chef Pablo.",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "3 days ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2pWV2FuSnplSE5LV0hKR1ptbEhMUzFEV25KR1oxRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Es un lugar muy acogedor , algo pequeño pero muy rica comida , si quieren probar algo diferente con sabor ecuatoriano sin duda deben ir.",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "6 days ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2tVMmJqSTJlVkY1Ym5WT1VERTBTR2hvYjBSZlNVRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Ya quiero volver! De los mejores restaurantes de Quito, los platos son muy creativos, tienen concepto y te hacen alucinar los sabores!",
+        "dialect": "Ecuador",
+        "intent": "opinion",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "4 days ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2pBMWRtRklWVTVSVDBablVqWm1aRzA1V2sxQldXYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "La experiencia en la calidad y variedad de sabores, utilizando productos originarios de Ecuador, en una elaboracion que merece la calificacion de \"Arte culinario\" mi mejor experiencia de pasos. Merecen tener 1estrella Michelin.",
+        "dialect": "Ecuador",
+        "intent": "opinion",
+        "tone": "formal",
+        "topic": "restaurants",
+        "timestamp": "2 months ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT21Wa1FWbEJUSEZ3V0VodWRpMU5ZVXhPT1V0YVFuYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Considero que le falta publicidad, poco concurrido para todo lo que ofrece. Relación precio calidad: excelente La comida exquisita Sin duda un imperdible si vistas UIO.",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "Edited a day ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT205MFdGbGZlV2xTZVRkd1prRlphMXBtVWtGaGFYYxAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "Una experiencia gastronómica de primer nivel en Quito. Desde el momento de la llegada, la atención de Freddy destaca por su profesionalismo y calidez, elevando la propuesta culinaria del restaurante. La ejecución de los platos es brillante, logrando un equilibrio perfecto entre la identidad de los ingredientes locales y técnicas contemporáneas. Es, sin duda, un referente de excelencia operativa y servicio al cliente en la ciudad. Muy recomendado para quienes buscan una cena ejecutiva de alto estándar o una celebración personal especial",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "formal",
+        "topic": "restaurants",
+        "timestamp": "6 hours ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2sxUlVHRnJWVVI1UmxaM1QzVTViRFZVYkZFMlVGRRAB"
+    },
+    {
+        "platform": "google_reviews",
+        "text": "El mejor sitio en Quito para comer pez brujo fresco y almejas",
+        "dialect": "Ecuador",
+        "intent": "recommendation",
+        "tone": "casual",
+        "topic": "restaurants",
+        "timestamp": "a day ago",
+        "source_url": "Ci9DQUlRQUNvZENodHljRjlvT2s1Vk5sRlRUVFpoY1hCcGVGVnFPVEZyV2pkbWRFRRAB"
+    }
+]

@@ -1,0 +1,962 @@
+[
+    {
+        "text": "Vos siempre de paja, nunca dejas de salir temprano.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Cheque maje, nos vemos en el centro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a salir temprano?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "El clima está bastante agradable hoy.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Vos siempre de paja, nunca dejas de jugar partido.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Cheque maje, nos vemos en la calle.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Ahorita nos vemos en la tienda, carnal.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Hola, me gustaría comer baleadas mañana.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "¿Podrías ayudarme a trabajar duro por favor?",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Vos sos maje si pensás que comer baleadas.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Cheque maje, nos vemos en la tienda.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Ahorita nos vemos en Tegucigalpa, carnal.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ando hule hoy, prestame cincuenta lempiras.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Ese señor fue muy amable con nosotros.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué pijudo está zapato.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Ando hule hoy, prestame veinte lempiras.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Hola, me gustaría comer baleadas mañana.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué pijudo está libro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "El clima está bastante agradable hoy.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Tengo mucho coraje por este proyecto.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qeqw eqe qeqwe qweq weq.",
+        "type": "Gibberish",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué pijudo está zapato.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a hacer eso?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a comer baleadas?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Cheque maje, nos vemos en el centro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Esa chava está bien rápido.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Pucha, qué bonito está el clima hoy.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Vos sos maje si pensás que salir temprano.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "¿Podrías ayudarme a jugar partido por favor?",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "El zapato cuesta veinte dólares.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Vos sos maje si pensás que trabajar duro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Zxcv bnm asdfg hjkl.",
+        "type": "Gibberish",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ese cipote siempre anda de loco.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Vos siempre de paja, nunca dejas de jugar partido.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Qué pedo con el perro de allá.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Cheque maje, nos vemos en el parque.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Me dio un chingo de coraje ver eso.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué pedo con el teléfono de allá.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Nos encontramos en Tegucigalpa a las cinco.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ese cipote siempre anda de perezoso.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Esa chava está bien loco.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ayer me eché unas potras en el centro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Aasd fghj kl qwer tyu.",
+        "type": "Gibberish",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Pucha, qué rápido está el clima hoy.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Ese cipote siempre anda de rápido.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "No manches, está cañón hacer eso.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "El teléfono es muy loco.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Cheque maje, nos vemos en el parque.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "No mames, ese vato está re perezoso.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "No mames, ese vato está re loco.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "El clima está bastante agradable hoy.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "El libro cuesta cien dólares.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Tengo mucho sueño por este proyecto.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Nos encontramos en Tegucigalpa a las cinco.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a comer baleadas?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué macizo le quedó el perro a ese maitro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Tengo mucho alegría por este proyecto.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "El teléfono cuesta veinte dólares.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Nos encontramos en el parque a las cinco.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué pijudo está libro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Hola, me gustaría salir temprano mañana.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "¿Podrías ayudarme a comer baleadas por favor?",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "El carro es muy fuerte.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Zxcv bnm asdfg hjkl.",
+        "type": "Gibberish",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Gracias por tu tiempo y atención.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué pedo con el zapato de allá.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "No manches, está cañón comer baleadas.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Está bien chido el perro que compraste.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "El carro es muy rápido.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Tengo mucho coraje por este proyecto.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Me dio un chingo de sueño ver eso.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Esa chava está bien bonito.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Me dio un chingo de miedo ver eso.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Está bien chido el perro que compraste.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ese señor fue muy amable con nosotros.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "El clima está bastante agradable hoy.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Está bien chido el libro que compraste.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué macizo le quedó el perro a ese maitro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Gracias por tu tiempo y atención.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Nos encontramos en el parque a las cinco.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "¿Podrías ayudarme a salir temprano por favor?",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué pedo con el teléfono de allá.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Vos siempre de paja, nunca dejas de trabajar duro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "No mames, ese vato está re perezoso.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Es importante mantener la calma.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Vos sos maje si pensás que trabajar duro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Qué pijudo está perro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "El carro es muy bonito.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué pedo con el carro de allá.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "1234 567 890 abc def.",
+        "type": "Gibberish",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ese cipote siempre anda de loco.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Esa chava está bien fuerte.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Qué pedo con el zapato de allá.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Es importante mantener la calma.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Zxcv bnm asdfg hjkl.",
+        "type": "Gibberish",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "No mames, ese vato está re perezoso.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Esa chava está bien fuerte.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Qué pedo con el carro de allá.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Vos sos maje si pensás que hacer eso.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Zxcv bnm asdfg hjkl.",
+        "type": "Gibberish",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Esa chava está bien rápido.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "El carro cuesta cincuenta dólares.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Esa chava está bien loco.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Hola, me gustaría trabajar duro mañana.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a hacer eso?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Pucha, qué fuerte está el clima hoy.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Tengo mucho coraje por este proyecto.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Esa chava está bien perezoso.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Es importante mantener la calma.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "No mames, ese vato está re fuerte.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué pijudo está libro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "El clima está bastante agradable hoy.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ayer me eché unas potras en la tienda.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "No manches, está cañón comer baleadas.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "No manches, está cañón salir temprano.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Zxcv bnm asdfg hjkl.",
+        "type": "Gibberish",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "No manches, está cañón jugar partido.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Jsfkj ksjflsj fljsfl kd.",
+        "type": "Gibberish",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Es importante mantener la calma.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ando hule hoy, prestame veinte lempiras.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "No manches, está cañón trabajar duro.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Aasd fghj kl qwer tyu.",
+        "type": "Gibberish",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "No mames, ese vato está re rápido.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "No manches, está cañón hacer eso.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "El libro es muy rápido.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ese señor fue muy amable con nosotros.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ese güey siempre dice puras mamadas.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Cheque maje, nos vemos en el parque.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Ese cipote siempre anda de rápido.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Ese señor fue muy amable con nosotros.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Nos encontramos en el parque a las cinco.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Está bien chido el carro que compraste.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Nos encontramos en la tienda a las cinco.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "No mames, ese vato está re perezoso.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Está bien chido el libro que compraste.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Está bien chido el perro que compraste.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Ese señor fue muy amable con nosotros.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué pijudo está teléfono.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Qué pedo con el carro de allá.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Esa chava está bien perezoso.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "No mames, ese vato está re fuerte.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Nos encontramos en la tienda a las cinco.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "El clima está bastante agradable hoy.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Pinche clima loco, ¿verdad?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Tengo mucho miedo por este proyecto.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Gracias por tu tiempo y atención.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Pucha, qué bonito está el clima hoy.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Está bien chido el zapato que compraste.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "El clima está bastante agradable hoy.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Qué onda wey, ¿vamos a trabajar duro?",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Vos siempre de paja, nunca dejas de jugar partido.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "El clima está bastante agradable hoy.",
+        "type": "Neutral",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    },
+    {
+        "text": "Vos siempre de paja, nunca dejas de trabajar duro.",
+        "type": "Honduras",
+        "expected_dialect_pass": true,
+        "expected_model_prediction": "Honduras"
+    },
+    {
+        "text": "Qué pedo con el teléfono de allá.",
+        "type": "Mexico",
+        "expected_dialect_pass": false,
+        "expected_model_prediction": "Other"
+    }
+]
