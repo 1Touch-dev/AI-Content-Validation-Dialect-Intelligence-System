@@ -1,0 +1,16 @@
+streamlit
+fastapi
+uvicorn
+python-multipart
+pydantic
+torch
+torchvision
+torchaudio
+transformers
+openai-whisper
+easyocr
+ffmpeg-python
+Pillow
+evaluate
+scikit-learn
+langdetect
