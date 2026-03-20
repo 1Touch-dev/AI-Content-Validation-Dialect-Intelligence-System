@@ -21,6 +21,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install --no-cache-dir fastapi uvicorn pydantic python-multipart torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 # Copy application files
+COPY app.py .
 COPY video_validator.py .
 COPY services/ ./services/
 COPY monitoring/ ./monitoring/
