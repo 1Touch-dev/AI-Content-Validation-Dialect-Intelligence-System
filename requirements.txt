@@ -14,3 +14,5 @@ Pillow
 evaluate
 scikit-learn
 langdetect
+plotly
+pandas
