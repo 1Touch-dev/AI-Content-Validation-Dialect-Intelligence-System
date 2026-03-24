@@ -6136,5 +6136,16 @@
         "content_match_score": 0.0424,
         "validation_score": 0.4506,
         "validation_status": "FAIL"
+    },
+    {
+        "video_file": "tmpge65h8lb.mp4",
+        "transcript": "me souvenirás desde NoHaLa step",
+        "dialect_check": "fail",
+        "dialect_predicted": "Other",
+        "dialect_confidence": 0.9969,
+        "expected_content": "Honduran football player",
+        "content_match_score": 0.9982,
+        "validation_score": 0.9975,
+        "validation_status": "PASS"
     }
 ]
