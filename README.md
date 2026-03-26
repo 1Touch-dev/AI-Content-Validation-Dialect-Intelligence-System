@@ -103,19 +103,19 @@ The fine-tuned binary classifiers and vision checkpoints are stored in S3 to kee
 ### ECUADOR 🇪🇨
 ```bash
 # Pull the Dialect Binary Classifier
-aws s3 cp s3://ai-validation-models/ecuador/dialect_binary/ ./models/ecuador_dialect_binary_classifier/ --recursive
+aws s3 cp s3://ai-content-validation-pipeline/models/ecuador/dialect_binary/ ./models/ecuador_dialect_binary_classifier/ --recursive
 
 # Pull the Scenery Grounding Checkpoints
-aws s3 cp s3://ai-validation-models/ecuador/vision_checkpoints/ ./models/checkpoints_ecuador/ --recursive
+aws s3 cp s3://ai-content-validation-pipeline/models/ecuador/vision_checkpoints/ ./models/checkpoints_ecuador/ --recursive
 ```
 
 ### HONDURAS 🇭🇳
 ```bash
 # Pull the Dialect Binary Classifier
-aws s3 cp s3://ai-validation-models/honduras/dialect_binary/ ./models/honduras_dialect_binary_classifier/ --recursive
+aws s3 cp s3://ai-content-validation-pipeline/models/honduras/dialect_binary/ ./models/honduras_dialect_binary_classifier/ --recursive
 
 # Pull the Multiclass Dialect Classifier
-aws s3 cp s3://ai-validation-models/honduras/dialect_multiclass/ ./models/honduras_dialect_classifier/ --recursive
+aws s3 cp s3://ai-content-validation-pipeline/models/honduras/dialect_multiclass/ ./models/honduras_dialect_classifier/ --recursive
 ```
 
 ---
