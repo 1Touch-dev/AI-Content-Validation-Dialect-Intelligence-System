@@ -1,4 +1,4 @@
-# 🇭🇳 AI Content Validation & Dialect Intelligence System
+# 🌍 Multi-Modal AI Content Validation & Dialect Intelligence System
 
 A state-of-the-art Multi-Modal Artificial Intelligence platform engineered explicitly to validate and filter geographical marketing assets. The system ensures that all processed Text, Images, Audio, and Video files authentically align with Honduran linguistic dialects and visual aesthetics, utilizing comparative zero-shot modeling.
 
@@ -46,6 +46,34 @@ streamlit run app.py
 ```
 *Note: The Streamlit engine is configured in `.streamlit/config.toml` to safely accept >1GB files.*
 
+---
+
+## 🛠️ IDE & Environment Setup (Fixing "Red" Linting Errors)
+
+If your IDE (VS Code, PyCharm, etc.) shows red errors for imports like `langdetect`, `pandas`, or `openai`, follow these steps to link your IDE to the project's virtual environment:
+
+### For VS Code:
+1. Press `Cmd + Shift + P` (Mac) or `Ctrl + Shift + P` (Windows).
+2. Type **"Python: Select Interpreter"**.
+3. Choose the one that points to `./venv/bin/python` or `./venv/Scripts/python.exe`.
+4. The errors will disappear after the language server re-scans.
+
+### For PyCharm:
+1. Go to **Settings** > **Project** > **Python Interpreter**.
+2. Click **Add Interpreter** > **Add Local Interpreter**.
+3. Select **Existing Environment** and browse to `/Volumes/Seagate/AI Content Validation & Dialect Intelligence System/venv/bin/python`.
+
+### Manual Fix Script:
+If you haven't created the venv yet, run:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+---
+
+
 ### 2. The Headless API (FastAPI)
 To run the background server explicitly for programmatic endpoint requests instead of the UI:
 
@@ -66,13 +94,33 @@ result = validator.validate_video("path_to_video.mp4", expected_content="Hondura
 print(result)
 ```
 
-### 4. Docker E2E Containerization
-To deploy the entire environment (OS dependencies, FFmpeg, PyTorch, Whisper, Models) gracefully onto a production EC2/Ubuntu cloud wrapper:
+---
 
+## 📦 Model Acquisition (S3 Storage)
+
+The fine-tuned binary classifiers and vision checkpoints are stored in S3 to keep the repository lightweight. Use the following commands to pull the latest production weights:
+
+### ECUADOR 🇪🇨
 ```bash
-# Build and orchestrate both the API Server and Streamlit Dashboard simultaneously
-docker-compose up --build
+# Pull the Dialect Binary Classifier
+aws s3 cp s3://ai-validation-models/ecuador/dialect_binary/ ./models/ecuador_dialect_binary_classifier/ --recursive
+
+# Pull the Scenery Grounding Checkpoints
+aws s3 cp s3://ai-validation-models/ecuador/vision_checkpoints/ ./models/checkpoints_ecuador/ --recursive
 ```
+
+### HONDURAS 🇭🇳
+```bash
+# Pull the Dialect Binary Classifier
+aws s3 cp s3://ai-validation-models/honduras/dialect_binary/ ./models/honduras_dialect_binary_classifier/ --recursive
+
+# Pull the Multiclass Dialect Classifier
+aws s3 cp s3://ai-validation-models/honduras/dialect_multiclass/ ./models/honduras_dialect_classifier/ --recursive
+```
+
+---
+
+## 🚀 Execution & Deployment Commands
 
 ---
 

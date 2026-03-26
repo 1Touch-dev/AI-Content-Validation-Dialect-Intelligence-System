@@ -3,9 +3,6 @@ fastapi
 uvicorn
 python-multipart
 pydantic
-torch
-torchvision
-torchaudio
 transformers
 openai-whisper
 easyocr
