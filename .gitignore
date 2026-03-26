@@ -12,6 +12,7 @@ __pycache__/
 .AppleDouble
 .Trashes
 .Spotlight-V100
+*.pem
 
 # Heavy Models, Media & Massive Data (800MB Timeout Prevention)
 *.mp4
