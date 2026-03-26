@@ -35,5 +35,12 @@ logs/
 __MACOSX/
 
 models.zip
+models.zip
 venv_local
+.vscode/
+to be given to antigravity.txt
+datasets/
+Test data/
+Testing data/
+*.log
 models/
