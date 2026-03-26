@@ -44,3 +44,5 @@ Test data/
 Testing data/
 *.log
 models/
+reports/
+tests/synthetic_audio/
