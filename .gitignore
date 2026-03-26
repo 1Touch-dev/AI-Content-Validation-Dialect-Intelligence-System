@@ -21,7 +21,6 @@ __pycache__/
 *.pt
 *.bin
 *.safetensors
-models/
 videos/
 raw_videos/
 Test data/
