@@ -2,6 +2,7 @@
 
 import { FormEvent, useState } from "react";
 import { backendFetch } from "@/lib/backend-auth";
+import { getDefaultText, TARGET_COUNTRIES, TargetCountry } from "@/lib/target-country";
 
 type TextResult = {
   dialect_prediction: string;
@@ -10,7 +11,8 @@ type TextResult = {
 };
 
 export default function TextValidationForm() {
-  const [text, setText] = useState("Vos sos maje si pensas que salir temprano es facil.");
+  const [targetCountry, setTargetCountry] = useState<TargetCountry>("honduras");
+  const [text, setText] = useState(getDefaultText("honduras"));
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [result, setResult] = useState<TextResult | null>(null);
@@ -23,7 +25,7 @@ export default function TextValidationForm() {
     try {
       const res = await backendFetch("/validate-text", {
         method: "POST",
-        body: JSON.stringify({ text }),
+        body: JSON.stringify({ text, target_country: targetCountry }),
       });
       const body = await res.json();
       if (!res.ok) {
@@ -46,6 +48,24 @@ export default function TextValidationForm() {
           <span className="rounded-full border border-white/20 bg-white/10 px-2 py-0.5 text-xs text-white/70">
             Dialect Engine
           </span>
+        </div>
+        <div className="space-y-1">
+          <label className="text-sm font-medium text-white/90">Select Target Country</label>
+          <select
+            value={targetCountry}
+            onChange={(e) => {
+              const nextCountry = e.target.value as TargetCountry;
+              setTargetCountry(nextCountry);
+              setText(getDefaultText(nextCountry));
+            }}
+            className="w-full rounded-md border border-white/25 bg-black/20 px-3 py-2 text-sm text-white outline-none focus:border-indigo-300/70"
+          >
+            {TARGET_COUNTRIES.map((country) => (
+              <option key={country.value} value={country.value} className="bg-[#0b1020] text-white">
+                {country.label}
+              </option>
+            ))}
+          </select>
         </div>
         <textarea
           value={text}

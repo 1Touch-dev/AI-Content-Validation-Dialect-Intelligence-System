@@ -28,6 +28,15 @@ Open `http://localhost:3000`.
   - `POST /auth/logout`
   - `GET /auth/me`
 
+## Target Country Selection
+
+Validation forms support country-specific inference with:
+- `honduras` (default)
+- `ecuador`
+
+The frontend sends `target_country` to backend validation endpoints so dialect model,
+OCR blacklist, and visual anchors switch to the selected country profile.
+
 ## FastAPI Prerequisite
 
 The backend (`services.api_server`) must be running for validation calls to succeed.

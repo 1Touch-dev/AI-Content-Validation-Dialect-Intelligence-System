@@ -3,6 +3,7 @@
 import { FormEvent, useState } from "react";
 import { motion } from "motion/react";
 import { backendFetch } from "@/lib/backend-auth";
+import { getDefaultTopic, TARGET_COUNTRIES, TargetCountry } from "@/lib/target-country";
 
 type ValidationData = {
   transcript: string;
@@ -13,9 +14,10 @@ type ValidationData = {
 };
 
 export default function ValidateForm() {
+  const [targetCountry, setTargetCountry] = useState<TargetCountry>("honduras");
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [videoPath, setVideoPath] = useState("");
-  const [expectedTopic, setExpectedTopic] = useState("Honduran football player");
+  const [expectedTopic, setExpectedTopic] = useState(getDefaultTopic("honduras"));
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [result, setResult] = useState<ValidationData | null>(null);
@@ -30,6 +32,7 @@ export default function ValidateForm() {
       if (selectedFile) {
         const formData = new FormData();
         formData.append("expected_topic", expectedTopic);
+        formData.append("target_country", targetCountry);
         formData.append("video", selectedFile);
         res = await backendFetch("/validate-video-upload", {
           method: "POST",
@@ -46,6 +49,7 @@ export default function ValidateForm() {
           body: JSON.stringify({
             video_path: videoPath,
             expected_topic: expectedTopic,
+            target_country: targetCountry,
           }),
         });
       }
@@ -78,6 +82,24 @@ export default function ValidateForm() {
           <span className="rounded-full border border-white/20 bg-white/10 px-2 py-0.5 text-xs text-white/70">
             Full Pipeline
           </span>
+        </div>
+        <div className="space-y-1">
+          <label className="text-sm font-medium text-white/90">Select Target Country</label>
+          <select
+            value={targetCountry}
+            onChange={(e) => {
+              const nextCountry = e.target.value as TargetCountry;
+              setTargetCountry(nextCountry);
+              setExpectedTopic(getDefaultTopic(nextCountry));
+            }}
+            className="w-full rounded-md border border-white/25 bg-black/20 px-3 py-2 text-sm text-white outline-none focus:border-indigo-300/70"
+          >
+            {TARGET_COUNTRIES.map((country) => (
+              <option key={country.value} value={country.value} className="bg-[#0b1020] text-white">
+                {country.label}
+              </option>
+            ))}
+          </select>
         </div>
         <div className="space-y-1">
           <label className="text-sm font-medium text-white/90">Upload Video</label>

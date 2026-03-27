@@ -5,6 +5,7 @@ python-multipart
 pydantic
 transformers
 openai-whisper
+faster-whisper
 easyocr
 ffmpeg-python
 Pillow
