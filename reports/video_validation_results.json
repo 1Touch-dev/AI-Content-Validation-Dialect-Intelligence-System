@@ -6147,5 +6147,46 @@
         "content_match_score": 0.9982,
         "validation_score": 0.9975,
         "validation_status": "PASS"
+    },
+    {
+        "video_file": "tmp_3l7rj0b.mp4",
+        "transcript": "y",
+        "dialect_check": "fail",
+        "dialect_predicted": "Other",
+        "dialect_confidence": 0.992,
+        "expected_content": "Honduran football player",
+        "content_match_score": 0.9982,
+        "validation_score": 0.9951,
+        "validation_status": "PASS"
+    },
+    {
+        "video_file": "tmpwmokoj_x.mp4",
+        "transcript": "We'll be right back.",
+        "detected_language": "en",
+        "mute_detected": false,
+        "dialect_check": "fail",
+        "dialect_predicted": "Non-Spanish (en)",
+        "dialect_confidence": 0.0,
+        "expected_content": "Ecuador scenery, beautiful people",
+        "content_match_score": 1.0,
+        "ocr_positive_match": true,
+        "detected_entities": [],
+        "validation_score": 0.5,
+        "validation_status": "FAIL"
+    },
+    {
+        "video_file": "tmpijn_o60h.mp4",
+        "transcript": "We'll be right back.",
+        "detected_language": "en",
+        "mute_detected": false,
+        "dialect_check": "fail",
+        "dialect_predicted": "Non-Spanish (en)",
+        "dialect_confidence": 0.0,
+        "expected_content": "Ecuador scenery, beautiful people",
+        "content_match_score": 1.0,
+        "ocr_positive_match": true,
+        "detected_entities": [],
+        "validation_score": 0.5,
+        "validation_status": "FAIL"
     }
 ]

@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { backendFetch } from "@/lib/backend-auth";
 
@@ -12,13 +12,24 @@ type ValidationData = {
   validation_status: string;
 };
 
+const COUNTRY_OPTIONS = [
+  { value: "honduras", label: "Honduras 🇭🇳", defaultTopic: "Honduras scenery, beautiful people" },
+  { value: "ecuador", label: "Ecuador 🇪🇨", defaultTopic: "Ecuador scenery, beautiful people" },
+];
+
 export default function ValidateForm() {
+  const [targetCountry, setTargetCountry] = useState("honduras");
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [videoPath, setVideoPath] = useState("");
-  const [expectedTopic, setExpectedTopic] = useState("Honduran football player");
+  const [expectedTopic, setExpectedTopic] = useState("Honduras scenery, beautiful people");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [result, setResult] = useState<ValidationData | null>(null);
+
+  useEffect(() => {
+    const selected = COUNTRY_OPTIONS.find((country) => country.value === targetCountry);
+    if (selected) setExpectedTopic(selected.defaultTopic);
+  }, [targetCountry]);
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -30,6 +41,7 @@ export default function ValidateForm() {
       if (selectedFile) {
         const formData = new FormData();
         formData.append("expected_topic", expectedTopic);
+        formData.append("target_country", targetCountry);
         formData.append("video", selectedFile);
         res = await backendFetch("/validate-video-upload", {
           method: "POST",
@@ -46,6 +58,7 @@ export default function ValidateForm() {
           body: JSON.stringify({
             video_path: videoPath,
             expected_topic: expectedTopic,
+            target_country: targetCountry,
           }),
         });
       }
@@ -78,6 +91,20 @@ export default function ValidateForm() {
           <span className="rounded-full border border-white/20 bg-white/10 px-2 py-0.5 text-xs text-white/70">
             Full Pipeline
           </span>
+        </div>
+        <div className="space-y-1">
+          <label className="text-sm font-medium text-white/90">Target Country</label>
+          <select
+            value={targetCountry}
+            onChange={(e) => setTargetCountry(e.target.value)}
+            className="w-full rounded-md border border-white/25 bg-black/20 px-3 py-2 text-sm text-white"
+          >
+            {COUNTRY_OPTIONS.map((country) => (
+              <option key={country.value} value={country.value} className="bg-[#0b1020] text-white">
+                {country.label}
+              </option>
+            ))}
+          </select>
         </div>
         <div className="space-y-1">
           <label className="text-sm font-medium text-white/90">Upload Video</label>

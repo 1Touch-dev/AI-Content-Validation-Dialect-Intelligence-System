@@ -3,6 +3,7 @@ from pydantic import BaseModel
 class VideoValidationRequest(BaseModel):
     video_path: str
     expected_topic: str
+    target_country: str = "honduras"
 
 class VideoValidationResponse(BaseModel):
     transcript: str
@@ -14,6 +15,7 @@ class VideoValidationResponse(BaseModel):
 
 class TextValidationRequest(BaseModel):
     text: str
+    target_country: str = "honduras"
 
 
 class TextValidationResponse(BaseModel):
@@ -24,6 +26,7 @@ class TextValidationResponse(BaseModel):
 
 class AudioValidationRequest(BaseModel):
     audio_path: str
+    target_country: str = "honduras"
 
 
 class AudioValidationResponse(BaseModel):
@@ -36,6 +39,7 @@ class AudioValidationResponse(BaseModel):
 class ImageValidationRequest(BaseModel):
     image_path: str
     expected_topic: str
+    target_country: str = "honduras"
 
 
 class ImageValidationResponse(BaseModel):

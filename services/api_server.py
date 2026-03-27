@@ -38,21 +38,8 @@ from video_validator import VideoValidator
 import uvicorn
 
 app = FastAPI(title="Video Validation Service")
-validator = None
-OCR_BLACKLIST = [
-    "ecuador",
-    "mexico",
-    "costa rica",
-    "guatemala",
-    "colombia",
-    "peru",
-    "argentina",
-    "chile",
-    "uruguay",
-    "paraguay",
-    "bolivia",
-    "venezuela",
-]
+validator_cache = {}
+SUPPORTED_COUNTRIES = {"honduras", "ecuador"}
 
 frontend_origins = os.getenv("FRONTEND_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000")
 allowed_origins = [origin.strip() for origin in frontend_origins.split(",") if origin.strip()]
@@ -96,10 +83,51 @@ def _ensure_ffmpeg_available() -> None:
         )
 
 
-def _validate_image_core(image: Image.Image, image_path_for_ocr: str, expected_topic: str) -> ImageValidationResponse:
+def _normalize_country(country: str) -> str:
+    value = (country or "honduras").strip().lower()
+    if value not in SUPPORTED_COUNTRIES:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unsupported target_country '{country}'. Supported: {sorted(SUPPORTED_COUNTRIES)}",
+        )
+    return value
+
+
+def _get_validator(country: str) -> VideoValidator:
+    normalized = _normalize_country(country)
+    if normalized not in validator_cache:
+        validator_cache[normalized] = VideoValidator(country=normalized)
+    return validator_cache[normalized]
+
+
+def _transcribe_audio_to_text(validator: VideoValidator, audio_path: str) -> str:
+    """
+    Normalize Whisper output shape across engines.
+    - faster-whisper: (segments, info)
+    - openai-whisper style: {"text": "..."}
+    """
+    result = validator.whisper_model.transcribe(audio_path, language="es")
+
+    if isinstance(result, tuple) and len(result) >= 1:
+        segments = result[0]
+        transcript_parts = [segment.text for segment in segments if getattr(segment, "text", "").strip()]
+        return " ".join(transcript_parts).strip()
+
+    if isinstance(result, dict):
+        return (result.get("text") or "").strip()
+
+    return ""
+
+
+def _validate_image_core(
+    image: Image.Image,
+    image_path_for_ocr: str,
+    expected_topic: str,
+    validator: VideoValidator,
+) -> ImageValidationResponse:
     ocr_results = validator.ocr_reader.readtext(image_path_for_ocr, detail=0)
     text_embedded = " ".join(ocr_results).lower()
-    for blocked in OCR_BLACKLIST:
+    for blocked in validator.config.get("ocr_blacklist", []):
         if blocked in text_embedded:
             return ImageValidationResponse(
                 expected_topic=expected_topic,
@@ -136,9 +164,8 @@ def _validate_image_core(image: Image.Image, image_path_for_ocr: str, expected_t
 
 @app.on_event("startup")
 def startup_event():
-    global validator
-    # Initialize the validator explicitly on startup preventing cold-starts
-    validator = VideoValidator()
+    # Warm up default country model to reduce first request latency.
+    _get_validator("honduras")
 
 
 @app.post("/auth/register")
@@ -195,14 +222,17 @@ def auth_me(session=Depends(require_auth)):
 def validate_video(request: VideoValidationRequest, session=Depends(require_auth)):
     if not os.path.exists(request.video_path):
         raise HTTPException(status_code=400, detail="Video file not found.")
-        
+
     try:
+        validator = _get_validator(request.target_country)
         result = validator.validate_video(request.video_path, expected_content=request.expected_topic)
         if not result:
             raise HTTPException(status_code=500, detail="Validation failed internally.")
-            
+
         result["dialect_prediction"] = result.pop("dialect_predicted", "Other")
         return VideoValidationResponse(**result)
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -214,14 +244,17 @@ def validate_text(request: TextValidationRequest, session=Depends(require_auth))
         raise HTTPException(status_code=400, detail="Text cannot be empty.")
 
     try:
+        validator = _get_validator(request.target_country)
         res = validator.dialect_classifier(text)[0]
         prediction = res["label"]
         confidence = round(res["score"], 4)
         return TextValidationResponse(
             dialect_prediction=prediction,
             dialect_confidence=confidence,
-            dialect_check="pass" if prediction == "Honduras" else "fail",
+            dialect_check="pass" if prediction == validator.config["label"] else "fail",
         )
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -233,8 +266,8 @@ def validate_audio(request: AudioValidationRequest, session=Depends(require_auth
         raise HTTPException(status_code=400, detail="Audio file not found.")
 
     try:
-        result = validator.whisper_model.transcribe(request.audio_path, language="es")
-        transcript = (result.get("text") or "").strip()
+        validator = _get_validator(request.target_country)
+        transcript = _transcribe_audio_to_text(validator, request.audio_path)
 
         prediction = "Other"
         confidence = 0.0
@@ -247,8 +280,10 @@ def validate_audio(request: AudioValidationRequest, session=Depends(require_auth
             transcript=transcript,
             dialect_prediction=prediction,
             dialect_confidence=confidence,
-            dialect_check="pass" if prediction == "Honduras" else "fail",
+            dialect_check="pass" if prediction == validator.config["label"] else "fail",
         )
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -256,20 +291,21 @@ def validate_audio(request: AudioValidationRequest, session=Depends(require_auth
 @app.post("/validate-audio-upload", response_model=AudioValidationResponse)
 async def validate_audio_upload(
     audio: UploadFile = File(...),
+    target_country: str = Form("honduras"),
     session=Depends(require_auth),
 ):
     _ensure_ffmpeg_available()
     suffix = os.path.splitext(audio.filename or "")[1] or ".wav"
     temp_path = tempfile.NamedTemporaryFile(delete=False, suffix=suffix).name
     try:
+        validator = _get_validator(target_country)
         content = await audio.read()
         if not content:
             raise HTTPException(status_code=400, detail="Uploaded audio is empty.")
         with open(temp_path, "wb") as f:
             f.write(content)
 
-        result = validator.whisper_model.transcribe(temp_path, language="es")
-        transcript = (result.get("text") or "").strip()
+        transcript = _transcribe_audio_to_text(validator, temp_path)
 
         prediction = "Other"
         confidence = 0.0
@@ -282,7 +318,7 @@ async def validate_audio_upload(
             transcript=transcript,
             dialect_prediction=prediction,
             dialect_confidence=confidence,
-            dialect_check="pass" if prediction == "Honduras" else "fail",
+            dialect_check="pass" if prediction == validator.config["label"] else "fail",
         )
     except HTTPException:
         raise
@@ -302,12 +338,16 @@ def validate_image(request: ImageValidationRequest, session=Depends(require_auth
         raise HTTPException(status_code=400, detail="Image file not found.")
 
     try:
+        validator = _get_validator(request.target_country)
         image = Image.open(request.image_path).convert("RGB")
         return _validate_image_core(
             image=image,
             image_path_for_ocr=request.image_path,
             expected_topic=request.expected_topic,
+            validator=validator,
         )
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -316,11 +356,13 @@ def validate_image(request: ImageValidationRequest, session=Depends(require_auth
 async def validate_image_upload(
     expected_topic: str = Form(...),
     image: UploadFile = File(...),
+    target_country: str = Form("honduras"),
     session=Depends(require_auth),
 ):
     suffix = os.path.splitext(image.filename or "")[1] or ".jpg"
     temp_path = tempfile.NamedTemporaryFile(delete=False, suffix=suffix).name
     try:
+        validator = _get_validator(target_country)
         content = await image.read()
         if not content:
             raise HTTPException(status_code=400, detail="Uploaded image is empty.")
@@ -332,6 +374,7 @@ async def validate_image_upload(
             image=pil_image,
             image_path_for_ocr=temp_path,
             expected_topic=expected_topic,
+            validator=validator,
         )
     except HTTPException:
         raise
@@ -349,12 +392,14 @@ async def validate_image_upload(
 async def validate_video_upload(
     expected_topic: str = Form(...),
     video: UploadFile = File(...),
+    target_country: str = Form("honduras"),
     session=Depends(require_auth),
 ):
     _ensure_ffmpeg_available()
     suffix = os.path.splitext(video.filename or "")[1] or ".mp4"
     temp_path = tempfile.NamedTemporaryFile(delete=False, suffix=suffix).name
     try:
+        validator = _get_validator(target_country)
         content = await video.read()
         if not content:
             raise HTTPException(status_code=400, detail="Uploaded video is empty.")

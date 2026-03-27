@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { backendFetch } from "@/lib/backend-auth";
 
 type TextResult = {
@@ -9,11 +9,25 @@ type TextResult = {
   dialect_check: string;
 };
 
+const COUNTRY_OPTIONS = [
+  { value: "honduras", label: "Honduras 🇭🇳" },
+  { value: "ecuador", label: "Ecuador 🇪🇨" },
+];
+
 export default function TextValidationForm() {
+  const [targetCountry, setTargetCountry] = useState("honduras");
   const [text, setText] = useState("Vos sos maje si pensas que salir temprano es facil.");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [result, setResult] = useState<TextResult | null>(null);
+
+  useEffect(() => {
+    setText(
+      targetCountry === "honduras"
+        ? "Vos sos maje si pensas que salir temprano es facil."
+        : "Habla nano, que tal todo por Guayaquil?",
+    );
+  }, [targetCountry]);
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault();
@@ -23,7 +37,7 @@ export default function TextValidationForm() {
     try {
       const res = await backendFetch("/validate-text", {
         method: "POST",
-        body: JSON.stringify({ text }),
+        body: JSON.stringify({ text, target_country: targetCountry }),
       });
       const body = await res.json();
       if (!res.ok) {
@@ -46,6 +60,20 @@ export default function TextValidationForm() {
           <span className="rounded-full border border-white/20 bg-white/10 px-2 py-0.5 text-xs text-white/70">
             Dialect Engine
           </span>
+        </div>
+        <div className="space-y-1">
+          <label className="block text-sm font-medium text-white/90">Target Country</label>
+          <select
+            value={targetCountry}
+            onChange={(e) => setTargetCountry(e.target.value)}
+            className="w-full rounded-md border border-white/25 bg-black/20 px-3 py-2 text-sm text-white outline-none focus:border-indigo-300/70"
+          >
+            {COUNTRY_OPTIONS.map((country) => (
+              <option key={country.value} value={country.value} className="bg-[#0b1020] text-white">
+                {country.label}
+              </option>
+            ))}
+          </select>
         </div>
         <textarea
           value={text}
