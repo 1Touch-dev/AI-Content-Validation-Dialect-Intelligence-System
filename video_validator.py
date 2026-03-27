@@ -12,7 +12,36 @@ import easyocr
 # Suppress warnings
 warnings.filterwarnings("ignore")
 
+
+def _resolve_base_dir():
+    """Resolve project base directory with environment override support."""
+    if os.getenv("BASE_DIR"):
+        return os.getenv("BASE_DIR")
+    return os.path.dirname(os.path.abspath(__file__))
+
+
+def _resolve_dialect_model_path(dialect_model_path):
+    """
+    Resolve dialect model path with explicit environment override support.
+    Preference order:
+      1) MODEL_PATH env (absolute or relative to BASE_DIR)
+      2) dialect_model_path argument (absolute or relative to BASE_DIR)
+    """
+    base_dir = _resolve_base_dir()
+    env_model_path = os.getenv("MODEL_PATH")
+
+    if env_model_path:
+        if os.path.isabs(env_model_path):
+            return env_model_path
+        return os.path.join(base_dir, env_model_path)
+
+    if os.path.isabs(dialect_model_path):
+        return dialect_model_path
+    return os.path.join(base_dir, dialect_model_path)
+
+
 class VideoValidator:
+
     # Global "Hard Negative" Anchors to pull CLIP softmax away from generic backgrounds
     GLOBAL_ANCHORS = [
         "European city street with historical architecture",
@@ -85,6 +114,7 @@ class VideoValidator:
         self.config = self.COUNTRY_CONFIG[self.country]
         base_dir = os.environ.get("BASE_DIR", "/app" if os.path.exists("/app/models") else os.path.dirname(os.path.abspath(__file__)))
         self.model_path = os.path.join(base_dir, self.config["model_path"])
+
         self.reports_dir = os.path.join(base_dir, "reports")
         
         if device is None:
@@ -99,7 +129,17 @@ class VideoValidator:
         self.whisper_model = WhisperModel("large-v3-turbo", device="cpu", compute_type="int8")
         
         # 2. Load Dialect Classifier
+# <<<<<<< HEAD
+#         print("Loading Dialect Classifier...")
+#         if not os.path.isdir(self.model_path):
+#             raise FileNotFoundError(
+#                 f"Dialect model directory not found: {self.model_path}. "
+#                 "Set MODEL_PATH to a valid local model folder or train the model first."
+#             )
+#         # device=0 for cuda/mps in pipeline, -1 for cpu
+# =======
         print(f"Loading {self.config['label']} Dialect Classifier...")
+
         hf_device = 0 if self.device in ["cuda", "mps"] else -1
         
         # Safety check for model existence (especially on fresh Ecuador setup)
