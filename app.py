@@ -192,8 +192,13 @@ elif mode == "🖼️ Image Validation":
                 score = scene_results['visual_score']
                 
                 # Show top detected contexts for explainability
-                # Since validate_scene only returns top 1, let's do a quick local expansion for UI
-                all_prompts = validator.config.get('visual_anchors', []) + validator.GLOBAL_ANCHORS
+                # Aligning with contrastive pool to differentiate national markers
+                other_country_anchors = []
+                for c_code, c_data in validator.COUNTRY_CONFIG.items():
+                    if c_code != selected_country:
+                        other_country_anchors.extend(c_data.get('visual_anchors', []))
+                
+                all_prompts = validator.config.get('visual_anchors', []) + validator.GLOBAL_ANCHORS + other_country_anchors
                 inputs = clip_processor(text=all_prompts, images=image, return_tensors="pt", padding=True)
                 for k, v in inputs.items():
                     if hasattr(v, 'to'): inputs[k] = v.to(device)
@@ -205,7 +210,15 @@ elif mode == "🖼️ Image Validation":
                 top_3_indices = probs.argsort()[-3:][::-1]
                 st.write("**Top 3 Detected Visual Contexts:**")
                 for idx in top_3_indices:
-                    st.write(f"- {all_prompts[idx]}: **{probs[idx]*100:.1f}%**")
+                    label = all_prompts[idx]
+                    prob = probs[idx]
+                    
+                    # Highlight if it's an explicit mismatch from another country
+                    mismatch_warning = ""
+                    if label in other_country_anchors:
+                        mismatch_warning = " ⚠️ (CROSS-COUNTRY MISMATCH)"
+                    
+                    st.write(f"- {label}: **{prob*100:.1f}%** {mismatch_warning}")
             
             st.markdown("<div class='metric-card'>", unsafe_allow_html=True)
             st.subheader(f"CLIP Similarity Score: {score}")
