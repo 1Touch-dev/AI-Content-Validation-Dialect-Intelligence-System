@@ -46,3 +46,12 @@ Testing data/
 models/
 reports/
 tests/synthetic_audio/
+
+node_modules/
+.next/
+.nextjs/
+.nextjs-cache/
+.nextjs-cache-*/
+.nextjs-cache-*/
+.nextjs-cache-*/
+.nextjs-cache-*/
