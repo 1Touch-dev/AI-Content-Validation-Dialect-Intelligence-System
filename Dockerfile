@@ -11,25 +11,24 @@ RUN apt-get update && apt-get install -y \
     libgl1 \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy python dependencies
-COPY requirements.txt .
+# Install CPU-only PyTorch FIRST (separate index)
+RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
-# Install Python packages
-# We force CPU PyTorch to avoid massive CUDA images for basic testing, 
-# but in a real prod environment we might use nvidia-docker.
+# Copy and install remaining Python dependencies
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install --no-cache-dir fastapi uvicorn pydantic python-multipart torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 # Copy application files
 COPY app.py .
 COPY video_validator.py .
 COPY services/ ./services/
 COPY monitoring/ ./monitoring/
+COPY .streamlit/ ./.streamlit/
 
 # Create volume mount points
 RUN mkdir -p /app/videos /app/models /app/logs /app/reports
 
-# Map Envs
+# Environment
 ENV MODEL_PATH=/app/models/honduras_dialect_binary_classifier
 ENV LOG_PATH=/app/logs/video_validation.log
 ENV VALIDATION_THRESHOLD=0.7
@@ -38,5 +37,5 @@ ENV VALIDATION_THRESHOLD=0.7
 EXPOSE 8000
 EXPOSE 8501
 
-# Command to run the FastAPI server natively via Uvicorn
+# Default command (overridden by docker-compose per service)
 CMD ["uvicorn", "services.api_server:app", "--host", "0.0.0.0", "--port", "8000"]

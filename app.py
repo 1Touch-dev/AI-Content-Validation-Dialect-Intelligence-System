@@ -8,17 +8,27 @@ from PIL import Image
 import easyocr
 
 # ML Models
-import whisper
+from faster_whisper import WhisperModel
 from transformers import pipeline, CLIPProcessor, CLIPModel
 from video_validator import VideoValidator
 
 # --- Setup & CSS ---
-st.set_page_config(page_title="Honduras AI Validation Studio", page_icon="🇭🇳", layout="wide")
+st.set_page_config(page_title="AI Validation Studio", page_icon="🌍", layout="wide")
 
-st.markdown("""
+# --- UI Sidebar & Country Selection ---
+st.sidebar.title("🌍 Validation Engine")
+st.sidebar.markdown("Test marketing assets instantly against the Dialect & Vision layers.")
+
+selected_country_name = st.sidebar.selectbox("Select Target Country:", ["Honduras 🇭🇳", "Ecuador 🇪🇨"])
+country_map = {"Honduras 🇭🇳": "honduras", "Ecuador 🇪🇨": "ecuador"}
+selected_country = country_map[selected_country_name]
+country_flag = "🇭🇳" if selected_country == "honduras" else "🇪🇨"
+country_name = "Honduras" if selected_country == "honduras" else "Ecuador"
+
+st.markdown(f"""
 <style>
     /* Let Streamlit handle the global theme natively */
-    .tool-badge { 
+    .tool-badge {{ 
         background: linear-gradient(90deg, #4f46e5, #7c3aed); 
         color: white !important;
         padding: 4px 10px; 
@@ -27,30 +37,39 @@ st.markdown("""
         font-weight: 600; 
         margin-right: 8px; 
         display: inline-block;
-    }
-    .metric-card {
+    }}
+    .metric-card {{
         background-color: rgba(150, 150, 150, 0.1);
         padding: 20px;
         border-radius: 15px;
         margin-bottom: 20px;
         border: 1px solid rgba(150, 150, 150, 0.2);
-    }
-    .status-pass { color: #10B981; font-weight: bold; font-size: 1.2rem; }
-    .status-fail { color: #EF4444; font-weight: bold; font-size: 1.2rem; }
+    }}
+    .status-pass {{ color: #10B981; font-weight: bold; font-size: 1.2rem; }}
+    .status-fail {{ color: #EF4444; font-weight: bold; font-size: 1.2rem; }}
 </style>
 """, unsafe_allow_html=True)
 
 # --- Model Caching ---
+# Environment Configuration
+# Use dynamic path detection to support both local and EC2
+current_dir = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_BASE_DIR = os.environ.get("BASE_DIR", current_dir)
+
 @st.cache_resource(show_spinner=False)
-def load_dialect_model():
-    base_dir = os.environ.get("BASE_DIR", "/app" if os.path.exists("/app/models") else "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System")
-    model_path = os.path.join(base_dir, "models", "honduras_dialect_binary_classifier")
-    device = 0 if torch.backends.mps.is_available() else -1
+def load_dialect_model(country):
+    model_folder = "honduras_dialect_binary_classifier" if country == "honduras" else "ecuador_dialect_binary_classifier"
+    model_path = os.path.join(DEFAULT_BASE_DIR, "models", model_folder)
+    
+    if not os.path.exists(model_path):
+        return None
+        
+    device = 0 if hasattr(torch.backends, "mps") and torch.backends.mps.is_available() else -1
     return pipeline("text-classification", model=model_path, tokenizer=model_path, device=device)
 
 @st.cache_resource(show_spinner=False)
 def load_clip_model():
-    device = "mps" if torch.backends.mps.is_available() else "cpu"
+    device = "mps" if hasattr(torch.backends, "mps") and torch.backends.mps.is_available() else "cpu"
     clip_id = "openai/clip-vit-base-patch32"
     model = CLIPModel.from_pretrained(clip_id).to(device)
     processor = CLIPProcessor.from_pretrained(clip_id)
@@ -58,29 +77,25 @@ def load_clip_model():
 
 @st.cache_resource(show_spinner=False)
 def load_whisper_model():
-    return whisper.load_model("base", device="cpu")
+    return WhisperModel("large-v3-turbo", device="cpu", compute_type="int8")
 
 @st.cache_resource(show_spinner=False)
 def load_ocr_model():
     return easyocr.Reader(['en', 'es'], gpu=False)
 
 @st.cache_resource(show_spinner=False)
-def load_video_validator():
+def load_video_validator(country):
     import sys
     base_dir = os.environ.get("BASE_DIR", "/app" if os.path.exists("/app/models") else "/Volumes/Seagate/AI Content Validation & Dialect Intelligence System")
     if base_dir not in sys.path:
         sys.path.append(base_dir)
-    return VideoValidator(device="cpu")
-
-# --- UI Sidebar ---
-st.sidebar.title("🇭🇳 Validation Engine")
-st.sidebar.markdown("Test marketing assets instantly against the Dialect & Vision layers.")
+    return VideoValidator(country=country, device="cpu")
 
 mode = st.sidebar.radio("Select Analysis Mode:", ["🏠 Home Overview", "📝 Text Validator", "🖼️ Image Validation", "🔊 Audio Transcription", "🎥 Video End-to-End"])
 
 # ----------------- HOME -----------------
 if mode == "🏠 Home Overview":
-    st.title("🇭🇳 AI Content Validation & Dialect Intelligence System")
+    st.title(f"{country_flag} {country_name} AI Validation & Dialect System")
     st.markdown("### Interactive ML Studio")
     st.markdown("""
     Welcome to the fully containerized evaluation frontend. This interface allows you to test raw unformatted inputs against the AI infrastructure directly.
@@ -88,7 +103,7 @@ if mode == "🏠 Home Overview":
     **Under the Hood (Toolchain):**
     - <span class='tool-badge'>HuggingFace Transformers</span> Validates linguistic slang boundaries.
     - <span class='tool-badge'>OpenAI CLIP</span> Maps multimodal visual grounding against texts.
-    - <span class='tool-badge'>OpenAI Whisper</span> Converts raw audio sequences to Spanish strings.
+    - <span class='tool-badge'>Faster-Whisper (large-v3-turbo)</span> State-of-the-art multilingual ASR with auto language detection.
     - <span class='tool-badge'>FFmpeg</span> Slices MP4 boundaries into discrete visual/audio payloads.
     - <span class='tool-badge'>PyTorch</span> Hardware-accelerated Apple Silicon & CPU matrix computations.
     """, unsafe_allow_html=True)
@@ -98,28 +113,33 @@ if mode == "🏠 Home Overview":
 # ----------------- TEXT -----------------
 elif mode == "📝 Text Validator":
     st.title("📝 Text Dialect Validation")
-    st.markdown("<span class='tool-badge'>Tools: HuggingFace Pipeline -> Honduran Binary Check</span>", unsafe_allow_html=True)
+    st.markdown(f"<span class='tool-badge'>Tools: HuggingFace Pipeline -> {country_name} Binary Check</span>", unsafe_allow_html=True)
     
-    text_input = st.text_area("Enter conversational Spanish text to test dialect:", "Vos sos maje si pensás que salir temprano es fácil.")
+    default_text = "Vos sos maje si pensás que salir temprano es fácil." if selected_country == "honduras" else "Habla ñaño, qué tal todo por Guayaquil?"
+    text_to_validate = st.text_area("Enter conversational Spanish text to test dialect:", default_text)
     
-    if st.button("Validate Text"):
-        with st.spinner("Executing NLP Inference..."):
-            classifier = load_dialect_model()
-            res = classifier(text_input)[0]
-            
-            prediction = res['label']
-            confidence = res['score']
-            
+    if text_to_validate:
+        if st.button("Validate Dialect Integrity"):
+            with st.spinner("Analyzing Linguistic Patterns..."):
+                validator = load_video_validator(selected_country)
+                results = validator.validate_text(text_to_validate)
+                
+                prediction = results['prediction']
+                confidence = results['confidence']
+                
             st.markdown("<div class='metric-card'>", unsafe_allow_html=True)
-            st.subheader("Inference Result")
-            cols = st.columns(2)
-            cols[0].metric("Predicted Dialect", prediction)
-            cols[1].metric("Model Confidence", f"{confidence*100:.2f}%")
+            st.subheader("Analysis Results")
+            st.metric("Detected Dialect", prediction, f"{confidence*100:.2f}% Confidence")
             
-            if prediction == "Honduras":
-                st.success("✅ Semantic Match: This text aligns with Honduran colloquialisms / dialect patterns.")
+            if results.get('slang_found') or results.get('entities_found'):
+                st.success(f"✅ **Localisms Detected:** {results['slang_found'] + results['entities_found']}")
+            elif results.get('is_neutral'):
+                st.warning("ℹ️ **Neutral Spanish Alert:** This text appears generic/international. No specific regional markers detected.")
+            
+            if results['pass']:
+                st.success(f"✅ Text aligns with {country_name} dialect standards.")
             else:
-                st.error("❌ Semantic Mismatch: This text appears to be standard Spanish or an alternative regional dialect.")
+                st.error(f"❌ Text does not meet {country_name} dialect requirements (Too generic or incorrect region).")
             st.markdown("</div>", unsafe_allow_html=True)
 
 # ----------------- IMAGE -----------------
@@ -128,7 +148,8 @@ elif mode == "🖼️ Image Validation":
     st.markdown("<span class='tool-badge'>Tools: Pillow (PIL) -> OpenAI CLIP-ViT -> Cosine Similarity</span>", unsafe_allow_html=True)
     
     uploaded_image = st.file_uploader("Upload an Image", type=["png", "jpg", "jpeg", "webp"])
-    expected_topic = st.text_input("Expected Content / Topic", "Honduras scenery, beautiful people")
+    default_topic = f"{country_name} scenery, beautiful people"
+    expected_topic = st.text_input("Expected Content / Topic", default_topic)
     
     if uploaded_image and st.button("Validate Image"):
         image = Image.open(uploaded_image).convert("RGB")
@@ -148,7 +169,11 @@ elif mode == "🖼️ Image Validation":
             text_embedded = " ".join(ocr_results).lower()
             os.remove(img_path)
             
-            blacklist = ["ecuador", "mexico", "costa rica", "guatemala", "colombia", "peru", "argentina", "chile", "uruguay", "paraguay", "bolivia", "venezuela"]
+            blacklist_map = {
+                "honduras": ["ecuador", "mexico", "costa rica", "guatemala", "colombia", "peru"],
+                "ecuador": ["honduras", "mexico", "colombia", "peru", "chile", "argentina"]
+            }
+            blacklist = blacklist_map[selected_country]
             ocr_trigger = False
             for b in blacklist:
                 if b in text_embedded:
@@ -159,34 +184,43 @@ elif mode == "🖼️ Image Validation":
             if ocr_trigger:
                 score = 0.0
             else:
-                # --- COMPARATIVE SOFTMAX CLIP ---
-                st.info("🔍 Running Comparative Zero-Shot CLIP Models...")
-                target_list = [expected_topic, "Ecuador scenery or people", "Mexico scenery or people", "Generic unbranded people or background"]
+                # --- ADVANCED ENSEMBLE CLIP ---
+                st.info("🔍 Running Advanced Visual Scene Grounding (Ensemble)...")
+                validator = load_video_validator(selected_country)
                 
-                inputs = clip_processor(text=target_list, images=image, return_tensors="pt", padding=True)
+                scene_results = validator.validate_scene(image, clip_model, clip_processor, device)
+                score = scene_results['visual_score']
+                
+                # Show top detected contexts for explainability
+                # Since validate_scene only returns top 1, let's do a quick local expansion for UI
+                all_prompts = validator.config.get('visual_anchors', []) + validator.GLOBAL_ANCHORS
+                inputs = clip_processor(text=all_prompts, images=image, return_tensors="pt", padding=True)
                 for k, v in inputs.items():
                     if hasattr(v, 'to'): inputs[k] = v.to(device)
-                    
                 with torch.no_grad():
                     outputs = clip_model(**inputs)
-                    
-                probs = outputs.logits_per_image.softmax(dim=1)
-                score = round(probs[:, 0].mean().item(), 4)
+                probs = outputs.logits_per_image.softmax(dim=1).cpu().numpy()[0]
+                
+                # Get Top 3
+                top_3_indices = probs.argsort()[-3:][::-1]
+                st.write("**Top 3 Detected Visual Contexts:**")
+                for idx in top_3_indices:
+                    st.write(f"- {all_prompts[idx]}: **{probs[idx]*100:.1f}%**")
             
             st.markdown("<div class='metric-card'>", unsafe_allow_html=True)
             st.subheader(f"CLIP Similarity Score: {score}")
             st.progress(score)
             
             if score > 0.5:
-                st.success(f"✅ Visuals align sufficiently with the target context: '{expected_topic}' (Detected as explicitly Honduran)")
+                st.success(f"✅ Visuals align sufficiently with the target context: '{expected_topic}' (Detected as explicitly {country_name})")
             else:
-                st.error(f"❌ Visuals diverge from the requested marketing target. (Identified as Non-Honduran or explicitly Blacklisted)")
+                st.error(f"❌ Visuals diverge from the requested marketing target. (Identified as Non-{country_name} or explicitly Blacklisted)")
             st.markdown("</div>", unsafe_allow_html=True)
 
 # ----------------- AUDIO -----------------
 elif mode == "🔊 Audio Transcription":
     st.title("🔊 Audio Execution & Dialect Recognition")
-    st.markdown("<span class='tool-badge'>Tools: OpenAI Whisper (ASR) -> HuggingFace Transformers</span>", unsafe_allow_html=True)
+    st.markdown("<span class='tool-badge'>Tools: Faster-Whisper (large-v3-turbo) -> HuggingFace Transformers</span>", unsafe_allow_html=True)
     
     uploaded_audio = st.file_uploader("Drop Speech/Audio Track", type=["mp3", "wav", "m4a"])
     
@@ -195,16 +229,21 @@ elif mode == "🔊 Audio Transcription":
         if st.button("Process Audio Pipeline"):
             with st.spinner("Loading Whisper & Extracting Transcript..."):
                 whisper_model = load_whisper_model()
-                classifier = load_dialect_model()
+                classifier = load_dialect_model(selected_country)
+                
+                if classifier is None:
+                    st.error(f"Error: Dialect model for {country_name} not found. Please run training first.")
+                    st.stop()
                 
                 # Write to temp file
                 with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp:
                     tmp.write(uploaded_audio.read())
                     temp_path = tmp.name
                     
-                # 1. Transcribe
-                result = whisper_model.transcribe(temp_path, language="es")
-                transcript = result["text"].strip()
+                # 1. Transcribe (faster-whisper large-v3-turbo, auto-detect language)
+                segments, info = whisper_model.transcribe(temp_path, beam_size=5, vad_filter=False, no_speech_threshold=0.8)
+                transcript = " ".join([segment.text for segment in segments]).strip()
+                detected_lang = info.language
                 os.remove(temp_path)
                 
             st.markdown("<div class='metric-card'>", unsafe_allow_html=True)
@@ -212,14 +251,21 @@ elif mode == "🔊 Audio Transcription":
             st.write(f"> *{transcript if transcript else '[Silence / No Speech Detected]'}*")
             
             if transcript:
-                # 2. Re-route to Dialect Check
-                with st.spinner("Passing string to Dialect Classifier..."):
-                    res = classifier(transcript)[0]
-                    prediction = res['label']
-                    confidence = res['score']
+                # 2. Re-route to Refined Dialect Check
+                with st.spinner("Analyzing Dialect & Localisms..."):
+                    validator = load_video_validator(selected_country)
+                    text_results = validator.validate_text(transcript)
                     
-                st.subheader("2. Dialect Check (HuggingFace)")
+                    prediction = text_results['prediction']
+                    confidence = text_results['confidence']
+                    
+                st.subheader("2. Dialect Check (HuggingFace + Localisms)")
                 st.metric("Detected Dialect", prediction, f"{confidence*100:.2f}% Confidence")
+                
+                if text_results.get('slang_found') or text_results.get('entities_found'):
+                    st.success(f"✅ **Localisms Detected:** {text_results['slang_found'] + text_results['entities_found']}")
+                elif text_results.get('is_neutral'):
+                    st.warning("ℹ️ **Neutral Spanish Alert:** No country-specific slang or entities detected in this recording.")
             else:
                 st.error("Pipeline Terminated: Missing spoken word parameters.")
             st.markdown("</div>", unsafe_allow_html=True)
@@ -229,27 +275,35 @@ elif mode == "🎥 Video End-to-End":
     st.title("🎥 Full E2E Video Validation")
     st.markdown("""
         <span class='tool-badge'>FFmpeg (Audio/Frame Slicing)</span>
-        <span class='tool-badge'>OpenAI Whisper</span>
+        <span class='tool-badge'>Faster-Whisper (large-v3-turbo)</span>
         <span class='tool-badge'>PyTorch CLIP</span>
         <span class='tool-badge'>HuggingFace Dialect Engine</span>
     """, unsafe_allow_html=True)
     
     uploaded_video = st.file_uploader("Upload Marketing MP4 Reel", type=["mp4", "mov"])
-    expected_topic_vid = st.text_input("Expected Video Context", "Honduras scenery, beautiful people")
+    default_video_topic = f"{country_name} scenery, beautiful people"
+    expected_topic_vid = st.text_input("Expected Video Context", default_video_topic)
     
     if uploaded_video:
         st.video(uploaded_video)
         
         if st.button("Initialize Master Inference Engine"):
             st.info("⚙️ Routing MP4 to native VideoValidator Class...")
-            
+
+            # Write in 8MB chunks to avoid loading entire file into RAM
             with tempfile.NamedTemporaryFile(delete=False, suffix=".mp4") as tmpvid:
-                tmpvid.write(uploaded_video.read())
+                chunk_size = 8 * 1024 * 1024  # 8MB
+                uploaded_video.seek(0)
+                while True:
+                    chunk = uploaded_video.read(chunk_size)
+                    if not chunk:
+                        break
+                    tmpvid.write(chunk)
                 temp_vid_path = tmpvid.name
-                
-            validator = load_video_validator()
-            
-            with st.spinner("Processing FFmpeg, Whisper, and CLIP nodes asynchronously... (May take 30s)"):
+
+            validator = load_video_validator(selected_country)
+
+            with st.spinner("Processing FFmpeg, Whisper, and CLIP nodes (sampling 8 frames max)... Large videos take ~60-90s on CPU."):
                 res = validator.validate_video(temp_vid_path, expected_content=expected_topic_vid)
                 os.remove(temp_vid_path)
                 
@@ -261,13 +315,29 @@ elif mode == "🎥 Video End-to-End":
                 cols[1].markdown(f"Status: <span class='{status_color}'>{res['validation_status']}</span>", unsafe_allow_html=True)
                 
                 st.markdown("### Process Breakdown")
-                st.write(f"**🗣️ Audio Layer (Whisper + HF)**:")
-                st.write(f"- Transcript: '{res['transcript']}'")
-                st.write(f"- Dialect Found: {res['dialect_predicted']} ({res['dialect_check'].upper()})")
+                st.write(f"**🗣️ Audio Layer (large-v3-turbo + HF)**:")
+                if res.get('mute_detected'):
+                    st.warning("🔇 Mute or Silence detected. Validation shifted 100% to Vision/OCR.")
+                else:
+                    lang_info = f" [Detected: {res.get('detected_language', '?')}]" if res.get('detected_language') else ""
+                    st.write(f"- Transcript: '{res['transcript']}'{lang_info}")
+                    st.write(f"- Dialect Found: {res['dialect_predicted']} ({res['dialect_check'].upper()})")
                 
-                st.write(f"**👁️ Vision Layer (CLIP)**:")
+                st.write(f"**👁️ Vision Layer (CLIP + OCR)**:")
                 st.write(f"- Context Evaluated: '{expected_topic_vid}'")
-                st.write(f"- Semantic Frame Match Score: {res['content_match_score']:.4f}")
+                st.write(f"- Semantic Match: {res['content_match_score']:.4f}")
+                if res.get('ocr_positive_match'):
+                    st.success("✅ Positive local markers (OCR) detected in media frames.")
+
+                st.write(f"**🌍 Geographic & Localism Verification**:")
+                if not res.get('geographic_verification'):
+                    st.error(f"⚠️ **Geographic Mismatch!** Detected international entities: {res.get('detected_entities', [])}")
+                    st.info("Validation fail: Video content belongs to a different geographic region (e.g., European sports).")
+                elif res.get('detected_entities'):
+                    st.success(f"✅ **Localism Verified.** Detected local entities/slang: {res.get('detected_entities')}")
+                else:
+                    st.info("ℹ️ Neutral context. No specific local markers or international mismatches detected.")
+                
                 st.markdown("</div>", unsafe_allow_html=True)
             else:
                 st.error("Pipeline Crashed: Video structurally compromised or codec fault.")
