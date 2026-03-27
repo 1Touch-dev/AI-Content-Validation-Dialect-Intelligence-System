@@ -12,6 +12,7 @@ __pycache__/
 .AppleDouble
 .Trashes
 .Spotlight-V100
+*.pem
 
 # Heavy Models, Media & Massive Data (800MB Timeout Prevention)
 *.mp4
@@ -21,7 +22,6 @@ __pycache__/
 *.pt
 *.bin
 *.safetensors
-models/
 videos/
 raw_videos/
 Test data/
@@ -33,3 +33,25 @@ datasets/ruhani_test/media/
 logs/
 .streamlit/
 __MACOSX/
+
+models.zip
+models.zip
+venv_local
+.vscode/
+to be given to antigravity.txt
+datasets/
+Test data/
+Testing data/
+*.log
+models/
+reports/
+tests/synthetic_audio/
+
+node_modules/
+.next/
+.nextjs/
+.nextjs-cache/
+.nextjs-cache-*/
+.nextjs-cache-*/
+.nextjs-cache-*/
+.nextjs-cache-*/

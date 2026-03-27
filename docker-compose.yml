@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   api_server:
     build: .
@@ -12,6 +10,7 @@ services:
       - ./logs:/app/logs
       - ./reports:/app/reports
     environment:
+      - BASE_DIR=/app
       - MODEL_PATH=/app/models/honduras_dialect_binary_classifier
       - LOG_PATH=/app/logs/video_validation.log
       - VALIDATION_THRESHOLD=0.7
@@ -29,9 +28,10 @@ services:
       - ./logs:/app/logs
       - ./reports:/app/reports
     environment:
+      - BASE_DIR=/app
       - STREAMLIT_SERVER_PORT=8501
       - STREAMLIT_SERVER_ADDRESS=0.0.0.0
-    command: streamlit run app.py
+    command: streamlit run app.py --server.port 8501 --server.address 0.0.0.0
     restart: unless-stopped
 
   monitoring_dashboard:
@@ -45,7 +45,8 @@ services:
       - ./logs:/app/logs
       - ./reports:/app/reports
     environment:
+      - BASE_DIR=/app
       - STREAMLIT_SERVER_PORT=8502
       - STREAMLIT_SERVER_ADDRESS=0.0.0.0
-    command: streamlit run monitoring/system_dashboard.py
+    command: streamlit run monitoring/system_dashboard.py --server.port 8502 --server.address 0.0.0.0
     restart: unless-stopped
