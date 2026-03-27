@@ -4,6 +4,8 @@ import torch
 from faster_whisper import WhisperModel
 import warnings
 import tempfile
+import shutil
+import glob
 import ffmpeg
 from transformers import pipeline, CLIPProcessor, CLIPModel
 from PIL import Image
@@ -38,6 +40,30 @@ def _resolve_dialect_model_path(dialect_model_path):
     if os.path.isabs(dialect_model_path):
         return dialect_model_path
     return os.path.join(base_dir, dialect_model_path)
+
+
+def _resolve_ffmpeg_binary(binary_name, env_key):
+    """Resolve ffmpeg/ffprobe path from env, PATH, or common Windows install folders."""
+    env_path = os.getenv(env_key, "").strip()
+    if env_path and os.path.isfile(env_path):
+        return env_path
+
+    from_path = shutil.which(binary_name)
+    if from_path:
+        return from_path
+
+    if os.name == "nt":
+        common_patterns = [
+            os.path.join("C:\\ffmpeg", "**", f"{binary_name}.exe"),
+            os.path.join("C:\\Program Files", "**", f"{binary_name}.exe"),
+            os.path.join("C:\\Program Files (x86)", "**", f"{binary_name}.exe"),
+        ]
+        for pattern in common_patterns:
+            matches = glob.glob(pattern, recursive=True)
+            if matches:
+                return matches[0]
+
+    return None
 
 
 class VideoValidator:
@@ -163,11 +189,18 @@ class VideoValidator:
             fh = logging.FileHandler(os.path.join(self.logs_dir, "video_validation.log"))
             fh.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
             self.logger.addHandler(fh)
+
+        self.ffmpeg_cmd = _resolve_ffmpeg_binary("ffmpeg", "FFMPEG_PATH")
+        self.ffprobe_cmd = _resolve_ffmpeg_binary("ffprobe", "FFPROBE_PATH")
             
         print("Initialization complete.")
 
     def extract_audio(self, video_path):
         """Extracts audio from video to a temporary WAV file with loudnorm."""
+        if not self.ffmpeg_cmd:
+            raise FileNotFoundError(
+                "FFmpeg executable not found. Install FFmpeg and set PATH, or set FFMPEG_PATH to ffmpeg.exe."
+            )
         temp_audio = tempfile.NamedTemporaryFile(suffix=".wav", delete=False).name
         try:
             (
@@ -176,7 +209,7 @@ class VideoValidator:
                 # ac=1 (mono), ar='16k' (Whisper optimal), af='loudnorm' (normalization)
                 .output(temp_audio, acodec='pcm_s16le', ac=1, ar='16k', af='loudnorm', loglevel='quiet')
                 .overwrite_output()
-                .run(capture_stdout=True, capture_stderr=True)
+                .run(cmd=self.ffmpeg_cmd, capture_stdout=True, capture_stderr=True)
             )
             return temp_audio
         except ffmpeg.Error as e:
@@ -187,11 +220,18 @@ class VideoValidator:
 
     def extract_frames(self, video_path, fps=0.5, max_frames=8):
         """Extracts frames from video, capped at max_frames for CPU performance."""
+        if not self.ffmpeg_cmd:
+            raise FileNotFoundError(
+                "FFmpeg executable not found. Install FFmpeg and set PATH, or set FFMPEG_PATH to ffmpeg.exe."
+            )
         temp_dir = tempfile.mkdtemp()
         output_pattern = os.path.join(temp_dir, "frame_%04d.jpg")
         try:
             # Get video duration first so we can sample evenly
-            probe = ffmpeg.probe(video_path)
+            if self.ffprobe_cmd:
+                probe = ffmpeg.probe(video_path, cmd=self.ffprobe_cmd)
+            else:
+                probe = ffmpeg.probe(video_path)
             duration = float(probe['format'].get('duration', 0))
             if duration > 0 and max_frames > 0:
                 # Clamp fps so we never extract more than max_frames total
@@ -204,7 +244,7 @@ class VideoValidator:
                 .input(video_path)
                 .filter('fps', fps=capped_fps)
                 .output(output_pattern, loglevel='quiet')
-                .run(capture_stdout=True, capture_stderr=True)
+                .run(cmd=self.ffmpeg_cmd, capture_stdout=True, capture_stderr=True)
             )
 
             frames = []
@@ -569,6 +609,7 @@ class VideoValidator:
             "transcript": transcript,
             "detected_language": detected_language,
             "mute_detected": is_mute,
+            "geographic_verification": not context_report['has_context_mismatch'],
             "dialect_check": "pass" if dialect_pass else "fail",
             "dialect_predicted": str(dialect_prediction),
             "dialect_confidence": float(dialect_confidence),

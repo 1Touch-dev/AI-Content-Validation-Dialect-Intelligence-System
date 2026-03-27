@@ -11,6 +11,12 @@ class VideoValidationResponse(BaseModel):
     dialect_confidence: float
     content_match_score: float
     validation_status: str
+    validation_score: float | None = None
+    dialect_check: str | None = None
+    detected_language: str | None = None
+    expected_content: str | None = None
+    geographic_verification: bool | None = None
+    detected_entities: list[str] | None = None
 
 
 class TextValidationRequest(BaseModel):

@@ -2,7 +2,6 @@ import os
 import sys
 import tempfile
 import shutil
-import torch
 from PIL import Image
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import Depends, Header
@@ -135,23 +134,14 @@ def _validate_image_core(
                 validation_status="FAIL",
             )
 
-    clip_targets = current_validator.config.get("clip_targets", [])
-    fallback_targets = ["Ecuador scenery or people", "Mexico scenery or people", "Generic unbranded people or background"]
-    target_list = [expected_topic] + (clip_targets[1:4] if len(clip_targets) > 1 else fallback_targets)
-    inputs = current_validator.clip_processor(
-        text=target_list,
-        images=image,
-        return_tensors="pt",
-        padding=True,
+    # Use the same ensemble scene-grounding logic as Streamlit for consistency.
+    scene_results = current_validator.validate_scene(
+        image,
+        current_validator.clip_model,
+        current_validator.clip_processor,
+        current_validator.device,
     )
-    for key, value in inputs.items():
-        if hasattr(value, "to"):
-            inputs[key] = value.to(current_validator.device)
-
-    with torch.no_grad():
-        outputs = current_validator.clip_model(**inputs)
-    probs = outputs.logits_per_image.softmax(dim=1)
-    score = round(probs[:, 0].mean().item(), 4)
+    score = round(float(scene_results.get("visual_score", 0.0)), 4)
 
     return ImageValidationResponse(
         expected_topic=expected_topic,
@@ -241,18 +231,13 @@ def validate_text(request: TextValidationRequest, session=Depends(require_auth))
         raise HTTPException(status_code=400, detail="Text cannot be empty.")
 
     try:
-        if not current_validator.dialect_classifier:
-            raise HTTPException(
-                status_code=500,
-                detail=f"Dialect model for {current_validator.config['label']} is not available.",
-            )
-        res = current_validator.dialect_classifier(text)[0]
-        prediction = res["label"]
-        confidence = round(res["score"], 4)
+        text_results = current_validator.validate_text(text)
+        prediction = text_results.get("prediction", "Other")
+        confidence = round(float(text_results.get("confidence", 0.0)), 4)
         return TextValidationResponse(
             dialect_prediction=prediction,
             dialect_confidence=confidence,
-            dialect_check="pass" if prediction == current_validator.config["label"] else "fail",
+            dialect_check="pass" if text_results.get("pass") else "fail",
         )
     except HTTPException:
         raise
@@ -268,21 +253,28 @@ def validate_audio(request: AudioValidationRequest, session=Depends(require_auth
         raise HTTPException(status_code=400, detail="Audio file not found.")
 
     try:
-        result = current_validator.whisper_model.transcribe(request.audio_path, language="es")
-        transcript = (result.get("text") or "").strip()
+        segments, _info = current_validator.whisper_model.transcribe(
+            request.audio_path,
+            beam_size=5,
+            vad_filter=False,
+            no_speech_threshold=0.8,
+        )
+        transcript = " ".join([segment.text for segment in segments]).strip()
 
         prediction = "Other"
         confidence = 0.0
-        if transcript and current_validator.dialect_classifier:
-            cls = current_validator.dialect_classifier(transcript)[0]
-            prediction = cls["label"]
-            confidence = round(cls["score"], 4)
+        dialect_check = "fail"
+        if transcript:
+            text_results = current_validator.validate_text(transcript)
+            prediction = text_results.get("prediction", "Other")
+            confidence = round(float(text_results.get("confidence", 0.0)), 4)
+            dialect_check = "pass" if text_results.get("pass") else "fail"
 
         return AudioValidationResponse(
             transcript=transcript,
             dialect_prediction=prediction,
             dialect_confidence=confidence,
-            dialect_check="pass" if prediction == current_validator.config["label"] else "fail",
+            dialect_check=dialect_check,
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -305,21 +297,28 @@ async def validate_audio_upload(
         with open(temp_path, "wb") as f:
             f.write(content)
 
-        result = current_validator.whisper_model.transcribe(temp_path, language="es")
-        transcript = (result.get("text") or "").strip()
+        segments, _info = current_validator.whisper_model.transcribe(
+            temp_path,
+            beam_size=5,
+            vad_filter=False,
+            no_speech_threshold=0.8,
+        )
+        transcript = " ".join([segment.text for segment in segments]).strip()
 
         prediction = "Other"
         confidence = 0.0
-        if transcript and current_validator.dialect_classifier:
-            cls = current_validator.dialect_classifier(transcript)[0]
-            prediction = cls["label"]
-            confidence = round(cls["score"], 4)
+        dialect_check = "fail"
+        if transcript:
+            text_results = current_validator.validate_text(transcript)
+            prediction = text_results.get("prediction", "Other")
+            confidence = round(float(text_results.get("confidence", 0.0)), 4)
+            dialect_check = "pass" if text_results.get("pass") else "fail"
 
         return AudioValidationResponse(
             transcript=transcript,
             dialect_prediction=prediction,
             dialect_confidence=confidence,
-            dialect_check="pass" if prediction == current_validator.config["label"] else "fail",
+            dialect_check=dialect_check,
         )
     except HTTPException:
         raise

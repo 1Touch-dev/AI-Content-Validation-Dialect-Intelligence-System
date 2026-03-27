@@ -6147,5 +6147,199 @@
         "content_match_score": 0.9982,
         "validation_score": 0.9975,
         "validation_status": "PASS"
+    },
+    {
+        "video_file": "tmplnc5im2h.mp4",
+        "transcript": "We'll be right back.",
+        "detected_language": "en",
+        "mute_detected": false,
+        "dialect_check": "fail",
+        "dialect_predicted": "Non-Spanish (en)",
+        "dialect_confidence": 0.0,
+        "expected_content": "Honduras scenery, beautiful people",
+        "content_match_score": 0.7452264316380024,
+        "ocr_positive_match": false,
+        "detected_entities": [],
+        "validation_score": 0.3726,
+        "validation_status": "FAIL"
+    },
+    {
+        "video_file": "tmpo2ew3_r_.mp4",
+        "transcript": "We'll be right back.",
+        "detected_language": "en",
+        "mute_detected": false,
+        "dialect_check": "fail",
+        "dialect_predicted": "Non-Spanish (en)",
+        "dialect_confidence": 0.0,
+        "expected_content": "Ecuador scenery, beautiful people",
+        "content_match_score": 1.0,
+        "ocr_positive_match": true,
+        "detected_entities": [],
+        "validation_score": 0.5,
+        "validation_status": "FAIL"
+    },
+    {
+        "video_file": "tmp6ph25616.mp4",
+        "transcript": "We'll be right back.",
+        "detected_language": "en",
+        "mute_detected": false,
+        "dialect_check": "fail",
+        "dialect_predicted": "Non-Spanish (en)",
+        "dialect_confidence": 0.0,
+        "expected_content": "Ecuador scenery, beautiful people",
+        "content_match_score": 1.0,
+        "ocr_positive_match": true,
+        "detected_entities": [],
+        "validation_score": 0.5,
+        "validation_status": "FAIL"
+    },
+    {
+        "video_file": "tmppzik9ub2.mp4",
+        "transcript": "Buenas noches y bienvenidos a la reacción post-partido de la Premier League.  Fue una gran noche para el Newcastle, que consiguió una victoria 1-0 frente al Chelsea en Stamford Bridge.  Anthony Gordon marcó en el minuto 18 tras una rápida jugada que sorprendió a la defensa, ese gol fue suficiente.  Los aficionados del Newcastle celebran estos tres puntos vitales para su equipo.  El entrenador Eddie Howe elogió la disciplina de su equipo y cómo ejecutaron perfectamente el plan de juego.  Liam Rossenior, DT del Chelsea, admitió la falta de eficacia de su equipo en un resultado frustrante.  Gracias por acompañarnos y sigan atentos para más actualizaciones del fútbol.",
+        "detected_language": "es",
+        "mute_detected": false,
+        "dialect_check": "fail",
+        "dialect_predicted": "Neutral/International Spanish",
+        "dialect_confidence": 0.8396,
+        "expected_content": "Honduras scenery, beautiful people",
+        "content_match_score": 0.7260577981360257,
+        "ocr_positive_match": false,
+        "detected_entities": [
+            "chelsea",
+            "newcastle",
+            "premier league"
+        ],
+        "validation_score": 0.3914,
+        "validation_status": "FAIL"
+    },
+    {
+        "video_file": "tmpvewy0981.mp4",
+        "transcript": "Buenas noches y bienvenidos a la reacción post-partido de la Premier League.  Fue una gran noche para el Newcastle, que consiguió una victoria 1-0 frente al Chelsea en Stamford Bridge.  Anthony Gordon marcó en el minuto 18 tras una rápida jugada que sorprendió a la defensa, ese gol fue suficiente.  Los aficionados del Newcastle celebran estos tres puntos vitales para su equipo.  El entrenador Eddie Howe elogió la disciplina de su equipo y cómo ejecutaron perfectamente el plan de juego.  Liam Rossenior, DT del Chelsea, admitió la falta de eficacia de su equipo en un resultado frustrante.  Gracias por acompañarnos y sigan atentos para más actualizaciones del fútbol.",
+        "detected_language": "es",
+        "mute_detected": false,
+        "dialect_check": "pass",
+        "dialect_predicted": "Ecuador",
+        "dialect_confidence": 0.9999,
+        "expected_content": "Ecuador scenery, beautiful people",
+        "content_match_score": 0.26165765992482193,
+        "ocr_positive_match": false,
+        "detected_entities": [
+            "chelsea",
+            "newcastle",
+            "premier league"
+        ],
+        "validation_score": 0.3154,
+        "validation_status": "FAIL"
+    },
+    {
+        "video_file": "tmpe9nytidy.mp4",
+        "transcript": "Buenas noches y bienvenidos a la reacción post-partido de la Premier League.  Fue una gran noche para el Newcastle, que consiguió una victoria 1-0 frente al Chelsea en Stamford Bridge.  Anthony Gordon marcó en el minuto 18 tras una rápida jugada que sorprendió a la defensa.  Ese gol fue suficiente.  Los aficionados del Newcastle celebran estos tres puntos vitales para su equipo.  El entrenador Eddie Howe elogió la disciplina de su equipo y cómo ejecutaron perfectamente el plan de juego.  Liam Rossenior, DT del Chelsea, admitió la falta de eficacia de su equipo en un resultado frustrante.  Gracias por acompañarnos y sigan atentos para más actualizaciones del fútbol.",
+        "detected_language": "es",
+        "mute_detected": false,
+        "dialect_check": "fail",
+        "dialect_predicted": "Neutral/International Spanish",
+        "dialect_confidence": 0.8088,
+        "expected_content": "Honduras scenery, beautiful people",
+        "content_match_score": 0.5288184667006135,
+        "ocr_positive_match": false,
+        "detected_entities": [
+            "chelsea",
+            "newcastle",
+            "premier league"
+        ],
+        "validation_score": 0.5685,
+        "validation_status": "FAIL"
+    },
+    {
+        "video_file": "tmpja_e96e4.mp4",
+        "transcript": "Buenas noches y bienvenidos a la reacción post-partido de la Premier League.  Fue una gran noche para el Newcastle, que consiguió una victoria 1-0 frente al Chelsea en Stamford Bridge.  Anthony Gordon marcó en el minuto 18 tras una rápida jugada que sorprendió a la defensa.  Ese gol fue suficiente.  Los aficionados del Newcastle celebran estos tres puntos vitales para su equipo.  El entrenador Eddie Howe elogió la disciplina de su equipo y cómo ejecutaron perfectamente el plan de juego.  Liam Rossenior, DT del Chelsea, admitió la falta de eficacia de su equipo en un resultado frustrante.  Gracias por acompañarnos y sigan atentos para más actualizaciones del fútbol.",
+        "detected_language": "es",
+        "mute_detected": false,
+        "dialect_check": "pass",
+        "dialect_predicted": "Ecuador",
+        "dialect_confidence": 0.9999,
+        "expected_content": "Ecuador scenery, beautiful people",
+        "content_match_score": 0.1699677681317553,
+        "ocr_positive_match": false,
+        "detected_entities": [
+            "chelsea",
+            "newcastle",
+            "premier league"
+        ],
+        "validation_score": 0.4972,
+        "validation_status": "FAIL"
+    },
+    {
+        "video_file": "tmpa7m21wc1.mp4",
+        "transcript": "Buenas noches y bienvenidos a la reacción post-partido de la Premier League.  Fue una gran noche para el Newcastle, que consiguió una victoria 1-0 frente al Chelsea en Stamford Bridge.  Anthony Gordon marcó en el minuto 18 tras una rápida jugada que sorprendió a la defensa.  Ese gol fue suficiente.  Los aficionados del Newcastle celebran estos tres puntos vitales para su equipo.  El entrenador Eddie Howe elogió la disciplina de su equipo y cómo ejecutaron perfectamente el plan de juego.  Liam Rossenior, DT del Chelsea, admitió la falta de eficacia de su equipo en un resultado frustrante.  Gracias por acompañarnos y sigan atentos para más actualizaciones del fútbol.",
+        "detected_language": "es",
+        "mute_detected": false,
+        "dialect_check": "pass",
+        "dialect_predicted": "Ecuador",
+        "dialect_confidence": 0.9999,
+        "expected_content": "Ecuador scenery, beautiful people",
+        "content_match_score": 0.1699677681317553,
+        "ocr_positive_match": false,
+        "detected_entities": [
+            "chelsea",
+            "newcastle",
+            "premier league"
+        ],
+        "validation_score": 0.4972,
+        "validation_status": "FAIL"
+    },
+    {
+        "video_file": "tmph_l68_70.mp4",
+        "transcript": "Momentos opuestos en el fútbol ecuatoriano. Mientras Liga de Quito atraviesa un complicado  presente bajo el mando de Tiago Núñez, con resultados irregulares y muchas dudas en su  juego, su ex entrenador, Pablo Vitamina Sánchez, vive una realidad totalmente distinta. El  argentino, ahora en Olimpia de Paraguay, ha logrado levantar a su nuevo equipo y empieza  a recuperar protagonismo. Una comparación que no pasa desapercibida y que enciende aún más el debate  entre los hinchas salvos. Dos caminos distintos para una misma historia.",
+        "detected_language": "es",
+        "mute_detected": false,
+        "geographic_verification": false,
+        "dialect_check": "fail",
+        "dialect_predicted": "Other",
+        "dialect_confidence": 0.9898,
+        "expected_content": "Honduras scenery, beautiful people",
+        "content_match_score": 0.6010764640523121,
+        "ocr_positive_match": false,
+        "detected_entities": [
+            "quito"
+        ],
+        "validation_score": 0.3182,
+        "validation_status": "FAIL"
+    },
+    {
+        "video_file": "tmpwj0v3lao.mp4",
+        "transcript": "Momentos opuestos en el fútbol ecuatoriano. Mientras Liga de Quito atraviesa un complicado  presente bajo el mando de Tiago Núñez, con resultados irregulares y muchas dudas en su  juego, su ex entrenador, Pablo Vitamina Sánchez, vive una realidad totalmente distinta. El  argentino, ahora en Olimpia de Paraguay, ha logrado levantar a su nuevo equipo y empieza  a recuperar protagonismo. Una comparación que no pasa desapercibida y que enciende aún  más el debate entre los hinchas salvos. Dos caminos distintos para una misma historia.",
+        "detected_language": "es",
+        "mute_detected": false,
+        "geographic_verification": false,
+        "dialect_check": "fail",
+        "dialect_predicted": "Other",
+        "dialect_confidence": 0.9898,
+        "expected_content": "Honduras scenery, beautiful people",
+        "content_match_score": 0.6010764640523121,
+        "ocr_positive_match": false,
+        "detected_entities": [
+            "quito"
+        ],
+        "validation_score": 0.3182,
+        "validation_status": "FAIL"
+    },
+    {
+        "video_file": "tmpk0ss2usk.mp4",
+        "transcript": "Momentos opuestos en el fútbol ecuatoriano. Mientras Liga de Quito atraviesa un complicado  presente bajo el mando de Tiago Núñez, con resultados irregulares y muchas dudas en su  juego, su ex entrenador, Pablo Vitamina Sánchez, vive una realidad totalmente distinta. El  argentino, ahora en Olimpia de Paraguay, ha logrado levantar a su nuevo equipo y empieza  a recuperar protagonismo. Una comparación que no pasa desapercibida y que enciende aún más el debate  entre los hinchas salvos. Dos caminos distintos para una misma historia.",
+        "detected_language": "es",
+        "mute_detected": false,
+        "geographic_verification": true,
+        "dialect_check": "pass",
+        "dialect_predicted": "Ecuador",
+        "dialect_confidence": 0.9996,
+        "expected_content": "Ecuador scenery, beautiful people",
+        "content_match_score": 0.03650807071244344,
+        "ocr_positive_match": false,
+        "detected_entities": [
+            "quito"
+        ],
+        "validation_score": 0.5699,
+        "validation_status": "FAIL"
     }
 ]

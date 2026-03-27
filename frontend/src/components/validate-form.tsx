@@ -11,6 +11,12 @@ type ValidationData = {
   dialect_confidence: number;
   content_match_score: number;
   validation_status: string;
+  validation_score?: number;
+  dialect_check?: string;
+  detected_language?: string;
+  expected_content?: string;
+  geographic_verification?: boolean;
+  detected_entities?: string[];
 };
 
 export default function ValidateForm() {
@@ -210,6 +216,43 @@ export default function ValidateForm() {
           <div className="rounded-xl border border-white/15 bg-black/25 p-3 text-sm text-white/90">
             <p className="text-xs uppercase tracking-[0.14em] text-white/60">Transcript</p>
             <p className="mt-1">{result.transcript || "-"}</p>
+          </div>
+
+          <div className="rounded-xl border border-white/15 bg-black/25 p-4 text-sm text-white/90">
+            <p className="text-xs uppercase tracking-[0.14em] text-white/60">Detailed Report</p>
+            <div className="mt-3 space-y-2 whitespace-pre-wrap leading-relaxed">
+              <p>Final Validation Score</p>
+              <p className="text-base font-semibold">
+                {((result.validation_score ?? 0) * 100).toFixed(2)}%
+              </p>
+              <p>
+                Status:{" "}
+                <span className={result.validation_status === "PASS" ? "text-emerald-200" : "text-red-200"}>
+                  {result.validation_status}
+                </span>
+              </p>
+              <p className="pt-1 text-white/95">Process Breakdown</p>
+              <p>🗣️ Audio Layer (large-v3-turbo + HF):</p>
+              <p>
+                Transcript: &apos;{result.transcript || "-"}&apos;
+                {result.detected_language ? ` [Detected: ${result.detected_language}]` : ""}
+              </p>
+              <p>
+                Dialect Found: {result.dialect_prediction} ({(result.dialect_check || "fail").toUpperCase()})
+              </p>
+              <p>👁️ Vision Layer (CLIP + OCR):</p>
+              <p>Context Evaluated: &apos;{result.expected_content || expectedTopic}&apos;</p>
+              <p>Semantic Match: {(result.content_match_score ?? 0).toFixed(4)}</p>
+              <p>🌍 Geographic & Localism Verification:</p>
+              {result.geographic_verification === false ? (
+                <>
+                  <p>⚠️ Geographic Mismatch! Detected international entities: {JSON.stringify(result.detected_entities || [])}</p>
+                  <p>Validation fail: Video content belongs to a different geographic region (e.g., European sports).</p>
+                </>
+              ) : (
+                <p>✅ Geographic context appears aligned with selected target country.</p>
+              )}
+            </div>
           </div>
         </motion.div>
       ) : null}
