@@ -201,9 +201,17 @@ class VideoValidator:
         neg_found = [e for e in self.config.get('negative_entities', []) if e.lower() in full_context]
         slang_found = [s for s in self.config.get('slang_keywords', []) if s.lower() in text_lower]
         
-        # A text is "Neutral" if it's long but has NO local entities AND NO local slang
-        is_neutral = len(text.split()) > 25 and len(pos_found) == 0 and len(slang_found) == 0
+        # 6. Final Status (Nuanced)
+        is_neutral = (len(text.split()) > 25 or len(ocr_texts) > 3) and len(pos_found) == 0 and len(slang_found) == 0
         
+        # Check if any negative entity is explicitly a positive entity of another country
+        other_countries_positives = []
+        for c_code, c_data in self.COUNTRY_CONFIG.items():
+            if c_code != self.country:
+                other_countries_positives.extend([e.lower() for e in c_data.get('positive_entities', [])])
+        
+        is_explicit_other = any(n.lower() in other_countries_positives for n in neg_found)
+
         return {
             "positive_count": len(pos_found),
             "negative_count": len(neg_found),
@@ -212,7 +220,8 @@ class VideoValidator:
             "negative_list": neg_found,
             "slang_list": slang_found,
             "is_neutral_spanish": is_neutral,
-            "has_context_mismatch": len(neg_found) > 0
+            "has_context_mismatch": len(neg_found) > 0,
+            "is_explicit_other_country": is_explicit_other
         }
 
     def validate_text(self, text):
@@ -263,9 +272,18 @@ class VideoValidator:
         }
 
     def validate_scene(self, image, clip_model, clip_processor, device):
-        """Advanced Visual Grounding using an ensemble of anchors."""
+        """Advanced Visual Grounding using contrastive ensemble anchors."""
         target_anchors = self.config.get('visual_anchors', ["Ecuadorian scenery"])
-        negative_anchors = self.GLOBAL_ANCHORS
+        
+        # --- PHASE 34: CONTRASTIVE NEGATIVES ---
+        # Include ALL other countries' anchors as "Hard Negatives"
+        cross_country_negatives = []
+        for country_code, country_data in self.COUNTRY_CONFIG.items():
+            if country_code != self.country:
+                cross_country_negatives.extend(country_data.get('visual_anchors', []))
+        
+        # Combine with global generic negatives
+        negative_anchors = self.GLOBAL_ANCHORS + cross_country_negatives
         
         # Combine all prompts for a single softmax pass
         all_prompts = target_anchors + negative_anchors
@@ -290,11 +308,24 @@ class VideoValidator:
         top_label = all_prompts[top_idx]
         top_prob = float(probs[top_idx])
         
+        # If the top label is from another specific country, we penalize the score even harder
+        is_other_country = any(top_label in country_data.get('visual_anchors', []) 
+                              for country_code, country_data in self.COUNTRY_CONFIG.items() 
+                              if country_code != self.country)
+        
+        # Contrastive score: Margin of target over negatives
+        visual_score = float(pos_total)
+        if is_other_country:
+            # Huge penalty if it explicitly matches another country better
+            print(f"   ⚠️  CRITICAL: Visual marker for another country detected: '{top_label}'")
+            visual_score = max(0.0, visual_score - 0.5)
+
         return {
-            "visual_score": float(pos_total),
+            "visual_score": float(visual_score),
             "top_context": top_label,
             "top_confidence": top_prob,
-            "is_generic": neg_total > pos_total
+            "is_generic": neg_total > pos_total,
+            "other_country_detected": is_other_country
         }
 
     def validate_video(self, video_path, expected_content="Honduran football player"):
@@ -466,19 +497,24 @@ class VideoValidator:
         dialect_confidence = dialect_results['confidence']
         dialect_pass = dialect_results['pass']
 
+        # 6. OUTPUT REDUCTION (Hierarchical Scoring Logic)
+        is_mute = not bool(transcript)
+        
+        # --- PHASE 35: RELAXED CONTEXT PENALTY ---
         context_multiplier = 1.0
         if context_report['has_context_mismatch']:
-            print(f"   ⚠️ CONTEXT MISMATCH! Detected incompatible entities: {context_report['negative_list']}")
-            context_multiplier = 0.5 # Severe penalty
+            if context_report.get('is_explicit_other_country'):
+                print(f"   ⚠️ SEVERE CONTEXT MISMATCH! Detected explicitly other country: {context_report['negative_list']}")
+                context_multiplier = 0.4 # Severe penalty for explicitly wrong country
+            else:
+                print(f"   ℹ️ International/Neutral Context Detected: {context_report['negative_list']}")
+                context_multiplier = 0.85 # Gentle penalty for generic international items (Chelsea, London)
         elif context_report['positive_count'] > 0 or context_report['slang_count'] > 0:
             print(f"   ✅ Local context confirmed: {context_report['positive_list'] + context_report['slang_list']}")
             context_multiplier = 1.1 # Small boost
         else:
             print("   ℹ️ Neutral context (no specific geographic entities found)")
 
-        # 6. OUTPUT REDUCTION (Hierarchical Scoring Logic)
-        is_mute = not bool(transcript)
-        
         if is_mute:
             print("   Mute/Silence detected: Validation weighting shifted 100% to Vision Layer.")
             # Still apply context penalty even if mute
