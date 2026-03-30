@@ -4,7 +4,7 @@ const TOKEN_KEY = "backend_access_token";
 const USERNAME_KEY = "backend_username";
 
 export function backendBaseUrl() {
-  return process.env.NEXT_PUBLIC_FASTAPI_BASE_URL || "http://127.0.0.1:8000";
+  return process.env.NEXT_PUBLIC_FASTAPI_BASE_URL || "https://api.theinvictus.group";
 }
 
 export function setAuthSession(token: string, username: string) {
