@@ -124,6 +124,21 @@ aws s3 cp s3://ai-content-validation-pipeline/models/honduras/dialect_multiclass
 
 ---
 
+## CORS for Deployed Frontends
+
+If your frontend calls the API from another domain (Amplify/custom domain), set:
+
+```bash
+FRONTEND_ORIGINS=https://your-frontend-domain.com,https://main.xxxxxx.amplifyapp.com
+```
+
+Notes:
+- Origins must be comma-separated.
+- Do not include trailing slash.
+- If you run behind nginx, ensure `OPTIONS` preflight is not blocked (see `docs/nginx-cors.example.conf`).
+
+---
+
 ## 📂 Project Structure Map
 
 ```plaintext

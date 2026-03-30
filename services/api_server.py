@@ -9,7 +9,7 @@ from fastapi import Depends, Header
 # Ensure parent path for VideoValidator resolution natively
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-from fastapi import FastAPI, HTTPException, UploadFile, File, Form
+from fastapi import FastAPI, HTTPException, UploadFile, File, Form, Request, Response
 from services.schemas import (
     VideoValidationRequest,
     VideoValidationResponse,
@@ -55,16 +55,22 @@ OCR_BLACKLIST = [
 ]
 
 frontend_origins = os.getenv("FRONTEND_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000")
-allowed_origins = [origin.strip() for origin in frontend_origins.split(",") if origin.strip()]
+allowed_origins = list(dict.fromkeys([origin.strip().rstrip("/") for origin in frontend_origins.split(",") if origin.strip()]))
 SUPPORTED_COUNTRIES = {"honduras", "ecuador"}
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
+
+
+@app.options("/{full_path:path}")
+def options_preflight(full_path: str, request: Request):
+    # If nginx/proxy forwards OPTIONS, FastAPI responds 204 and CORSMiddleware adds CORS headers.
+    return Response(status_code=204)
 
 
 def _extract_bearer_token(auth_header: str) -> str:
